@@ -1,0 +1,126 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Player/Player.gd" type="Script" id=1]
+[ext_resource path="res://Player/codebot sprite sheet.png" type="Texture" id=2]
+[ext_resource path="res://TestTileMap.tres" type="TileSet" id=3]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 14.0
+height = 30.0
+
+[sub_resource type="Animation" id=3]
+resource_name = "Idle"
+length = 1.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9, 1.2, 1.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Moving"
+length = 0.4
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 12, 13, 14, 15 ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:frame_coords")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Typing Idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4, 0.5, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 6, 7, 8, 7 ]
+}
+
+[node name="DemoWorld" type="Node2D"]
+
+[node name="Player" type="KinematicBody2D" parent="."]
+script = ExtResource( 1 )
+MAXSPEED = 150
+
+[node name="Sprite" type="Sprite" parent="Player"]
+texture = ExtResource( 2 )
+hframes = 6
+vframes = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+visible = false
+position = Vector2( -2, 2 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+zoom = Vector2( 0.4, 0.4 )
+smoothing_enabled = true
+smoothing_speed = 1.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
+anims/Idle = SubResource( 3 )
+anims/Moving = SubResource( 6 )
+anims/RESET = SubResource( 4 )
+"anims/Typing Idle" = SubResource( 5 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 1
+cell_custom_transform = Transform2D( 0, 0, 0, 0, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 65526, 29, 0, 65527, 29, 0, 11, 29, 0, 12, 29, 0, 131062, 29, 0, 131063, 29, 0, 65547, 29, 0, 65548, 29, 0, 196598, 29, 0, 196599, 29, 0, 131083, 29, 0, 131084, 29, 0, 262134, 29, 0, 262135, 29, 0, 196619, 29, 0, 196620, 29, 0, 327670, 29, 0, 327671, 29, 0, 262155, 29, 0, 262156, 29, 0, 393206, 29, 0, 393207, 29, 0, 327691, 29, 0, 327692, 29, 0, 458742, 29, 0, 458743, 29, 0, 393227, 29, 0, 393228, 29, 0, 524278, 29, 0, 524279, 29, 0, 458763, 29, 0, 458764, 29, 0, 589814, 29, 0, 589815, 29, 0, 589816, 29, 0, 589817, 29, 0, 589818, 29, 0, 589819, 29, 0, 589820, 29, 0, 589821, 29, 0, 589822, 29, 0, 589823, 29, 0, 524288, 29, 0, 524289, 29, 0, 524290, 29, 0, 524291, 29, 0, 524292, 29, 0, 524293, 29, 0, 524294, 29, 0, 524295, 29, 0, 524296, 29, 0, 524297, 29, 0, 524298, 29, 0, 524299, 29, 0, 524300, 29, 0, 655350, 29, 0, 655351, 29, 0, 655352, 28, 0, 655353, 32, 0, 655354, 32, 0, 655355, 32, 0, 655356, 32, 0, 655357, 28, 0, 655358, 28, 0, 655359, 28, 0, 589824, 28, 0, 589825, 28, 0, 589826, 28, 0, 589827, 28, 0, 589828, 29, 0, 589829, 29, 0, 589830, 29, 0, 589831, 29, 0, 589832, 29, 0, 589833, 29, 0, 589834, 29, 0, 589835, 29, 0, 589836, 29, 0, 720886, 29, 0, 720887, 29, 0, 720888, 34, 0, 720889, 34, 0, 720890, 34, 0, 720891, 34, 0, 720892, 34, 0, 720893, 32, 0, 720894, 32, 0, 720895, 32, 0, 655360, 32, 0, 655361, 32, 0, 655362, 32, 0, 655363, 32, 0 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="TileMap"]
+position = Vector2( -16, 8 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="TileMap/StaticBody2D"]
+polygon = PoolVector2Array( -112, -8, -112, -8, -112, 120, 192, 120, 192, -8, 224, -8, 224, 152, -144, 152, -144, -8 )
