@@ -38,8 +38,9 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Trail Demo"
+config/name="Codebot Game"
 config/description="Learn 2 Code with cool robot man"
+config/icon="res://Assets/logo.png"
 
 [autoload]
 
@@ -58,7 +59,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "Trail" )
+enabled=PoolStringArray( "res://addons/Trail/plugin.cfg", "res://addons/github-integration/plugin.cfg" )
 
 [gdnative]
 
