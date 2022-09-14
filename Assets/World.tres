@@ -1,17 +1,149 @@
-[gd_resource type="TileSet" load_steps=16 format=2]
+[gd_resource type="TileSet" load_steps=147 format=2]
 
 [ext_resource path="res://Assets/PixelPlatformerSet/WorldTiles.png" type="Texture" id=1]
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 0.358906, 0.670456, 0.358906, 1.13777, 2.53973, 1.60509, 6.82349, 3.8638, 15.7804, 13.7554, 16, 16, 0, 16, 0, 0 )
+[sub_resource type="ConvexPolygonShape2D" id=68]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=69]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=70]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=71]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=72]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=73]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=74]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=49]
+points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 8, 16, 16, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=50]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=75]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=76]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=77]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=78]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=79]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=80]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=81]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=82]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=51]
+points = PoolVector2Array( 0, 8, 0, 8, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=52]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=53]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
 points = PoolVector2Array( 8, 8, 16, 0, 16, 16, 0, 16 )
 
+[sub_resource type="ConvexPolygonShape2D" id=16]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=48]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=83]
+points = PoolVector2Array( 0, 0, 0, 0, 24, 0, 28, 4, 32, 8, 28, 12, 20, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=84]
+points = PoolVector2Array( 0, 0, 20, 0, 20, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=85]
+points = PoolVector2Array( 32, 0, 32, 0, 32, 16, 12, 16, 0, 12, 0, 8, 4, 4, 8, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=86]
+points = PoolVector2Array( 0, 16, 0, 16, 16, 16, 16, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=87]
+points = PoolVector2Array( 0, 16, 0, 16, 0, 16, 16, 16, 16, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=88]
+points = PoolVector2Array( 0, 16, 0, 16, 16, 16, 16, 32, 0, 32 )
+
+[sub_resource type="ConvexPolygonShape2D" id=89]
+points = PoolVector2Array( 0, 16, 0, 16, 16, 16, 16, 32, 0, 32, 0, 32 )
+
 [sub_resource type="ConvexPolygonShape2D" id=7]
 points = PoolVector2Array( 0, 0, 0, 0, 16, 8, 16, 16, 0, 16 )
 
+[sub_resource type="ConvexPolygonShape2D" id=20]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
 [sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=90]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=91]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=92]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=45]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=93]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=94]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=95]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=96]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=46]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=97]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=98]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=9]
@@ -20,11 +152,242 @@ points = PoolVector2Array( 16, 16, 0, 16, 0, 8, 16, 8 )
 [sub_resource type="ConvexPolygonShape2D" id=10]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
+[sub_resource type="ConvexPolygonShape2D" id=23]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=47]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=99]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=100]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=57]
+points = PoolVector2Array( 0, 8, 0.9375, 3.0625, 1.875, 2.125, 7.0625, 0, 10.75, 0, 12.875, 0.875, 15.0625, 4.9375, 16, 16, 0, 16, 0, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=101]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=102]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=58]
+points = PoolVector2Array( 0, 16, 0, 16, 0, 12, 4, 12, 8, 12, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=103]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
 [sub_resource type="ConvexPolygonShape2D" id=11]
 points = PoolVector2Array( 0, 8, 0, 8, 16, 16, 0, 16 )
 
+[sub_resource type="ConvexPolygonShape2D" id=104]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
 [sub_resource type="ConvexPolygonShape2D" id=12]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=105]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=106]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=32]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=107]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=108]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=109]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=110]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=111]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=112]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=113]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=114]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=59]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=115]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=116]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=117]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=118]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=38]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=39]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=119]
+points = PoolVector2Array( 16, 0, 16, 16, 8, 8, 0, 0, 0, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=120]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=121]
+points = PoolVector2Array( 16, 0, 16, 0, 16, 16, 8, 16, 4, 12, 0, 8, 0, 0, 16, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=122]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=123]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=124]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=54]
+points = PoolVector2Array( 16, 16, 0, 16, 16, 8, 16, 8, 16, 8 )
+
+[sub_resource type="ConvexPolygonShape2D" id=40]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=55]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=41]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=56]
+points = PoolVector2Array( 16, 16, 0, 16, 0, 8, 16, 0, 16, 0, 16, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=42]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=125]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=126]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=127]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=128]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=129]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=130]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=131]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=132]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=133]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=134]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=135]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=136]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=137]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=138]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=60]
+points = PoolVector2Array( 0, 16, 0, 0, 8, 0, 12, 4, 16, 8, 16, 16, 16, 16, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=139]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=61]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=140]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=141]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=142]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=62]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=143]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=144]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=145]
+points = PoolVector2Array( 0, 0, 0, 0, 16, 0, 16, 8, 12, 12, 8, 16, 0, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=13]
 points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
@@ -32,40 +395,49 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 [sub_resource type="ConvexPolygonShape2D" id=14]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
 
-[sub_resource type="ConcavePolygonShape2D" id=2]
-segments = PoolVector2Array( 16, 16, 0, 16, 0, 16, 1.02869, 12.8986, 1.02869, 12.8986, 7.01038, 7.96842, 7.01038, 7.96842, 8.69269, 3.94947, 8.69269, 3.94947, 13.7397, 1.05209, 13.7397, 1.05209, 15.7025, 0.771706, 15.7025, 0.771706, 16, 16 )
+[sub_resource type="ConvexPolygonShape2D" id=63]
+points = PoolVector2Array( 0, 16, 0, 16, 0, 8, 4, 4, 8, 0, 16, 0, 16, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=146]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=64]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=147]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=148]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=149]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=150]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=151]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=65]
+points = PoolVector2Array( 16, 16, 0, 16, 1.02869, 12.8986, 7.01038, 7.96842, 8.69269, 3.94947, 13.7397, 1.05209, 15.7025, 0.771706 )
+
+[sub_resource type="ConvexPolygonShape2D" id=66]
+points = PoolVector2Array( 16, 16, 16, 16, 8, 16, 4, 12, 8, 8, 0, 4, 16, 0, 16, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=152]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 0.608139, 16, 4.93085 )
 
-[sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 0.757874, 7.73476, 1.87946, 3.06157, 15.8055, 5.11777, 16, 16, 0, 16, 0, 16 )
+[sub_resource type="ConvexPolygonShape2D" id=67]
+points = PoolVector2Array( 0, 16, 0, 16, 0, 4, 4, 4, 4, 8, 4, 12, 8, 12, 8, 8, 8, 4, 12, 4, 12, 12, 12, 4, 16, 4, 16, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=5]
 points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 
 [resource]
-0/name = "Steep Rock Slope"
-0/texture = ExtResource( 1 )
-0/tex_offset = Vector2( 0, 0 )
-0/modulate = Color( 1, 1, 1, 1 )
-0/region = Rect2( 0, 0, 16, 16 )
-0/tile_mode = 0
-0/occluder_offset = Vector2( 0, 0 )
-0/navigation_offset = Vector2( 0, 0 )
-0/shape_offset = Vector2( 0, 0 )
-0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape = SubResource( 1 )
-0/shape_one_way = false
-0/shape_one_way_margin = 1.0
-0/shapes = [ {
-"autotile_coord": Vector2( 0, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 1 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-} ]
-0/z_index = 0
 3/name = "tileset_pls.png 3"
 3/texture = ExtResource( 1 )
 3/tex_offset = Vector2( 0, 0 )
@@ -136,7 +508,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 11/shape_one_way_margin = 0.0
 11/shapes = [  ]
 11/z_index = 0
-18/name = "Light Rock Slope"
+18/name = "Rock Medium Slope Left"
 18/texture = ExtResource( 1 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
@@ -157,7 +529,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 18/z_index = 0
-19/name = "Deep Rock 1"
+19/name = "Deep Rock 1 Left"
 19/texture = ExtResource( 1 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
@@ -318,7 +690,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 29/shape_one_way_margin = 0.0
 29/shapes = [  ]
 29/z_index = 0
-30/name = "Rock Half Slab"
+30/name = "Rock Half Slab Left"
 30/texture = ExtResource( 1 )
 30/tex_offset = Vector2( 0, 0 )
 30/modulate = Color( 1, 1, 1, 1 )
@@ -339,7 +711,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 30/z_index = 0
-31/name = "Deep Rock 2"
+31/name = "Deep Rock 2 Left"
 31/texture = ExtResource( 1 )
 31/tex_offset = Vector2( 0, 0 )
 31/modulate = Color( 1, 1, 1, 1 )
@@ -500,7 +872,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 41/shape_one_way_margin = 0.0
 41/shapes = [  ]
 41/z_index = 0
-42/name = "Small Rock Slope"
+42/name = "Rock Small Slope Left"
 42/texture = ExtResource( 1 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
@@ -521,7 +893,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 42/z_index = 0
-43/name = "Deep Rock 3"
+43/name = "Deep Rock 3 Left"
 43/texture = ExtResource( 1 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
@@ -542,21 +914,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 43/z_index = 0
-44/name = "tileset_pls.png 44"
-44/texture = ExtResource( 1 )
-44/tex_offset = Vector2( 0, 0 )
-44/modulate = Color( 1, 1, 1, 1 )
-44/region = Rect2( 64, 176, 16, 16 )
-44/tile_mode = 0
-44/occluder_offset = Vector2( 0, 0 )
-44/navigation_offset = Vector2( 0, 0 )
-44/shape_offset = Vector2( 0, 0 )
-44/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-44/shape_one_way = false
-44/shape_one_way_margin = 0.0
-44/shapes = [  ]
-44/z_index = 0
-45/name = "tileset_pls.png 45"
+45/name = "Rock Weak Curve Bottom Left"
 45/texture = ExtResource( 1 )
 45/tex_offset = Vector2( 0, 0 )
 45/modulate = Color( 1, 1, 1, 1 )
@@ -566,9 +924,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 45/navigation_offset = Vector2( 0, 0 )
 45/shape_offset = Vector2( 0, 0 )
 45/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+45/shape = SubResource( 105 )
 45/shape_one_way = false
-45/shape_one_way_margin = 0.0
-45/shapes = [  ]
+45/shape_one_way_margin = 1.0
+45/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 105 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 45/z_index = 0
 46/name = "tileset_pls.png 46"
 46/texture = ExtResource( 1 )
@@ -766,7 +1131,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 59/shape_one_way_margin = 0.0
 59/shapes = [  ]
 59/z_index = 0
-60/name = "tileset_pls.png 60"
+60/name = "Rock Weak Curve Top Left"
 60/texture = ExtResource( 1 )
 60/tex_offset = Vector2( 0, 0 )
 60/modulate = Color( 1, 1, 1, 1 )
@@ -776,11 +1141,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 60/navigation_offset = Vector2( 0, 0 )
 60/shape_offset = Vector2( 0, 0 )
 60/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+60/shape = SubResource( 59 )
 60/shape_one_way = false
-60/shape_one_way_margin = 0.0
-60/shapes = [  ]
+60/shape_one_way_margin = 1.0
+60/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 59 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 60/z_index = 0
-61/name = "tileset_pls.png 61"
+61/name = "Rock Side Left 1"
 61/texture = ExtResource( 1 )
 61/tex_offset = Vector2( 0, 0 )
 61/modulate = Color( 1, 1, 1, 1 )
@@ -790,25 +1162,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 61/navigation_offset = Vector2( 0, 0 )
 61/shape_offset = Vector2( 0, 0 )
 61/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+61/shape = SubResource( 115 )
 61/shape_one_way = false
-61/shape_one_way_margin = 0.0
-61/shapes = [  ]
+61/shape_one_way_margin = 1.0
+61/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 115 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 116 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 61/z_index = 0
-62/name = "tileset_pls.png 62"
-62/texture = ExtResource( 1 )
-62/tex_offset = Vector2( 0, 0 )
-62/modulate = Color( 1, 1, 1, 1 )
-62/region = Rect2( 80, 176, 16, 16 )
-62/tile_mode = 0
-62/occluder_offset = Vector2( 0, 0 )
-62/navigation_offset = Vector2( 0, 0 )
-62/shape_offset = Vector2( 0, 0 )
-62/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-62/shape_one_way = false
-62/shape_one_way_margin = 0.0
-62/shapes = [  ]
-62/z_index = 0
-63/name = "tileset_pls.png 63"
+63/name = "Rock Side Left Slope"
 63/texture = ExtResource( 1 )
 63/tex_offset = Vector2( 0, 0 )
 63/modulate = Color( 1, 1, 1, 1 )
@@ -818,11 +1189,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 63/navigation_offset = Vector2( 0, 0 )
 63/shape_offset = Vector2( 0, 0 )
 63/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+63/shape = SubResource( 119 )
 63/shape_one_way = false
-63/shape_one_way_margin = 0.0
-63/shapes = [  ]
+63/shape_one_way_margin = 1.0
+63/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 119 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 63/z_index = 0
-64/name = "tileset_pls.png 64"
+64/name = "Rock Curve Deep Bottom Left"
 64/texture = ExtResource( 1 )
 64/tex_offset = Vector2( 0, 0 )
 64/modulate = Color( 1, 1, 1, 1 )
@@ -832,11 +1210,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 64/navigation_offset = Vector2( 0, 0 )
 64/shape_offset = Vector2( 0, 0 )
 64/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+64/shape = SubResource( 120 )
 64/shape_one_way = false
-64/shape_one_way_margin = 0.0
-64/shapes = [  ]
+64/shape_one_way_margin = 1.0
+64/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 120 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 64/z_index = 0
-65/name = "tileset_pls.png 65"
+65/name = "Rock Curve Bottom Left"
 65/texture = ExtResource( 1 )
 65/tex_offset = Vector2( 0, 0 )
 65/modulate = Color( 1, 1, 1, 1 )
@@ -846,9 +1231,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 65/navigation_offset = Vector2( 0, 0 )
 65/shape_offset = Vector2( 0, 0 )
 65/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+65/shape = SubResource( 121 )
 65/shape_one_way = false
-65/shape_one_way_margin = 0.0
-65/shapes = [  ]
+65/shape_one_way_margin = 1.0
+65/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 121 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 65/z_index = 0
 66/name = "tileset_pls.png 66"
 66/texture = ExtResource( 1 )
@@ -1018,7 +1410,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 77/shape_one_way_margin = 0.0
 77/shapes = [  ]
 77/z_index = 0
-78/name = "Steep Rock Slope 4"
+78/name = "Rock Steep  Slope Left 4"
 78/texture = ExtResource( 1 )
 78/tex_offset = Vector2( 0, 0 )
 78/modulate = Color( 1, 1, 1, 1 )
@@ -1039,7 +1431,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 78/z_index = 0
-79/name = "Slope Deep Rock"
+79/name = "Slope Deep Rock Left"
 79/texture = ExtResource( 1 )
 79/tex_offset = Vector2( 0, 0 )
 79/modulate = Color( 1, 1, 1, 1 )
@@ -1060,7 +1452,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 79/z_index = 0
-80/name = "tileset_pls.png 80"
+80/name = "Rock Curve Top Left"
 80/texture = ExtResource( 1 )
 80/tex_offset = Vector2( 0, 0 )
 80/modulate = Color( 1, 1, 1, 1 )
@@ -1070,11 +1462,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 80/navigation_offset = Vector2( 0, 0 )
 80/shape_offset = Vector2( 0, 0 )
 80/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+80/shape = SubResource( 63 )
 80/shape_one_way = false
-80/shape_one_way_margin = 0.0
-80/shapes = [  ]
+80/shape_one_way_margin = 1.0
+80/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 63 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 80/z_index = 0
-81/name = "tileset_pls.png 81"
+81/name = "Rock Curve Deep Top Left"
 81/texture = ExtResource( 1 )
 81/tex_offset = Vector2( 0, 0 )
 81/modulate = Color( 1, 1, 1, 1 )
@@ -1084,11 +1483,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 81/navigation_offset = Vector2( 0, 0 )
 81/shape_offset = Vector2( 0, 0 )
 81/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+81/shape = SubResource( 64 )
 81/shape_one_way = false
-81/shape_one_way_margin = 0.0
-81/shapes = [  ]
+81/shape_one_way_margin = 1.0
+81/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 64 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 147 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 81/z_index = 0
-82/name = "tileset_pls.png 82"
+82/name = "Rock Underground Plant Left 1"
 82/texture = ExtResource( 1 )
 82/tex_offset = Vector2( 0, 0 )
 82/modulate = Color( 1, 1, 1, 1 )
@@ -1098,11 +1510,30 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 82/navigation_offset = Vector2( 0, 0 )
 82/shape_offset = Vector2( 0, 0 )
 82/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+82/shape = SubResource( 148 )
 82/shape_one_way = false
-82/shape_one_way_margin = 0.0
-82/shapes = [  ]
+82/shape_one_way_margin = 1.0
+82/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 148 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 149 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 150 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 82/z_index = 0
-83/name = "tileset_pls.png 83"
+83/name = "Rock Underground Plant Left 2"
 83/texture = ExtResource( 1 )
 83/tex_offset = Vector2( 0, 0 )
 83/modulate = Color( 1, 1, 1, 1 )
@@ -1112,11 +1543,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 83/navigation_offset = Vector2( 0, 0 )
 83/shape_offset = Vector2( 0, 0 )
 83/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+83/shape = SubResource( 151 )
 83/shape_one_way = false
-83/shape_one_way_margin = 0.0
-83/shapes = [  ]
+83/shape_one_way_margin = 1.0
+83/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 151 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 83/z_index = 0
-84/name = "tileset_pls.png 84"
+84/name = "Rock Underground Plant Left 5"
 84/texture = ExtResource( 1 )
 84/tex_offset = Vector2( 0, 0 )
 84/modulate = Color( 1, 1, 1, 1 )
@@ -1126,24 +1564,17 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 84/navigation_offset = Vector2( 0, 0 )
 84/shape_offset = Vector2( 0, 0 )
 84/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+84/shape = SubResource( 152 )
 84/shape_one_way = false
-84/shape_one_way_margin = 0.0
-84/shapes = [  ]
+84/shape_one_way_margin = 1.0
+84/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 152 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 84/z_index = 0
-85/name = "tileset_pls.png 85"
-85/texture = ExtResource( 1 )
-85/tex_offset = Vector2( 0, 0 )
-85/modulate = Color( 1, 1, 1, 1 )
-85/region = Rect2( 96, 240, 16, 16 )
-85/tile_mode = 0
-85/occluder_offset = Vector2( 0, 0 )
-85/navigation_offset = Vector2( 0, 0 )
-85/shape_offset = Vector2( 0, 0 )
-85/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-85/shape_one_way = false
-85/shape_one_way_margin = 0.0
-85/shapes = [  ]
-85/z_index = 0
 86/name = "tileset_pls.png 86"
 86/texture = ExtResource( 1 )
 86/tex_offset = Vector2( 0, 0 )
@@ -1452,7 +1883,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 107/shape_one_way_margin = 0.0
 107/shapes = [  ]
 107/z_index = 0
-108/name = "tileset_pls.png 108"
+108/name = "Rock Underground Plant Left 3"
 108/texture = ExtResource( 1 )
 108/tex_offset = Vector2( 0, 0 )
 108/modulate = Color( 1, 1, 1, 1 )
@@ -1462,11 +1893,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 108/navigation_offset = Vector2( 0, 0 )
 108/shape_offset = Vector2( 0, 0 )
 108/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+108/shape = SubResource( 68 )
 108/shape_one_way = false
-108/shape_one_way_margin = 0.0
-108/shapes = [  ]
+108/shape_one_way_margin = 1.0
+108/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 68 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 108/z_index = 0
-109/name = "tileset_pls.png 109"
+109/name = "Rock Side Corner Left"
 109/texture = ExtResource( 1 )
 109/tex_offset = Vector2( 0, 0 )
 109/modulate = Color( 1, 1, 1, 1 )
@@ -1476,11 +1914,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 109/navigation_offset = Vector2( 0, 0 )
 109/shape_offset = Vector2( 0, 0 )
 109/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+109/shape = SubResource( 69 )
 109/shape_one_way = false
-109/shape_one_way_margin = 0.0
-109/shapes = [  ]
+109/shape_one_way_margin = 1.0
+109/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 69 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 109/z_index = 0
-110/name = "tileset_pls.png 110"
+110/name = "Rock Side Left 2"
 110/texture = ExtResource( 1 )
 110/tex_offset = Vector2( 0, 0 )
 110/modulate = Color( 1, 1, 1, 1 )
@@ -1490,11 +1935,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 110/navigation_offset = Vector2( 0, 0 )
 110/shape_offset = Vector2( 0, 0 )
 110/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+110/shape = SubResource( 70 )
 110/shape_one_way = false
-110/shape_one_way_margin = 0.0
-110/shapes = [  ]
+110/shape_one_way_margin = 1.0
+110/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 70 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 110/z_index = 0
-111/name = "tileset_pls.png 111"
+111/name = "Rock Side Left 3"
 111/texture = ExtResource( 1 )
 111/tex_offset = Vector2( 0, 0 )
 111/modulate = Color( 1, 1, 1, 1 )
@@ -1504,25 +1956,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 111/navigation_offset = Vector2( 0, 0 )
 111/shape_offset = Vector2( 0, 0 )
 111/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+111/shape = SubResource( 71 )
 111/shape_one_way = false
-111/shape_one_way_margin = 0.0
-111/shapes = [  ]
+111/shape_one_way_margin = 1.0
+111/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 71 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 111/z_index = 0
-112/name = "tileset_pls.png 112"
-112/texture = ExtResource( 1 )
-112/tex_offset = Vector2( 0, 0 )
-112/modulate = Color( 1, 1, 1, 1 )
-112/region = Rect2( 112, 240, 16, 16 )
-112/tile_mode = 0
-112/occluder_offset = Vector2( 0, 0 )
-112/navigation_offset = Vector2( 0, 0 )
-112/shape_offset = Vector2( 0, 0 )
-112/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-112/shape_one_way = false
-112/shape_one_way_margin = 0.0
-112/shapes = [  ]
-112/z_index = 0
-113/name = "tileset_pls.png 113"
+113/name = "Rock Side Left 5"
 113/texture = ExtResource( 1 )
 113/tex_offset = Vector2( 0, 0 )
 113/modulate = Color( 1, 1, 1, 1 )
@@ -1532,11 +1977,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 113/navigation_offset = Vector2( 0, 0 )
 113/shape_offset = Vector2( 0, 0 )
 113/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+113/shape = SubResource( 72 )
 113/shape_one_way = false
-113/shape_one_way_margin = 0.0
-113/shapes = [  ]
+113/shape_one_way_margin = 1.0
+113/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 72 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 113/z_index = 0
-114/name = "tileset_pls.png 114"
+114/name = "Rock Side Left 6"
 114/texture = ExtResource( 1 )
 114/tex_offset = Vector2( 0, 0 )
 114/modulate = Color( 1, 1, 1, 1 )
@@ -1546,11 +1998,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 114/navigation_offset = Vector2( 0, 0 )
 114/shape_offset = Vector2( 0, 0 )
 114/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+114/shape = SubResource( 73 )
 114/shape_one_way = false
-114/shape_one_way_margin = 0.0
-114/shapes = [  ]
+114/shape_one_way_margin = 1.0
+114/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 73 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 114/z_index = 0
-115/name = "tileset_pls.png 115"
+115/name = "Rock Generic Left"
 115/texture = ExtResource( 1 )
 115/tex_offset = Vector2( 0, 0 )
 115/modulate = Color( 1, 1, 1, 1 )
@@ -1560,9 +2019,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 115/navigation_offset = Vector2( 0, 0 )
 115/shape_offset = Vector2( 0, 0 )
 115/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+115/shape = SubResource( 74 )
 115/shape_one_way = false
-115/shape_one_way_margin = 0.0
-115/shapes = [  ]
+115/shape_one_way_margin = 1.0
+115/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 74 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 115/z_index = 0
 116/name = "tileset_pls.png 116"
 116/texture = ExtResource( 1 )
@@ -1788,7 +2254,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 131/shape_one_way_margin = 0.0
 131/shapes = [  ]
 131/z_index = 0
-132/name = "tileset_pls.png 132"
+132/name = "Rock Slope Medium Left 2"
 132/texture = ExtResource( 1 )
 132/tex_offset = Vector2( 0, 0 )
 132/modulate = Color( 1, 1, 1, 1 )
@@ -1798,11 +2264,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 132/navigation_offset = Vector2( 0, 0 )
 132/shape_offset = Vector2( 0, 0 )
 132/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+132/shape = SubResource( 49 )
 132/shape_one_way = false
-132/shape_one_way_margin = 0.0
-132/shapes = [  ]
+132/shape_one_way_margin = 1.0
+132/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 49 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 132/z_index = 0
-133/name = "tileset_pls.png 133"
+133/name = "Rock Underground Bottom left 1"
 133/texture = ExtResource( 1 )
 133/tex_offset = Vector2( 0, 0 )
 133/modulate = Color( 1, 1, 1, 1 )
@@ -1812,11 +2285,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 133/navigation_offset = Vector2( 0, 0 )
 133/shape_offset = Vector2( 0, 0 )
 133/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+133/shape = SubResource( 15 )
 133/shape_one_way = false
-133/shape_one_way_margin = 0.0
-133/shapes = [  ]
+133/shape_one_way_margin = 1.0
+133/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 15 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 50 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 133/z_index = 0
-134/name = "tileset_pls.png 134"
+134/name = "Rock Underground Plant Left 4"
 134/texture = ExtResource( 1 )
 134/tex_offset = Vector2( 0, 0 )
 134/modulate = Color( 1, 1, 1, 1 )
@@ -1826,11 +2312,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 134/navigation_offset = Vector2( 0, 0 )
 134/shape_offset = Vector2( 0, 0 )
 134/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+134/shape = SubResource( 75 )
 134/shape_one_way = false
-134/shape_one_way_margin = 0.0
-134/shapes = [  ]
+134/shape_one_way_margin = 1.0
+134/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 75 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 134/z_index = 0
-135/name = "tileset_pls.png 135"
+135/name = "Rock Underground Plant Left 5"
 135/texture = ExtResource( 1 )
 135/tex_offset = Vector2( 0, 0 )
 135/modulate = Color( 1, 1, 1, 1 )
@@ -1840,11 +2333,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 135/navigation_offset = Vector2( 0, 0 )
 135/shape_offset = Vector2( 0, 0 )
 135/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+135/shape = SubResource( 76 )
 135/shape_one_way = false
-135/shape_one_way_margin = 0.0
-135/shapes = [  ]
+135/shape_one_way_margin = 1.0
+135/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 76 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 135/z_index = 0
-136/name = "tileset_pls.png 136"
+136/name = "Rock Underground Plant Left 6"
 136/texture = ExtResource( 1 )
 136/tex_offset = Vector2( 0, 0 )
 136/modulate = Color( 1, 1, 1, 1 )
@@ -1854,11 +2354,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 136/navigation_offset = Vector2( 0, 0 )
 136/shape_offset = Vector2( 0, 0 )
 136/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+136/shape = SubResource( 77 )
 136/shape_one_way = false
-136/shape_one_way_margin = 0.0
-136/shapes = [  ]
+136/shape_one_way_margin = 1.0
+136/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 77 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 136/z_index = 0
-137/name = "tileset_pls.png 137"
+137/name = "Rock Underground Plant Left 7"
 137/texture = ExtResource( 1 )
 137/tex_offset = Vector2( 0, 0 )
 137/modulate = Color( 1, 1, 1, 1 )
@@ -1868,11 +2375,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 137/navigation_offset = Vector2( 0, 0 )
 137/shape_offset = Vector2( 0, 0 )
 137/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+137/shape = SubResource( 78 )
 137/shape_one_way = false
-137/shape_one_way_margin = 0.0
-137/shapes = [  ]
+137/shape_one_way_margin = 1.0
+137/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 78 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 137/z_index = 0
-138/name = "tileset_pls.png 138"
+138/name = "Rock Underground Plant Left 8"
 138/texture = ExtResource( 1 )
 138/tex_offset = Vector2( 0, 0 )
 138/modulate = Color( 1, 1, 1, 1 )
@@ -1882,11 +2396,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 138/navigation_offset = Vector2( 0, 0 )
 138/shape_offset = Vector2( 0, 0 )
 138/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+138/shape = SubResource( 79 )
 138/shape_one_way = false
-138/shape_one_way_margin = 0.0
-138/shapes = [  ]
+138/shape_one_way_margin = 1.0
+138/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 79 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 80 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 138/z_index = 0
-139/name = "tileset_pls.png 139"
+139/name = "Rock Underground Plant Left 8"
 139/texture = ExtResource( 1 )
 139/tex_offset = Vector2( 0, 0 )
 139/modulate = Color( 1, 1, 1, 1 )
@@ -1896,9 +2423,22 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 139/navigation_offset = Vector2( 0, 0 )
 139/shape_offset = Vector2( 0, 0 )
 139/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+139/shape = SubResource( 81 )
 139/shape_one_way = false
-139/shape_one_way_margin = 0.0
-139/shapes = [  ]
+139/shape_one_way_margin = 1.0
+139/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 81 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 82 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 139/z_index = 0
 140/name = "tileset_pls.png 140"
 140/texture = ExtResource( 1 )
@@ -2208,7 +2748,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 161/shape_one_way_margin = 0.0
 161/shapes = [  ]
 161/z_index = 0
-162/name = "tileset_pls.png 162"
+162/name = "Rock Small Slope Left 2"
 162/texture = ExtResource( 1 )
 162/tex_offset = Vector2( 0, 0 )
 162/modulate = Color( 1, 1, 1, 1 )
@@ -2218,11 +2758,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 162/navigation_offset = Vector2( 0, 0 )
 162/shape_offset = Vector2( 0, 0 )
 162/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+162/shape = SubResource( 51 )
 162/shape_one_way = false
-162/shape_one_way_margin = 0.0
-162/shapes = [  ]
+162/shape_one_way_margin = 1.0
+162/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 51 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 162/z_index = 0
-163/name = "tileset_pls.png 163"
+163/name = "Rock Underground Bottom left 2"
 163/texture = ExtResource( 1 )
 163/tex_offset = Vector2( 0, 0 )
 163/modulate = Color( 1, 1, 1, 1 )
@@ -2232,11 +2779,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 163/navigation_offset = Vector2( 0, 0 )
 163/shape_offset = Vector2( 0, 0 )
 163/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+163/shape = SubResource( 52 )
 163/shape_one_way = false
-163/shape_one_way_margin = 0.0
-163/shapes = [  ]
+163/shape_one_way_margin = 1.0
+163/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 52 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 163/z_index = 0
-164/name = "tileset_pls.png 164"
+164/name = "Rock Underground Bottom left 3"
 164/texture = ExtResource( 1 )
 164/tex_offset = Vector2( 0, 0 )
 164/modulate = Color( 1, 1, 1, 1 )
@@ -2246,9 +2800,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 164/navigation_offset = Vector2( 0, 0 )
 164/shape_offset = Vector2( 0, 0 )
 164/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+164/shape = SubResource( 53 )
 164/shape_one_way = false
-164/shape_one_way_margin = 0.0
-164/shapes = [  ]
+164/shape_one_way_margin = 1.0
+164/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 53 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 164/z_index = 0
 165/name = "tileset_pls.png 165"
 165/texture = ExtResource( 1 )
@@ -2460,34 +3021,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 179/shape_one_way_margin = 0.0
 179/shapes = [  ]
 179/z_index = 0
-180/name = "tileset_pls.png 180"
-180/texture = ExtResource( 1 )
-180/tex_offset = Vector2( 0, 0 )
-180/modulate = Color( 1, 1, 1, 1 )
-180/region = Rect2( 160, 176, 16, 16 )
-180/tile_mode = 0
-180/occluder_offset = Vector2( 0, 0 )
-180/navigation_offset = Vector2( 0, 0 )
-180/shape_offset = Vector2( 0, 0 )
-180/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-180/shape_one_way = false
-180/shape_one_way_margin = 0.0
-180/shapes = [  ]
-180/z_index = 0
-181/name = "tileset_pls.png 181"
-181/texture = ExtResource( 1 )
-181/tex_offset = Vector2( 0, 0 )
-181/modulate = Color( 1, 1, 1, 1 )
-181/region = Rect2( 160, 192, 16, 16 )
-181/tile_mode = 0
-181/occluder_offset = Vector2( 0, 0 )
-181/navigation_offset = Vector2( 0, 0 )
-181/shape_offset = Vector2( 0, 0 )
-181/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-181/shape_one_way = false
-181/shape_one_way_margin = 0.0
-181/shapes = [  ]
-181/z_index = 0
 182/name = "tileset_pls.png 182"
 182/texture = ExtResource( 1 )
 182/tex_offset = Vector2( 0, 0 )
@@ -2544,21 +3077,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 185/shape_one_way_margin = 0.0
 185/shapes = [  ]
 185/z_index = 0
-186/name = "tileset_pls.png 186"
-186/texture = ExtResource( 1 )
-186/tex_offset = Vector2( 0, 0 )
-186/modulate = Color( 1, 1, 1, 1 )
-186/region = Rect2( 176, 64, 16, 16 )
-186/tile_mode = 0
-186/occluder_offset = Vector2( 0, 0 )
-186/navigation_offset = Vector2( 0, 0 )
-186/shape_offset = Vector2( 0, 0 )
-186/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-186/shape_one_way = false
-186/shape_one_way_margin = 0.0
-186/shapes = [  ]
-186/z_index = 0
-187/name = "tileset_pls.png 187"
+187/name = "Rock Ground Edge Left"
 187/texture = ExtResource( 1 )
 187/tex_offset = Vector2( 0, 0 )
 187/modulate = Color( 1, 1, 1, 1 )
@@ -2568,39 +3087,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 187/navigation_offset = Vector2( 0, 0 )
 187/shape_offset = Vector2( 0, 0 )
 187/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+187/shape = SubResource( 20 )
 187/shape_one_way = false
-187/shape_one_way_margin = 0.0
-187/shapes = [  ]
+187/shape_one_way_margin = 1.0
+187/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 20 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 187/z_index = 0
-188/name = "tileset_pls.png 188"
-188/texture = ExtResource( 1 )
-188/tex_offset = Vector2( 0, 0 )
-188/modulate = Color( 1, 1, 1, 1 )
-188/region = Rect2( 176, 176, 16, 16 )
-188/tile_mode = 0
-188/occluder_offset = Vector2( 0, 0 )
-188/navigation_offset = Vector2( 0, 0 )
-188/shape_offset = Vector2( 0, 0 )
-188/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-188/shape_one_way = false
-188/shape_one_way_margin = 0.0
-188/shapes = [  ]
-188/z_index = 0
-189/name = "tileset_pls.png 189"
-189/texture = ExtResource( 1 )
-189/tex_offset = Vector2( 0, 0 )
-189/modulate = Color( 1, 1, 1, 1 )
-189/region = Rect2( 176, 192, 16, 16 )
-189/tile_mode = 0
-189/occluder_offset = Vector2( 0, 0 )
-189/navigation_offset = Vector2( 0, 0 )
-189/shape_offset = Vector2( 0, 0 )
-189/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-189/shape_one_way = false
-189/shape_one_way_margin = 0.0
-189/shapes = [  ]
-189/z_index = 0
-190/name = "tileset_pls.png 190"
+190/name = "Lush Rock Left Edge Top"
 190/texture = ExtResource( 1 )
 190/tex_offset = Vector2( 0, 0 )
 190/modulate = Color( 1, 1, 1, 1 )
@@ -2610,11 +3108,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 190/navigation_offset = Vector2( 0, 0 )
 190/shape_offset = Vector2( 0, 0 )
 190/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+190/shape = SubResource( 90 )
 190/shape_one_way = false
-190/shape_one_way_margin = 0.0
-190/shapes = [  ]
+190/shape_one_way_margin = 1.0
+190/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 90 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 190/z_index = 0
-191/name = "tileset_pls.png 191"
+191/name = "Lush Rock Left Edge Middle"
 191/texture = ExtResource( 1 )
 191/tex_offset = Vector2( 0, 0 )
 191/modulate = Color( 1, 1, 1, 1 )
@@ -2624,11 +3129,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 191/navigation_offset = Vector2( 0, 0 )
 191/shape_offset = Vector2( 0, 0 )
 191/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+191/shape = SubResource( 91 )
 191/shape_one_way = false
-191/shape_one_way_margin = 0.0
-191/shapes = [  ]
+191/shape_one_way_margin = 1.0
+191/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 91 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 191/z_index = 0
-192/name = "tileset_pls.png 192"
+192/name = "Lush Rock Generic Left"
 192/texture = ExtResource( 1 )
 192/tex_offset = Vector2( 0, 0 )
 192/modulate = Color( 1, 1, 1, 1 )
@@ -2638,9 +3150,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 192/navigation_offset = Vector2( 0, 0 )
 192/shape_offset = Vector2( 0, 0 )
 192/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+192/shape = SubResource( 92 )
 192/shape_one_way = false
-192/shape_one_way_margin = 0.0
-192/shapes = [  ]
+192/shape_one_way_margin = 1.0
+192/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 92 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 192/z_index = 0
 193/name = "tileset_pls.png 193"
 193/texture = ExtResource( 1 )
@@ -2964,34 +3483,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 215/shape_one_way_margin = 0.0
 215/shapes = [  ]
 215/z_index = 0
-216/name = "tileset_pls.png 216"
-216/texture = ExtResource( 1 )
-216/tex_offset = Vector2( 0, 0 )
-216/modulate = Color( 1, 1, 1, 1 )
-216/region = Rect2( 192, 176, 16, 16 )
-216/tile_mode = 0
-216/occluder_offset = Vector2( 0, 0 )
-216/navigation_offset = Vector2( 0, 0 )
-216/shape_offset = Vector2( 0, 0 )
-216/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-216/shape_one_way = false
-216/shape_one_way_margin = 0.0
-216/shapes = [  ]
-216/z_index = 0
-217/name = "tileset_pls.png 217"
-217/texture = ExtResource( 1 )
-217/tex_offset = Vector2( 0, 0 )
-217/modulate = Color( 1, 1, 1, 1 )
-217/region = Rect2( 192, 192, 16, 16 )
-217/tile_mode = 0
-217/occluder_offset = Vector2( 0, 0 )
-217/navigation_offset = Vector2( 0, 0 )
-217/shape_offset = Vector2( 0, 0 )
-217/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-217/shape_one_way = false
-217/shape_one_way_margin = 0.0
-217/shapes = [  ]
-217/z_index = 0
 218/name = "tileset_pls.png 218"
 218/texture = ExtResource( 1 )
 218/tex_offset = Vector2( 0, 0 )
@@ -3048,35 +3539,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 221/shape_one_way_margin = 0.0
 221/shapes = [  ]
 221/z_index = 0
-222/name = "tileset_pls.png 222"
-222/texture = ExtResource( 1 )
-222/tex_offset = Vector2( 0, 0 )
-222/modulate = Color( 1, 1, 1, 1 )
-222/region = Rect2( 208, 48, 16, 16 )
-222/tile_mode = 0
-222/occluder_offset = Vector2( 0, 0 )
-222/navigation_offset = Vector2( 0, 0 )
-222/shape_offset = Vector2( 0, 0 )
-222/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-222/shape_one_way = false
-222/shape_one_way_margin = 0.0
-222/shapes = [  ]
-222/z_index = 0
-223/name = "tileset_pls.png 223"
-223/texture = ExtResource( 1 )
-223/tex_offset = Vector2( 0, 0 )
-223/modulate = Color( 1, 1, 1, 1 )
-223/region = Rect2( 208, 64, 16, 16 )
-223/tile_mode = 0
-223/occluder_offset = Vector2( 0, 0 )
-223/navigation_offset = Vector2( 0, 0 )
-223/shape_offset = Vector2( 0, 0 )
-223/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-223/shape_one_way = false
-223/shape_one_way_margin = 0.0
-223/shapes = [  ]
-223/z_index = 0
-224/name = "tileset_pls.png 224"
+224/name = "Rock Underground 1"
 224/texture = ExtResource( 1 )
 224/tex_offset = Vector2( 0, 0 )
 224/modulate = Color( 1, 1, 1, 1 )
@@ -3086,9 +3549,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 224/navigation_offset = Vector2( 0, 0 )
 224/shape_offset = Vector2( 0, 0 )
 224/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+224/shape = SubResource( 45 )
 224/shape_one_way = false
-224/shape_one_way_margin = 0.0
-224/shapes = [  ]
+224/shape_one_way_margin = 1.0
+224/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 45 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 224/z_index = 0
 225/name = "Grass"
 225/texture = ExtResource( 1 )
@@ -3104,7 +3574,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 225/shape_one_way_margin = 0.0
 225/shapes = [  ]
 225/z_index = 0
-226/name = "tileset_pls.png 226"
+226/name = "Grass"
 226/texture = ExtResource( 1 )
 226/tex_offset = Vector2( 0, 0 )
 226/modulate = Color( 1, 1, 1, 1 )
@@ -3118,7 +3588,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 226/shape_one_way_margin = 0.0
 226/shapes = [  ]
 226/z_index = 0
-227/name = "tileset_pls.png 227"
+227/name = "Lush Rock Top 1"
 227/texture = ExtResource( 1 )
 227/tex_offset = Vector2( 0, 0 )
 227/modulate = Color( 1, 1, 1, 1 )
@@ -3128,9 +3598,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 227/navigation_offset = Vector2( 0, 0 )
 227/shape_offset = Vector2( 0, 0 )
 227/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+227/shape = SubResource( 93 )
 227/shape_one_way = false
-227/shape_one_way_margin = 0.0
-227/shapes = [  ]
+227/shape_one_way_margin = 1.0
+227/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 93 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 227/z_index = 0
 228/name = "tileset_pls.png 228"
 228/texture = ExtResource( 1 )
@@ -3142,9 +3619,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 228/navigation_offset = Vector2( 0, 0 )
 228/shape_offset = Vector2( 0, 0 )
 228/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+228/shape = SubResource( 94 )
 228/shape_one_way = false
-228/shape_one_way_margin = 0.0
-228/shapes = [  ]
+228/shape_one_way_margin = 1.0
+228/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 94 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 228/z_index = 0
 229/name = "tileset_pls.png 229"
 229/texture = ExtResource( 1 )
@@ -3426,35 +3910,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 248/shape_one_way_margin = 0.0
 248/shapes = [  ]
 248/z_index = 0
-249/name = "tileset_pls.png 249"
-249/texture = ExtResource( 1 )
-249/tex_offset = Vector2( 0, 0 )
-249/modulate = Color( 1, 1, 1, 1 )
-249/region = Rect2( 224, 48, 16, 16 )
-249/tile_mode = 0
-249/occluder_offset = Vector2( 0, 0 )
-249/navigation_offset = Vector2( 0, 0 )
-249/shape_offset = Vector2( 0, 0 )
-249/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-249/shape_one_way = false
-249/shape_one_way_margin = 0.0
-249/shapes = [  ]
-249/z_index = 0
-250/name = "tileset_pls.png 250"
-250/texture = ExtResource( 1 )
-250/tex_offset = Vector2( 0, 0 )
-250/modulate = Color( 1, 1, 1, 1 )
-250/region = Rect2( 224, 64, 16, 16 )
-250/tile_mode = 0
-250/occluder_offset = Vector2( 0, 0 )
-250/navigation_offset = Vector2( 0, 0 )
-250/shape_offset = Vector2( 0, 0 )
-250/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-250/shape_one_way = false
-250/shape_one_way_margin = 0.0
-250/shapes = [  ]
-250/z_index = 0
-251/name = "tileset_pls.png 251"
+251/name = "Rock Underground 2"
 251/texture = ExtResource( 1 )
 251/tex_offset = Vector2( 0, 0 )
 251/modulate = Color( 1, 1, 1, 1 )
@@ -3464,9 +3920,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 251/navigation_offset = Vector2( 0, 0 )
 251/shape_offset = Vector2( 0, 0 )
 251/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+251/shape = SubResource( 21 )
 251/shape_one_way = false
-251/shape_one_way_margin = 0.0
-251/shapes = [  ]
+251/shape_one_way_margin = 1.0
+251/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 21 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 251/z_index = 0
 252/name = "Grass"
 252/texture = ExtResource( 1 )
@@ -3482,7 +3945,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 252/shape_one_way_margin = 0.0
 252/shapes = [  ]
 252/z_index = 0
-253/name = "tileset_pls.png 253"
+253/name = "Grass"
 253/texture = ExtResource( 1 )
 253/tex_offset = Vector2( 0, 0 )
 253/modulate = Color( 1, 1, 1, 1 )
@@ -3496,35 +3959,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 253/shape_one_way_margin = 0.0
 253/shapes = [  ]
 253/z_index = 0
-254/name = "tileset_pls.png 254"
-254/texture = ExtResource( 1 )
-254/tex_offset = Vector2( 0, 0 )
-254/modulate = Color( 1, 1, 1, 1 )
-254/region = Rect2( 224, 192, 16, 16 )
-254/tile_mode = 0
-254/occluder_offset = Vector2( 0, 0 )
-254/navigation_offset = Vector2( 0, 0 )
-254/shape_offset = Vector2( 0, 0 )
-254/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-254/shape_one_way = false
-254/shape_one_way_margin = 0.0
-254/shapes = [  ]
-254/z_index = 0
-255/name = "tileset_pls.png 255"
-255/texture = ExtResource( 1 )
-255/tex_offset = Vector2( 0, 0 )
-255/modulate = Color( 1, 1, 1, 1 )
-255/region = Rect2( 224, 208, 16, 16 )
-255/tile_mode = 0
-255/occluder_offset = Vector2( 0, 0 )
-255/navigation_offset = Vector2( 0, 0 )
-255/shape_offset = Vector2( 0, 0 )
-255/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-255/shape_one_way = false
-255/shape_one_way_margin = 0.0
-255/shapes = [  ]
-255/z_index = 0
-256/name = "tileset_pls.png 256"
+256/name = "Lush Rock Top 2"
 256/texture = ExtResource( 1 )
 256/tex_offset = Vector2( 0, 0 )
 256/modulate = Color( 1, 1, 1, 1 )
@@ -3534,9 +3969,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 256/navigation_offset = Vector2( 0, 0 )
 256/shape_offset = Vector2( 0, 0 )
 256/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+256/shape = SubResource( 95 )
 256/shape_one_way = false
-256/shape_one_way_margin = 0.0
-256/shapes = [  ]
+256/shape_one_way_margin = 1.0
+256/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 95 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 256/z_index = 0
 257/name = "tileset_pls.png 257"
 257/texture = ExtResource( 1 )
@@ -3548,9 +3990,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 257/navigation_offset = Vector2( 0, 0 )
 257/shape_offset = Vector2( 0, 0 )
 257/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+257/shape = SubResource( 96 )
 257/shape_one_way = false
-257/shape_one_way_margin = 0.0
-257/shapes = [  ]
+257/shape_one_way_margin = 1.0
+257/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 96 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 257/z_index = 0
 258/name = "tileset_pls.png 258"
 258/texture = ExtResource( 1 )
@@ -3888,7 +4337,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 281/shape_one_way_margin = 0.0
 281/shapes = [  ]
 281/z_index = 0
-282/name = "rock 1"
+282/name = "WorldTiles.png 1665"
 282/texture = ExtResource( 1 )
 282/tex_offset = Vector2( 0, 0 )
 282/modulate = Color( 1, 1, 1, 1 )
@@ -3902,7 +4351,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 282/shape_one_way_margin = 0.0
 282/shapes = [  ]
 282/z_index = 0
-283/name = "tileset_pls.png 283"
+283/name = "Rock Ground 3"
 283/texture = ExtResource( 1 )
 283/tex_offset = Vector2( 0, 0 )
 283/modulate = Color( 1, 1, 1, 1 )
@@ -3912,11 +4361,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 283/navigation_offset = Vector2( 0, 0 )
 283/shape_offset = Vector2( 0, 0 )
 283/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+283/shape = SubResource( 22 )
 283/shape_one_way = false
-283/shape_one_way_margin = 0.0
-283/shapes = [  ]
+283/shape_one_way_margin = 1.0
+283/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 22 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 283/z_index = 0
-284/name = "tileset_pls.png 284"
+284/name = "Rock Underground 3"
 284/texture = ExtResource( 1 )
 284/tex_offset = Vector2( 0, 0 )
 284/modulate = Color( 1, 1, 1, 1 )
@@ -3926,9 +4382,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 284/navigation_offset = Vector2( 0, 0 )
 284/shape_offset = Vector2( 0, 0 )
 284/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+284/shape = SubResource( 46 )
 284/shape_one_way = false
-284/shape_one_way_margin = 0.0
-284/shapes = [  ]
+284/shape_one_way_margin = 1.0
+284/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 46 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 284/z_index = 0
 285/name = "Grass"
 285/texture = ExtResource( 1 )
@@ -3944,7 +4407,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 285/shape_one_way_margin = 0.0
 285/shapes = [  ]
 285/z_index = 0
-286/name = "tileset_pls.png 286"
+286/name = "Grass"
 286/texture = ExtResource( 1 )
 286/tex_offset = Vector2( 0, 0 )
 286/modulate = Color( 1, 1, 1, 1 )
@@ -3958,7 +4421,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 286/shape_one_way_margin = 0.0
 286/shapes = [  ]
 286/z_index = 0
-287/name = "tileset_pls.png 287"
+287/name = "Lush Rock Top 3"
 287/texture = ExtResource( 1 )
 287/tex_offset = Vector2( 0, 0 )
 287/modulate = Color( 1, 1, 1, 1 )
@@ -3968,9 +4431,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 287/navigation_offset = Vector2( 0, 0 )
 287/shape_offset = Vector2( 0, 0 )
 287/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+287/shape = SubResource( 97 )
 287/shape_one_way = false
-287/shape_one_way_margin = 0.0
-287/shapes = [  ]
+287/shape_one_way_margin = 1.0
+287/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 97 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 287/z_index = 0
 288/name = "tileset_pls.png 288"
 288/texture = ExtResource( 1 )
@@ -3982,9 +4452,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 288/navigation_offset = Vector2( 0, 0 )
 288/shape_offset = Vector2( 0, 0 )
 288/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+288/shape = SubResource( 98 )
 288/shape_one_way = false
-288/shape_one_way_margin = 0.0
-288/shapes = [  ]
+288/shape_one_way_margin = 1.0
+288/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 98 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 288/z_index = 0
 289/name = "tileset_pls.png 289"
 289/texture = ExtResource( 1 )
@@ -4280,7 +4757,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 309/shape_one_way_margin = 0.0
 309/shapes = [  ]
 309/z_index = 0
-310/name = "tileset_pls.png 310"
+310/name = "Rock Ground 4"
 310/texture = ExtResource( 1 )
 310/tex_offset = Vector2( 0, 0 )
 310/modulate = Color( 1, 1, 1, 1 )
@@ -4290,11 +4767,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 310/navigation_offset = Vector2( 0, 0 )
 310/shape_offset = Vector2( 0, 0 )
 310/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+310/shape = SubResource( 23 )
 310/shape_one_way = false
-310/shape_one_way_margin = 0.0
-310/shapes = [  ]
+310/shape_one_way_margin = 1.0
+310/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 23 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 310/z_index = 0
-311/name = "tileset_pls.png 311"
+311/name = "Rock Underground 4"
 311/texture = ExtResource( 1 )
 311/tex_offset = Vector2( 0, 0 )
 311/modulate = Color( 1, 1, 1, 1 )
@@ -4304,9 +4788,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 311/navigation_offset = Vector2( 0, 0 )
 311/shape_offset = Vector2( 0, 0 )
 311/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+311/shape = SubResource( 47 )
 311/shape_one_way = false
-311/shape_one_way_margin = 0.0
-311/shapes = [  ]
+311/shape_one_way_margin = 1.0
+311/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 47 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 311/z_index = 0
 312/name = "Grass"
 312/texture = ExtResource( 1 )
@@ -4322,7 +4813,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 312/shape_one_way_margin = 0.0
 312/shapes = [  ]
 312/z_index = 0
-313/name = "tileset_pls.png 313"
+313/name = "Grass"
 313/texture = ExtResource( 1 )
 313/tex_offset = Vector2( 0, 0 )
 313/modulate = Color( 1, 1, 1, 1 )
@@ -4336,35 +4827,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 313/shape_one_way_margin = 0.0
 313/shapes = [  ]
 313/z_index = 0
-314/name = "tileset_pls.png 314"
-314/texture = ExtResource( 1 )
-314/tex_offset = Vector2( 0, 0 )
-314/modulate = Color( 1, 1, 1, 1 )
-314/region = Rect2( 256, 208, 16, 16 )
-314/tile_mode = 0
-314/occluder_offset = Vector2( 0, 0 )
-314/navigation_offset = Vector2( 0, 0 )
-314/shape_offset = Vector2( 0, 0 )
-314/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-314/shape_one_way = false
-314/shape_one_way_margin = 0.0
-314/shapes = [  ]
-314/z_index = 0
-315/name = "tileset_pls.png 315"
-315/texture = ExtResource( 1 )
-315/tex_offset = Vector2( 0, 0 )
-315/modulate = Color( 1, 1, 1, 1 )
-315/region = Rect2( 256, 224, 16, 16 )
-315/tile_mode = 0
-315/occluder_offset = Vector2( 0, 0 )
-315/navigation_offset = Vector2( 0, 0 )
-315/shape_offset = Vector2( 0, 0 )
-315/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-315/shape_one_way = false
-315/shape_one_way_margin = 0.0
-315/shapes = [  ]
-315/z_index = 0
-316/name = "tileset_pls.png 316"
+316/name = "Lush Rock Top 4"
 316/texture = ExtResource( 1 )
 316/tex_offset = Vector2( 0, 0 )
 316/modulate = Color( 1, 1, 1, 1 )
@@ -4374,9 +4837,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 316/navigation_offset = Vector2( 0, 0 )
 316/shape_offset = Vector2( 0, 0 )
 316/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+316/shape = SubResource( 99 )
 316/shape_one_way = false
-316/shape_one_way_margin = 0.0
-316/shapes = [  ]
+316/shape_one_way_margin = 1.0
+316/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 99 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 316/z_index = 0
 317/name = "tileset_pls.png 317"
 317/texture = ExtResource( 1 )
@@ -4388,9 +4858,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 317/navigation_offset = Vector2( 0, 0 )
 317/shape_offset = Vector2( 0, 0 )
 317/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+317/shape = SubResource( 100 )
 317/shape_one_way = false
-317/shape_one_way_margin = 0.0
-317/shapes = [  ]
+317/shape_one_way_margin = 1.0
+317/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 100 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 317/z_index = 0
 318/name = "tileset_pls.png 318"
 318/texture = ExtResource( 1 )
@@ -4742,7 +5219,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 342/shape_one_way_margin = 0.0
 342/shapes = [  ]
 342/z_index = 0
-343/name = "tileset_pls.png 343"
+343/name = "Rock Large"
 343/texture = ExtResource( 1 )
 343/tex_offset = Vector2( 0, 0 )
 343/modulate = Color( 1, 1, 1, 1 )
@@ -4752,11 +5229,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 343/navigation_offset = Vector2( 0, 0 )
 343/shape_offset = Vector2( 0, 0 )
 343/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+343/shape = SubResource( 57 )
 343/shape_one_way = false
-343/shape_one_way_margin = 0.0
-343/shapes = [  ]
+343/shape_one_way_margin = 1.0
+343/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 57 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 343/z_index = 0
-344/name = "tileset_pls.png 344"
+344/name = "Rock Ground 5"
 344/texture = ExtResource( 1 )
 344/tex_offset = Vector2( 0, 0 )
 344/modulate = Color( 1, 1, 1, 1 )
@@ -4766,11 +5250,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 344/navigation_offset = Vector2( 0, 0 )
 344/shape_offset = Vector2( 0, 0 )
 344/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+344/shape = SubResource( 24 )
 344/shape_one_way = false
-344/shape_one_way_margin = 0.0
-344/shapes = [  ]
+344/shape_one_way_margin = 1.0
+344/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 24 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 344/z_index = 0
-345/name = "tileset_pls.png 345"
+345/name = "Rock Underground 5"
 345/texture = ExtResource( 1 )
 345/tex_offset = Vector2( 0, 0 )
 345/modulate = Color( 1, 1, 1, 1 )
@@ -4780,9 +5271,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 345/navigation_offset = Vector2( 0, 0 )
 345/shape_offset = Vector2( 0, 0 )
 345/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+345/shape = SubResource( 25 )
 345/shape_one_way = false
-345/shape_one_way_margin = 0.0
-345/shapes = [  ]
+345/shape_one_way_margin = 1.0
+345/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 345/z_index = 0
 346/name = "Grass"
 346/texture = ExtResource( 1 )
@@ -4798,7 +5296,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 346/shape_one_way_margin = 0.0
 346/shapes = [  ]
 346/z_index = 0
-347/name = "tileset_pls.png 347"
+347/name = "Flower"
 347/texture = ExtResource( 1 )
 347/tex_offset = Vector2( 0, 0 )
 347/modulate = Color( 1, 1, 1, 1 )
@@ -4812,62 +5310,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 347/shape_one_way_margin = 0.0
 347/shapes = [  ]
 347/z_index = 0
-348/name = "tileset_pls.png 348"
-348/texture = ExtResource( 1 )
-348/tex_offset = Vector2( 0, 0 )
-348/modulate = Color( 1, 1, 1, 1 )
-348/region = Rect2( 272, 208, 16, 16 )
-348/tile_mode = 0
-348/occluder_offset = Vector2( 0, 0 )
-348/navigation_offset = Vector2( 0, 0 )
-348/shape_offset = Vector2( 0, 0 )
-348/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-348/shape_one_way = false
-348/shape_one_way_margin = 0.0
-348/shapes = [  ]
-348/z_index = 0
-349/name = "tileset_pls.png 349"
-349/texture = ExtResource( 1 )
-349/tex_offset = Vector2( 0, 0 )
-349/modulate = Color( 1, 1, 1, 1 )
-349/region = Rect2( 272, 224, 16, 16 )
-349/tile_mode = 0
-349/occluder_offset = Vector2( 0, 0 )
-349/navigation_offset = Vector2( 0, 0 )
-349/shape_offset = Vector2( 0, 0 )
-349/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-349/shape_one_way = false
-349/shape_one_way_margin = 0.0
-349/shapes = [  ]
-349/z_index = 0
-350/name = "tileset_pls.png 350"
-350/texture = ExtResource( 1 )
-350/tex_offset = Vector2( 0, 0 )
-350/modulate = Color( 1, 1, 1, 1 )
-350/region = Rect2( 272, 240, 16, 16 )
-350/tile_mode = 0
-350/occluder_offset = Vector2( 0, 0 )
-350/navigation_offset = Vector2( 0, 0 )
-350/shape_offset = Vector2( 0, 0 )
-350/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-350/shape_one_way = false
-350/shape_one_way_margin = 0.0
-350/shapes = [  ]
-350/z_index = 0
-351/name = "tileset_pls.png 351"
-351/texture = ExtResource( 1 )
-351/tex_offset = Vector2( 0, 0 )
-351/modulate = Color( 1, 1, 1, 1 )
-351/region = Rect2( 272, 256, 16, 16 )
-351/tile_mode = 0
-351/occluder_offset = Vector2( 0, 0 )
-351/navigation_offset = Vector2( 0, 0 )
-351/shape_offset = Vector2( 0, 0 )
-351/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-351/shape_one_way = false
-351/shape_one_way_margin = 0.0
-351/shapes = [  ]
-351/z_index = 0
 352/name = "tileset_pls.png 352"
 352/texture = ExtResource( 1 )
 352/tex_offset = Vector2( 0, 0 )
@@ -4878,9 +5320,22 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 352/navigation_offset = Vector2( 0, 0 )
 352/shape_offset = Vector2( 0, 0 )
 352/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+352/shape = SubResource( 101 )
 352/shape_one_way = false
-352/shape_one_way_margin = 0.0
-352/shapes = [  ]
+352/shape_one_way_margin = 1.0
+352/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 101 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 102 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 352/z_index = 0
 353/name = "tileset_pls.png 353"
 353/texture = ExtResource( 1 )
@@ -5288,7 +5743,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 381/shape_one_way_margin = 0.0
 381/shapes = [  ]
 381/z_index = 0
-382/name = "tileset_pls.png 382"
+382/name = "Rock medium"
 382/texture = ExtResource( 1 )
 382/tex_offset = Vector2( 0, 0 )
 382/modulate = Color( 1, 1, 1, 1 )
@@ -5298,11 +5753,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 382/navigation_offset = Vector2( 0, 0 )
 382/shape_offset = Vector2( 0, 0 )
 382/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+382/shape = SubResource( 58 )
 382/shape_one_way = false
-382/shape_one_way_margin = 0.0
-382/shapes = [  ]
+382/shape_one_way_margin = 1.0
+382/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 58 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 382/z_index = 0
-383/name = "tileset_pls.png 383"
+383/name = "Rock Ground 6"
 383/texture = ExtResource( 1 )
 383/tex_offset = Vector2( 0, 0 )
 383/modulate = Color( 1, 1, 1, 1 )
@@ -5312,11 +5774,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 383/navigation_offset = Vector2( 0, 0 )
 383/shape_offset = Vector2( 0, 0 )
 383/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+383/shape = SubResource( 26 )
 383/shape_one_way = false
-383/shape_one_way_margin = 0.0
-383/shapes = [  ]
+383/shape_one_way_margin = 1.0
+383/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 26 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 383/z_index = 0
-384/name = "tileset_pls.png 384"
+384/name = "Rock Underground 6"
 384/texture = ExtResource( 1 )
 384/tex_offset = Vector2( 0, 0 )
 384/modulate = Color( 1, 1, 1, 1 )
@@ -5326,9 +5795,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 384/navigation_offset = Vector2( 0, 0 )
 384/shape_offset = Vector2( 0, 0 )
 384/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+384/shape = SubResource( 27 )
 384/shape_one_way = false
-384/shape_one_way_margin = 0.0
-384/shapes = [  ]
+384/shape_one_way_margin = 1.0
+384/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 27 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 384/z_index = 0
 385/name = "Grass"
 385/texture = ExtResource( 1 )
@@ -5344,7 +5820,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 385/shape_one_way_margin = 0.0
 385/shapes = [  ]
 385/z_index = 0
-386/name = "tileset_pls.png 386"
+386/name = "Flower"
 386/texture = ExtResource( 1 )
 386/tex_offset = Vector2( 0, 0 )
 386/modulate = Color( 1, 1, 1, 1 )
@@ -5358,34 +5834,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 386/shape_one_way_margin = 0.0
 386/shapes = [  ]
 386/z_index = 0
-387/name = "tileset_pls.png 387"
-387/texture = ExtResource( 1 )
-387/tex_offset = Vector2( 0, 0 )
-387/modulate = Color( 1, 1, 1, 1 )
-387/region = Rect2( 288, 240, 16, 16 )
-387/tile_mode = 0
-387/occluder_offset = Vector2( 0, 0 )
-387/navigation_offset = Vector2( 0, 0 )
-387/shape_offset = Vector2( 0, 0 )
-387/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-387/shape_one_way = false
-387/shape_one_way_margin = 0.0
-387/shapes = [  ]
-387/z_index = 0
-388/name = "tileset_pls.png 388"
-388/texture = ExtResource( 1 )
-388/tex_offset = Vector2( 0, 0 )
-388/modulate = Color( 1, 1, 1, 1 )
-388/region = Rect2( 288, 256, 16, 16 )
-388/tile_mode = 0
-388/occluder_offset = Vector2( 0, 0 )
-388/navigation_offset = Vector2( 0, 0 )
-388/shape_offset = Vector2( 0, 0 )
-388/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-388/shape_one_way = false
-388/shape_one_way_margin = 0.0
-388/shapes = [  ]
-388/z_index = 0
 389/name = "tileset_pls.png 389"
 389/texture = ExtResource( 1 )
 389/tex_offset = Vector2( 0, 0 )
@@ -5396,9 +5844,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 389/navigation_offset = Vector2( 0, 0 )
 389/shape_offset = Vector2( 0, 0 )
 389/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+389/shape = SubResource( 103 )
 389/shape_one_way = false
-389/shape_one_way_margin = 0.0
-389/shapes = [  ]
+389/shape_one_way_margin = 1.0
+389/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 103 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 389/z_index = 0
 390/name = "tileset_pls.png 390"
 390/texture = ExtResource( 1 )
@@ -5750,7 +6205,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 414/shape_one_way_margin = 0.0
 414/shapes = [  ]
 414/z_index = 0
-415/name = "tileset_pls.png 415"
+415/name = "Rock Ground 7"
 415/texture = ExtResource( 1 )
 415/tex_offset = Vector2( 0, 0 )
 415/modulate = Color( 1, 1, 1, 1 )
@@ -5760,11 +6215,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 415/navigation_offset = Vector2( 0, 0 )
 415/shape_offset = Vector2( 0, 0 )
 415/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+415/shape = SubResource( 28 )
 415/shape_one_way = false
-415/shape_one_way_margin = 0.0
-415/shapes = [  ]
+415/shape_one_way_margin = 1.0
+415/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 28 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 415/z_index = 0
-416/name = "tileset_pls.png 416"
+416/name = "Rock Underground 7"
 416/texture = ExtResource( 1 )
 416/tex_offset = Vector2( 0, 0 )
 416/modulate = Color( 1, 1, 1, 1 )
@@ -5774,9 +6236,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 416/navigation_offset = Vector2( 0, 0 )
 416/shape_offset = Vector2( 0, 0 )
 416/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+416/shape = SubResource( 29 )
 416/shape_one_way = false
-416/shape_one_way_margin = 0.0
-416/shapes = [  ]
+416/shape_one_way_margin = 1.0
+416/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 29 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 416/z_index = 0
 417/name = "Grass"
 417/texture = ExtResource( 1 )
@@ -5792,7 +6261,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 417/shape_one_way_margin = 0.0
 417/shapes = [  ]
 417/z_index = 0
-418/name = "tileset_pls.png 418"
+418/name = "Flower"
 418/texture = ExtResource( 1 )
 418/tex_offset = Vector2( 0, 0 )
 418/modulate = Color( 1, 1, 1, 1 )
@@ -5806,34 +6275,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 418/shape_one_way_margin = 0.0
 418/shapes = [  ]
 418/z_index = 0
-419/name = "tileset_pls.png 419"
-419/texture = ExtResource( 1 )
-419/tex_offset = Vector2( 0, 0 )
-419/modulate = Color( 1, 1, 1, 1 )
-419/region = Rect2( 304, 240, 16, 16 )
-419/tile_mode = 0
-419/occluder_offset = Vector2( 0, 0 )
-419/navigation_offset = Vector2( 0, 0 )
-419/shape_offset = Vector2( 0, 0 )
-419/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-419/shape_one_way = false
-419/shape_one_way_margin = 0.0
-419/shapes = [  ]
-419/z_index = 0
-420/name = "tileset_pls.png 420"
-420/texture = ExtResource( 1 )
-420/tex_offset = Vector2( 0, 0 )
-420/modulate = Color( 1, 1, 1, 1 )
-420/region = Rect2( 304, 256, 16, 16 )
-420/tile_mode = 0
-420/occluder_offset = Vector2( 0, 0 )
-420/navigation_offset = Vector2( 0, 0 )
-420/shape_offset = Vector2( 0, 0 )
-420/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-420/shape_one_way = false
-420/shape_one_way_margin = 0.0
-420/shapes = [  ]
-420/z_index = 0
 421/name = "tileset_pls.png 421"
 421/texture = ExtResource( 1 )
 421/tex_offset = Vector2( 0, 0 )
@@ -5844,9 +6285,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 421/navigation_offset = Vector2( 0, 0 )
 421/shape_offset = Vector2( 0, 0 )
 421/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+421/shape = SubResource( 104 )
 421/shape_one_way = false
-421/shape_one_way_margin = 0.0
-421/shapes = [  ]
+421/shape_one_way_margin = 1.0
+421/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 104 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 421/z_index = 0
 422/name = "tileset_pls.png 422"
 422/texture = ExtResource( 1 )
@@ -6212,7 +6660,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 447/shape_one_way_margin = 0.0
 447/shapes = [  ]
 447/z_index = 0
-448/name = "tileset_pls.png 448"
+448/name = "Rock Ground 8"
 448/texture = ExtResource( 1 )
 448/tex_offset = Vector2( 0, 0 )
 448/modulate = Color( 1, 1, 1, 1 )
@@ -6222,11 +6670,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 448/navigation_offset = Vector2( 0, 0 )
 448/shape_offset = Vector2( 0, 0 )
 448/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+448/shape = SubResource( 30 )
 448/shape_one_way = false
-448/shape_one_way_margin = 0.0
-448/shapes = [  ]
+448/shape_one_way_margin = 1.0
+448/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 30 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 448/z_index = 0
-449/name = "tileset_pls.png 449"
+449/name = "Rock Underground 8"
 449/texture = ExtResource( 1 )
 449/tex_offset = Vector2( 0, 0 )
 449/modulate = Color( 1, 1, 1, 1 )
@@ -6236,9 +6691,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 449/navigation_offset = Vector2( 0, 0 )
 449/shape_offset = Vector2( 0, 0 )
 449/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+449/shape = SubResource( 31 )
 449/shape_one_way = false
-449/shape_one_way_margin = 0.0
-449/shapes = [  ]
+449/shape_one_way_margin = 1.0
+449/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 31 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 449/z_index = 0
 450/name = "Grass"
 450/texture = ExtResource( 1 )
@@ -6254,7 +6716,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 450/shape_one_way_margin = 0.0
 450/shapes = [  ]
 450/z_index = 0
-451/name = "tileset_pls.png 451"
+451/name = "Flower"
 451/texture = ExtResource( 1 )
 451/tex_offset = Vector2( 0, 0 )
 451/modulate = Color( 1, 1, 1, 1 )
@@ -6268,34 +6730,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 451/shape_one_way_margin = 0.0
 451/shapes = [  ]
 451/z_index = 0
-452/name = "tileset_pls.png 452"
-452/texture = ExtResource( 1 )
-452/tex_offset = Vector2( 0, 0 )
-452/modulate = Color( 1, 1, 1, 1 )
-452/region = Rect2( 320, 240, 16, 16 )
-452/tile_mode = 0
-452/occluder_offset = Vector2( 0, 0 )
-452/navigation_offset = Vector2( 0, 0 )
-452/shape_offset = Vector2( 0, 0 )
-452/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-452/shape_one_way = false
-452/shape_one_way_margin = 0.0
-452/shapes = [  ]
-452/z_index = 0
-453/name = "tileset_pls.png 453"
-453/texture = ExtResource( 1 )
-453/tex_offset = Vector2( 0, 0 )
-453/modulate = Color( 1, 1, 1, 1 )
-453/region = Rect2( 320, 256, 16, 16 )
-453/tile_mode = 0
-453/occluder_offset = Vector2( 0, 0 )
-453/navigation_offset = Vector2( 0, 0 )
-453/shape_offset = Vector2( 0, 0 )
-453/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-453/shape_one_way = false
-453/shape_one_way_margin = 0.0
-453/shapes = [  ]
-453/z_index = 0
 454/name = "tileset_pls.png 454"
 454/texture = ExtResource( 1 )
 454/tex_offset = Vector2( 0, 0 )
@@ -6306,9 +6740,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 454/navigation_offset = Vector2( 0, 0 )
 454/shape_offset = Vector2( 0, 0 )
 454/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+454/shape = SubResource( 106 )
 454/shape_one_way = false
-454/shape_one_way_margin = 0.0
-454/shapes = [  ]
+454/shape_one_way_margin = 1.0
+454/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 106 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 454/z_index = 0
 455/name = "tileset_pls.png 455"
 455/texture = ExtResource( 1 )
@@ -6674,7 +7115,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 480/shape_one_way_margin = 0.0
 480/shapes = [  ]
 480/z_index = 0
-481/name = "tileset_pls.png 481"
+481/name = "Rock Ground 9"
 481/texture = ExtResource( 1 )
 481/tex_offset = Vector2( 0, 0 )
 481/modulate = Color( 1, 1, 1, 1 )
@@ -6684,11 +7125,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 481/navigation_offset = Vector2( 0, 0 )
 481/shape_offset = Vector2( 0, 0 )
 481/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+481/shape = SubResource( 32 )
 481/shape_one_way = false
-481/shape_one_way_margin = 0.0
-481/shapes = [  ]
+481/shape_one_way_margin = 1.0
+481/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 32 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 481/z_index = 0
-482/name = "tileset_pls.png 482"
+482/name = "Rock Underground 9"
 482/texture = ExtResource( 1 )
 482/tex_offset = Vector2( 0, 0 )
 482/modulate = Color( 1, 1, 1, 1 )
@@ -6698,9 +7146,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 482/navigation_offset = Vector2( 0, 0 )
 482/shape_offset = Vector2( 0, 0 )
 482/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+482/shape = SubResource( 33 )
 482/shape_one_way = false
-482/shape_one_way_margin = 0.0
-482/shapes = [  ]
+482/shape_one_way_margin = 1.0
+482/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 33 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 482/z_index = 0
 483/name = "Grass"
 483/texture = ExtResource( 1 )
@@ -6716,7 +7171,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 483/shape_one_way_margin = 0.0
 483/shapes = [  ]
 483/z_index = 0
-484/name = "tileset_pls.png 484"
+484/name = "Flower"
 484/texture = ExtResource( 1 )
 484/tex_offset = Vector2( 0, 0 )
 484/modulate = Color( 1, 1, 1, 1 )
@@ -6730,7 +7185,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 484/shape_one_way_margin = 0.0
 484/shapes = [  ]
 484/z_index = 0
-485/name = "tileset_pls.png 485"
+485/name = "Grass"
 485/texture = ExtResource( 1 )
 485/tex_offset = Vector2( 0, 0 )
 485/modulate = Color( 1, 1, 1, 1 )
@@ -6744,35 +7199,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 485/shape_one_way_margin = 0.0
 485/shapes = [  ]
 485/z_index = 0
-486/name = "tileset_pls.png 486"
-486/texture = ExtResource( 1 )
-486/tex_offset = Vector2( 0, 0 )
-486/modulate = Color( 1, 1, 1, 1 )
-486/region = Rect2( 336, 208, 16, 16 )
-486/tile_mode = 0
-486/occluder_offset = Vector2( 0, 0 )
-486/navigation_offset = Vector2( 0, 0 )
-486/shape_offset = Vector2( 0, 0 )
-486/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-486/shape_one_way = false
-486/shape_one_way_margin = 0.0
-486/shapes = [  ]
-486/z_index = 0
-487/name = "tileset_pls.png 487"
-487/texture = ExtResource( 1 )
-487/tex_offset = Vector2( 0, 0 )
-487/modulate = Color( 1, 1, 1, 1 )
-487/region = Rect2( 336, 224, 16, 16 )
-487/tile_mode = 0
-487/occluder_offset = Vector2( 0, 0 )
-487/navigation_offset = Vector2( 0, 0 )
-487/shape_offset = Vector2( 0, 0 )
-487/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-487/shape_one_way = false
-487/shape_one_way_margin = 0.0
-487/shapes = [  ]
-487/z_index = 0
-488/name = "tileset_pls.png 488"
+488/name = "Lush Rock Top 9"
 488/texture = ExtResource( 1 )
 488/tex_offset = Vector2( 0, 0 )
 488/modulate = Color( 1, 1, 1, 1 )
@@ -6782,9 +7209,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 488/navigation_offset = Vector2( 0, 0 )
 488/shape_offset = Vector2( 0, 0 )
 488/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+488/shape = SubResource( 107 )
 488/shape_one_way = false
-488/shape_one_way_margin = 0.0
-488/shapes = [  ]
+488/shape_one_way_margin = 1.0
+488/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 107 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 488/z_index = 0
 489/name = "tileset_pls.png 489"
 489/texture = ExtResource( 1 )
@@ -6796,9 +7230,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 489/navigation_offset = Vector2( 0, 0 )
 489/shape_offset = Vector2( 0, 0 )
 489/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+489/shape = SubResource( 108 )
 489/shape_one_way = false
-489/shape_one_way_margin = 0.0
-489/shapes = [  ]
+489/shape_one_way_margin = 1.0
+489/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 108 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 489/z_index = 0
 490/name = "tileset_pls.png 490"
 490/texture = ExtResource( 1 )
@@ -7164,7 +7605,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 515/shape_one_way_margin = 0.0
 515/shapes = [  ]
 515/z_index = 0
-516/name = "tileset_pls.png 516"
+516/name = "Rock Ground 10"
 516/texture = ExtResource( 1 )
 516/tex_offset = Vector2( 0, 0 )
 516/modulate = Color( 1, 1, 1, 1 )
@@ -7174,11 +7615,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 516/navigation_offset = Vector2( 0, 0 )
 516/shape_offset = Vector2( 0, 0 )
 516/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+516/shape = SubResource( 34 )
 516/shape_one_way = false
-516/shape_one_way_margin = 0.0
-516/shapes = [  ]
+516/shape_one_way_margin = 1.0
+516/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 34 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 516/z_index = 0
-517/name = "tileset_pls.png 517"
+517/name = "Rock Underground 10"
 517/texture = ExtResource( 1 )
 517/tex_offset = Vector2( 0, 0 )
 517/modulate = Color( 1, 1, 1, 1 )
@@ -7188,9 +7636,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 517/navigation_offset = Vector2( 0, 0 )
 517/shape_offset = Vector2( 0, 0 )
 517/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+517/shape = SubResource( 35 )
 517/shape_one_way = false
-517/shape_one_way_margin = 0.0
-517/shapes = [  ]
+517/shape_one_way_margin = 1.0
+517/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 35 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 517/z_index = 0
 518/name = "Grass"
 518/texture = ExtResource( 1 )
@@ -7206,7 +7661,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 518/shape_one_way_margin = 0.0
 518/shapes = [  ]
 518/z_index = 0
-519/name = "tileset_pls.png 519"
+519/name = "Grass"
 519/texture = ExtResource( 1 )
 519/tex_offset = Vector2( 0, 0 )
 519/modulate = Color( 1, 1, 1, 1 )
@@ -7220,35 +7675,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 519/shape_one_way_margin = 0.0
 519/shapes = [  ]
 519/z_index = 0
-520/name = "tileset_pls.png 520"
-520/texture = ExtResource( 1 )
-520/tex_offset = Vector2( 0, 0 )
-520/modulate = Color( 1, 1, 1, 1 )
-520/region = Rect2( 352, 208, 16, 16 )
-520/tile_mode = 0
-520/occluder_offset = Vector2( 0, 0 )
-520/navigation_offset = Vector2( 0, 0 )
-520/shape_offset = Vector2( 0, 0 )
-520/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-520/shape_one_way = false
-520/shape_one_way_margin = 0.0
-520/shapes = [  ]
-520/z_index = 0
-521/name = "tileset_pls.png 521"
-521/texture = ExtResource( 1 )
-521/tex_offset = Vector2( 0, 0 )
-521/modulate = Color( 1, 1, 1, 1 )
-521/region = Rect2( 352, 224, 16, 16 )
-521/tile_mode = 0
-521/occluder_offset = Vector2( 0, 0 )
-521/navigation_offset = Vector2( 0, 0 )
-521/shape_offset = Vector2( 0, 0 )
-521/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-521/shape_one_way = false
-521/shape_one_way_margin = 0.0
-521/shapes = [  ]
-521/z_index = 0
-522/name = "tileset_pls.png 522"
+522/name = "Lush Rock Top 10"
 522/texture = ExtResource( 1 )
 522/tex_offset = Vector2( 0, 0 )
 522/modulate = Color( 1, 1, 1, 1 )
@@ -7258,9 +7685,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 522/navigation_offset = Vector2( 0, 0 )
 522/shape_offset = Vector2( 0, 0 )
 522/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+522/shape = SubResource( 109 )
 522/shape_one_way = false
-522/shape_one_way_margin = 0.0
-522/shapes = [  ]
+522/shape_one_way_margin = 1.0
+522/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 109 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 522/z_index = 0
 523/name = "tileset_pls.png 523"
 523/texture = ExtResource( 1 )
@@ -7272,9 +7706,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 523/navigation_offset = Vector2( 0, 0 )
 523/shape_offset = Vector2( 0, 0 )
 523/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+523/shape = SubResource( 110 )
 523/shape_one_way = false
-523/shape_one_way_margin = 0.0
-523/shapes = [  ]
+523/shape_one_way_margin = 1.0
+523/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 110 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 523/z_index = 0
 524/name = "tileset_pls.png 524"
 524/texture = ExtResource( 1 )
@@ -7598,7 +8039,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 546/shape_one_way_margin = 0.0
 546/shapes = [  ]
 546/z_index = 0
-547/name = "tileset_pls.png 547"
+547/name = "Rock Ground 11"
 547/texture = ExtResource( 1 )
 547/tex_offset = Vector2( 0, 0 )
 547/modulate = Color( 1, 1, 1, 1 )
@@ -7608,11 +8049,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 547/navigation_offset = Vector2( 0, 0 )
 547/shape_offset = Vector2( 0, 0 )
 547/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+547/shape = SubResource( 36 )
 547/shape_one_way = false
-547/shape_one_way_margin = 0.0
-547/shapes = [  ]
+547/shape_one_way_margin = 1.0
+547/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 36 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 547/z_index = 0
-548/name = "tileset_pls.png 548"
+548/name = "Rock Underground 11"
 548/texture = ExtResource( 1 )
 548/tex_offset = Vector2( 0, 0 )
 548/modulate = Color( 1, 1, 1, 1 )
@@ -7622,9 +8070,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 548/navigation_offset = Vector2( 0, 0 )
 548/shape_offset = Vector2( 0, 0 )
 548/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+548/shape = SubResource( 37 )
 548/shape_one_way = false
-548/shape_one_way_margin = 0.0
-548/shapes = [  ]
+548/shape_one_way_margin = 1.0
+548/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 37 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 548/z_index = 0
 549/name = "Grass"
 549/texture = ExtResource( 1 )
@@ -7640,7 +8095,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 549/shape_one_way_margin = 0.0
 549/shapes = [  ]
 549/z_index = 0
-550/name = "tileset_pls.png 550"
+550/name = "Grass"
 550/texture = ExtResource( 1 )
 550/tex_offset = Vector2( 0, 0 )
 550/modulate = Color( 1, 1, 1, 1 )
@@ -7654,7 +8109,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 550/shape_one_way_margin = 0.0
 550/shapes = [  ]
 550/z_index = 0
-551/name = "tileset_pls.png 551"
+551/name = "Lush Rock Top 11"
 551/texture = ExtResource( 1 )
 551/tex_offset = Vector2( 0, 0 )
 551/modulate = Color( 1, 1, 1, 1 )
@@ -7664,9 +8119,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 551/navigation_offset = Vector2( 0, 0 )
 551/shape_offset = Vector2( 0, 0 )
 551/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+551/shape = SubResource( 111 )
 551/shape_one_way = false
-551/shape_one_way_margin = 0.0
-551/shapes = [  ]
+551/shape_one_way_margin = 1.0
+551/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 111 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 551/z_index = 0
 552/name = "tileset_pls.png 552"
 552/texture = ExtResource( 1 )
@@ -7678,9 +8140,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 552/navigation_offset = Vector2( 0, 0 )
 552/shape_offset = Vector2( 0, 0 )
 552/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+552/shape = SubResource( 112 )
 552/shape_one_way = false
-552/shape_one_way_margin = 0.0
-552/shapes = [  ]
+552/shape_one_way_margin = 1.0
+552/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 112 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 552/z_index = 0
 553/name = "tileset_pls.png 553"
 553/texture = ExtResource( 1 )
@@ -8018,34 +8487,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 576/shape_one_way_margin = 0.0
 576/shapes = [  ]
 576/z_index = 0
-577/name = "tileset_pls.png 577"
-577/texture = ExtResource( 1 )
-577/tex_offset = Vector2( 0, 0 )
-577/modulate = Color( 1, 1, 1, 1 )
-577/region = Rect2( 384, 64, 16, 16 )
-577/tile_mode = 0
-577/occluder_offset = Vector2( 0, 0 )
-577/navigation_offset = Vector2( 0, 0 )
-577/shape_offset = Vector2( 0, 0 )
-577/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-577/shape_one_way = false
-577/shape_one_way_margin = 0.0
-577/shapes = [  ]
-577/z_index = 0
-578/name = "tileset_pls.png 578"
-578/texture = ExtResource( 1 )
-578/tex_offset = Vector2( 0, 0 )
-578/modulate = Color( 1, 1, 1, 1 )
-578/region = Rect2( 384, 80, 16, 16 )
-578/tile_mode = 0
-578/occluder_offset = Vector2( 0, 0 )
-578/navigation_offset = Vector2( 0, 0 )
-578/shape_offset = Vector2( 0, 0 )
-578/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-578/shape_one_way = false
-578/shape_one_way_margin = 0.0
-578/shapes = [  ]
-578/z_index = 0
 579/name = "Grass"
 579/texture = ExtResource( 1 )
 579/tex_offset = Vector2( 0, 0 )
@@ -8060,7 +8501,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 579/shape_one_way_margin = 0.0
 579/shapes = [  ]
 579/z_index = 0
-580/name = "tileset_pls.png 580"
+580/name = "Grass"
 580/texture = ExtResource( 1 )
 580/tex_offset = Vector2( 0, 0 )
 580/modulate = Color( 1, 1, 1, 1 )
@@ -8074,35 +8515,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 580/shape_one_way_margin = 0.0
 580/shapes = [  ]
 580/z_index = 0
-581/name = "tileset_pls.png 581"
-581/texture = ExtResource( 1 )
-581/tex_offset = Vector2( 0, 0 )
-581/modulate = Color( 1, 1, 1, 1 )
-581/region = Rect2( 384, 192, 16, 16 )
-581/tile_mode = 0
-581/occluder_offset = Vector2( 0, 0 )
-581/navigation_offset = Vector2( 0, 0 )
-581/shape_offset = Vector2( 0, 0 )
-581/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-581/shape_one_way = false
-581/shape_one_way_margin = 0.0
-581/shapes = [  ]
-581/z_index = 0
-582/name = "tileset_pls.png 582"
-582/texture = ExtResource( 1 )
-582/tex_offset = Vector2( 0, 0 )
-582/modulate = Color( 1, 1, 1, 1 )
-582/region = Rect2( 384, 208, 16, 16 )
-582/tile_mode = 0
-582/occluder_offset = Vector2( 0, 0 )
-582/navigation_offset = Vector2( 0, 0 )
-582/shape_offset = Vector2( 0, 0 )
-582/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-582/shape_one_way = false
-582/shape_one_way_margin = 0.0
-582/shapes = [  ]
-582/z_index = 0
-583/name = "tileset_pls.png 583"
+583/name = "Lush Rock Top 12"
 583/texture = ExtResource( 1 )
 583/tex_offset = Vector2( 0, 0 )
 583/modulate = Color( 1, 1, 1, 1 )
@@ -8112,9 +8525,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 583/navigation_offset = Vector2( 0, 0 )
 583/shape_offset = Vector2( 0, 0 )
 583/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+583/shape = SubResource( 113 )
 583/shape_one_way = false
-583/shape_one_way_margin = 0.0
-583/shapes = [  ]
+583/shape_one_way_margin = 1.0
+583/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 113 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 583/z_index = 0
 584/name = "tileset_pls.png 584"
 584/texture = ExtResource( 1 )
@@ -8126,9 +8546,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 584/navigation_offset = Vector2( 0, 0 )
 584/shape_offset = Vector2( 0, 0 )
 584/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+584/shape = SubResource( 114 )
 584/shape_one_way = false
-584/shape_one_way_margin = 0.0
-584/shapes = [  ]
+584/shape_one_way_margin = 1.0
+584/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 114 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 584/z_index = 0
 585/name = "tileset_pls.png 585"
 585/texture = ExtResource( 1 )
@@ -8522,7 +8949,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 612/shape_one_way_margin = 0.0
 612/shapes = [  ]
 612/z_index = 0
-613/name = "tileset_pls.png 613"
+613/name = "Grass"
 613/texture = ExtResource( 1 )
 613/tex_offset = Vector2( 0, 0 )
 613/modulate = Color( 1, 1, 1, 1 )
@@ -8536,7 +8963,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 613/shape_one_way_margin = 0.0
 613/shapes = [  ]
 613/z_index = 0
-614/name = "tileset_pls.png 614"
+614/name = "Lush Rock Top 13"
 614/texture = ExtResource( 1 )
 614/tex_offset = Vector2( 0, 0 )
 614/modulate = Color( 1, 1, 1, 1 )
@@ -8546,9 +8973,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 614/navigation_offset = Vector2( 0, 0 )
 614/shape_offset = Vector2( 0, 0 )
 614/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+614/shape = SubResource( 117 )
 614/shape_one_way = false
-614/shape_one_way_margin = 0.0
-614/shapes = [  ]
+614/shape_one_way_margin = 1.0
+614/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 117 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 614/z_index = 0
 615/name = "tileset_pls.png 615"
 615/texture = ExtResource( 1 )
@@ -8560,9 +8994,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 615/navigation_offset = Vector2( 0, 0 )
 615/shape_offset = Vector2( 0, 0 )
 615/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+615/shape = SubResource( 118 )
 615/shape_one_way = false
-615/shape_one_way_margin = 0.0
-615/shapes = [  ]
+615/shape_one_way_margin = 1.0
+615/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 118 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 615/z_index = 0
 616/name = "tileset_pls.png 616"
 616/texture = ExtResource( 1 )
@@ -8676,7 +9117,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 623/shape_one_way_margin = 0.0
 623/shapes = [  ]
 623/z_index = 0
-624/name = "tileset_pls.png 624"
+624/name = "Rock Ground Edge Left Top"
 624/texture = ExtResource( 1 )
 624/tex_offset = Vector2( 0, 0 )
 624/modulate = Color( 1, 1, 1, 1 )
@@ -8686,11 +9127,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 624/navigation_offset = Vector2( 0, 0 )
 624/shape_offset = Vector2( 0, 0 )
 624/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+624/shape = SubResource( 38 )
 624/shape_one_way = false
-624/shape_one_way_margin = 0.0
-624/shapes = [  ]
+624/shape_one_way_margin = 1.0
+624/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 38 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 624/z_index = 0
-625/name = "tileset_pls.png 625"
+625/name = "Rock Ground Edge Left"
 625/texture = ExtResource( 1 )
 625/tex_offset = Vector2( 0, 0 )
 625/modulate = Color( 1, 1, 1, 1 )
@@ -8700,9 +9148,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 625/navigation_offset = Vector2( 0, 0 )
 625/shape_offset = Vector2( 0, 0 )
 625/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+625/shape = SubResource( 39 )
 625/shape_one_way = false
-625/shape_one_way_margin = 0.0
-625/shapes = [  ]
+625/shape_one_way_margin = 1.0
+625/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 39 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 625/z_index = 0
 626/name = "tileset_pls.png 626"
 626/texture = ExtResource( 1 )
@@ -8718,34 +9173,6 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 626/shape_one_way_margin = 0.0
 626/shapes = [  ]
 626/z_index = 0
-627/name = "tileset_pls.png 627"
-627/texture = ExtResource( 1 )
-627/tex_offset = Vector2( 0, 0 )
-627/modulate = Color( 1, 1, 1, 1 )
-627/region = Rect2( 416, 176, 16, 16 )
-627/tile_mode = 0
-627/occluder_offset = Vector2( 0, 0 )
-627/navigation_offset = Vector2( 0, 0 )
-627/shape_offset = Vector2( 0, 0 )
-627/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-627/shape_one_way = false
-627/shape_one_way_margin = 0.0
-627/shapes = [  ]
-627/z_index = 0
-628/name = "tileset_pls.png 628"
-628/texture = ExtResource( 1 )
-628/tex_offset = Vector2( 0, 0 )
-628/modulate = Color( 1, 1, 1, 1 )
-628/region = Rect2( 416, 192, 16, 16 )
-628/tile_mode = 0
-628/occluder_offset = Vector2( 0, 0 )
-628/navigation_offset = Vector2( 0, 0 )
-628/shape_offset = Vector2( 0, 0 )
-628/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-628/shape_one_way = false
-628/shape_one_way_margin = 0.0
-628/shapes = [  ]
-628/z_index = 0
 629/name = "tileset_pls.png 629"
 629/texture = ExtResource( 1 )
 629/tex_offset = Vector2( 0, 0 )
@@ -9012,35 +9439,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 647/shape_one_way_margin = 0.0
 647/shapes = [  ]
 647/z_index = 0
-648/name = "tileset_pls.png 648"
-648/texture = ExtResource( 1 )
-648/tex_offset = Vector2( 0, 0 )
-648/modulate = Color( 1, 1, 1, 1 )
-648/region = Rect2( 432, 176, 16, 16 )
-648/tile_mode = 0
-648/occluder_offset = Vector2( 0, 0 )
-648/navigation_offset = Vector2( 0, 0 )
-648/shape_offset = Vector2( 0, 0 )
-648/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-648/shape_one_way = false
-648/shape_one_way_margin = 0.0
-648/shapes = [  ]
-648/z_index = 0
-649/name = "tileset_pls.png 649"
-649/texture = ExtResource( 1 )
-649/tex_offset = Vector2( 0, 0 )
-649/modulate = Color( 1, 1, 1, 1 )
-649/region = Rect2( 432, 192, 16, 16 )
-649/tile_mode = 0
-649/occluder_offset = Vector2( 0, 0 )
-649/navigation_offset = Vector2( 0, 0 )
-649/shape_offset = Vector2( 0, 0 )
-649/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-649/shape_one_way = false
-649/shape_one_way_margin = 0.0
-649/shapes = [  ]
-649/z_index = 0
-650/name = "tileset_pls.png 650"
+650/name = "Lush Rock Right Edge Top"
 650/texture = ExtResource( 1 )
 650/tex_offset = Vector2( 0, 0 )
 650/modulate = Color( 1, 1, 1, 1 )
@@ -9050,11 +9449,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 650/navigation_offset = Vector2( 0, 0 )
 650/shape_offset = Vector2( 0, 0 )
 650/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+650/shape = SubResource( 122 )
 650/shape_one_way = false
-650/shape_one_way_margin = 0.0
-650/shapes = [  ]
+650/shape_one_way_margin = 1.0
+650/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 122 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 650/z_index = 0
-651/name = "tileset_pls.png 651"
+651/name = "Lush Rock Right Edge Middle "
 651/texture = ExtResource( 1 )
 651/tex_offset = Vector2( 0, 0 )
 651/modulate = Color( 1, 1, 1, 1 )
@@ -9064,11 +9470,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 651/navigation_offset = Vector2( 0, 0 )
 651/shape_offset = Vector2( 0, 0 )
 651/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+651/shape = SubResource( 123 )
 651/shape_one_way = false
-651/shape_one_way_margin = 0.0
-651/shapes = [  ]
+651/shape_one_way_margin = 1.0
+651/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 123 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 651/z_index = 0
-652/name = "tileset_pls.png 652"
+652/name = "Lush Rock Generic Right"
 652/texture = ExtResource( 1 )
 652/tex_offset = Vector2( 0, 0 )
 652/modulate = Color( 1, 1, 1, 1 )
@@ -9078,9 +9491,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 652/navigation_offset = Vector2( 0, 0 )
 652/shape_offset = Vector2( 0, 0 )
 652/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+652/shape = SubResource( 124 )
 652/shape_one_way = false
-652/shape_one_way_margin = 0.0
-652/shapes = [  ]
+652/shape_one_way_margin = 1.0
+652/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 124 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 652/z_index = 0
 653/name = "tileset_pls.png 653"
 653/texture = ExtResource( 1 )
@@ -9222,7 +9642,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 662/shape_one_way_margin = 0.0
 662/shapes = [  ]
 662/z_index = 0
-663/name = "tileset_pls.png 663"
+663/name = "Rock Slope Small 2 Right"
 663/texture = ExtResource( 1 )
 663/tex_offset = Vector2( 0, 0 )
 663/modulate = Color( 1, 1, 1, 1 )
@@ -9232,11 +9652,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 663/navigation_offset = Vector2( 0, 0 )
 663/shape_offset = Vector2( 0, 0 )
 663/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+663/shape = SubResource( 54 )
 663/shape_one_way = false
-663/shape_one_way_margin = 0.0
-663/shapes = [  ]
+663/shape_one_way_margin = 1.0
+663/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 54 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 663/z_index = 0
-664/name = "tileset_pls.png 664"
+664/name = "Rock Underground Bottom right 1"
 664/texture = ExtResource( 1 )
 664/tex_offset = Vector2( 0, 0 )
 664/modulate = Color( 1, 1, 1, 1 )
@@ -9246,11 +9673,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 664/navigation_offset = Vector2( 0, 0 )
 664/shape_offset = Vector2( 0, 0 )
 664/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+664/shape = SubResource( 40 )
 664/shape_one_way = false
-664/shape_one_way_margin = 0.0
-664/shapes = [  ]
+664/shape_one_way_margin = 1.0
+664/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 40 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 55 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 664/z_index = 0
-665/name = "tileset_pls.png 665"
+665/name = "Rock Underground Bottom right 3"
 665/texture = ExtResource( 1 )
 665/tex_offset = Vector2( 0, 0 )
 665/modulate = Color( 1, 1, 1, 1 )
@@ -9260,38 +9700,17 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 665/navigation_offset = Vector2( 0, 0 )
 665/shape_offset = Vector2( 0, 0 )
 665/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+665/shape = SubResource( 41 )
 665/shape_one_way = false
-665/shape_one_way_margin = 0.0
-665/shapes = [  ]
+665/shape_one_way_margin = 1.0
+665/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 41 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 665/z_index = 0
-666/name = "tileset_pls.png 666"
-666/texture = ExtResource( 1 )
-666/tex_offset = Vector2( 0, 0 )
-666/modulate = Color( 1, 1, 1, 1 )
-666/region = Rect2( 448, 176, 16, 16 )
-666/tile_mode = 0
-666/occluder_offset = Vector2( 0, 0 )
-666/navigation_offset = Vector2( 0, 0 )
-666/shape_offset = Vector2( 0, 0 )
-666/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-666/shape_one_way = false
-666/shape_one_way_margin = 0.0
-666/shapes = [  ]
-666/z_index = 0
-667/name = "tileset_pls.png 667"
-667/texture = ExtResource( 1 )
-667/tex_offset = Vector2( 0, 0 )
-667/modulate = Color( 1, 1, 1, 1 )
-667/region = Rect2( 448, 192, 16, 16 )
-667/tile_mode = 0
-667/occluder_offset = Vector2( 0, 0 )
-667/navigation_offset = Vector2( 0, 0 )
-667/shape_offset = Vector2( 0, 0 )
-667/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-667/shape_one_way = false
-667/shape_one_way_margin = 0.0
-667/shapes = [  ]
-667/z_index = 0
 668/name = "tileset_pls.png 668"
 668/texture = ExtResource( 1 )
 668/tex_offset = Vector2( 0, 0 )
@@ -9558,7 +9977,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 686/shape_one_way_margin = 0.0
 686/shapes = [  ]
 686/z_index = 0
-687/name = "tileset_pls.png 687"
+687/name = "Rock Slope Medium 2 Right"
 687/texture = ExtResource( 1 )
 687/tex_offset = Vector2( 0, 0 )
 687/modulate = Color( 1, 1, 1, 1 )
@@ -9568,11 +9987,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 687/navigation_offset = Vector2( 0, 0 )
 687/shape_offset = Vector2( 0, 0 )
 687/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+687/shape = SubResource( 56 )
 687/shape_one_way = false
-687/shape_one_way_margin = 0.0
-687/shapes = [  ]
+687/shape_one_way_margin = 1.0
+687/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 56 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 687/z_index = 0
-688/name = "tileset_pls.png 688"
+688/name = "Rock Underground Bottom right 2"
 688/texture = ExtResource( 1 )
 688/tex_offset = Vector2( 0, 0 )
 688/modulate = Color( 1, 1, 1, 1 )
@@ -9582,9 +10008,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 688/navigation_offset = Vector2( 0, 0 )
 688/shape_offset = Vector2( 0, 0 )
 688/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+688/shape = SubResource( 42 )
 688/shape_one_way = false
-688/shape_one_way_margin = 0.0
-688/shapes = [  ]
+688/shape_one_way_margin = 1.0
+688/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 42 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 688/z_index = 0
 689/name = "tileset_pls.png 689"
 689/texture = ExtResource( 1 )
@@ -9726,7 +10159,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 698/shape_one_way_margin = 0.0
 698/shapes = [  ]
 698/z_index = 0
-699/name = "tileset_pls.png 699"
+699/name = "Rock Underground Plant 4 Right"
 699/texture = ExtResource( 1 )
 699/tex_offset = Vector2( 0, 0 )
 699/modulate = Color( 1, 1, 1, 1 )
@@ -9736,11 +10169,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 699/navigation_offset = Vector2( 0, 0 )
 699/shape_offset = Vector2( 0, 0 )
 699/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+699/shape = SubResource( 125 )
 699/shape_one_way = false
-699/shape_one_way_margin = 0.0
-699/shapes = [  ]
+699/shape_one_way_margin = 1.0
+699/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 125 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 699/z_index = 0
-700/name = "tileset_pls.png 700"
+700/name = "Rock Underground Plant 5 Right"
 700/texture = ExtResource( 1 )
 700/tex_offset = Vector2( 0, 0 )
 700/modulate = Color( 1, 1, 1, 1 )
@@ -9750,11 +10190,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 700/navigation_offset = Vector2( 0, 0 )
 700/shape_offset = Vector2( 0, 0 )
 700/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+700/shape = SubResource( 126 )
 700/shape_one_way = false
-700/shape_one_way_margin = 0.0
-700/shapes = [  ]
+700/shape_one_way_margin = 1.0
+700/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 126 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 700/z_index = 0
-701/name = "tileset_pls.png 701"
+701/name = "Rock Underground Plant 6 Right"
 701/texture = ExtResource( 1 )
 701/tex_offset = Vector2( 0, 0 )
 701/modulate = Color( 1, 1, 1, 1 )
@@ -9764,11 +10211,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 701/navigation_offset = Vector2( 0, 0 )
 701/shape_offset = Vector2( 0, 0 )
 701/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+701/shape = SubResource( 127 )
 701/shape_one_way = false
-701/shape_one_way_margin = 0.0
-701/shapes = [  ]
+701/shape_one_way_margin = 1.0
+701/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 127 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 701/z_index = 0
-702/name = "tileset_pls.png 702"
+702/name = "Rock Underground Plant 7 Right"
 702/texture = ExtResource( 1 )
 702/tex_offset = Vector2( 0, 0 )
 702/modulate = Color( 1, 1, 1, 1 )
@@ -9778,11 +10232,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 702/navigation_offset = Vector2( 0, 0 )
 702/shape_offset = Vector2( 0, 0 )
 702/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+702/shape = SubResource( 128 )
 702/shape_one_way = false
-702/shape_one_way_margin = 0.0
-702/shapes = [  ]
+702/shape_one_way_margin = 1.0
+702/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 128 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 129 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 702/z_index = 0
-703/name = "tileset_pls.png 703"
+703/name = "Rock Underground Plant 8 Right"
 703/texture = ExtResource( 1 )
 703/tex_offset = Vector2( 0, 0 )
 703/modulate = Color( 1, 1, 1, 1 )
@@ -9792,11 +10259,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 703/navigation_offset = Vector2( 0, 0 )
 703/shape_offset = Vector2( 0, 0 )
 703/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+703/shape = SubResource( 130 )
 703/shape_one_way = false
-703/shape_one_way_margin = 0.0
-703/shapes = [  ]
+703/shape_one_way_margin = 1.0
+703/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 130 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 703/z_index = 0
-704/name = "tileset_pls.png 704"
+704/name = "Rock Underground Plant 9 Right"
 704/texture = ExtResource( 1 )
 704/tex_offset = Vector2( 0, 0 )
 704/modulate = Color( 1, 1, 1, 1 )
@@ -9806,9 +10280,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 704/navigation_offset = Vector2( 0, 0 )
 704/shape_offset = Vector2( 0, 0 )
 704/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+704/shape = SubResource( 131 )
 704/shape_one_way = false
-704/shape_one_way_margin = 0.0
-704/shapes = [  ]
+704/shape_one_way_margin = 1.0
+704/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 131 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 704/z_index = 0
 705/name = "tileset_pls.png 705"
 705/texture = ExtResource( 1 )
@@ -9978,7 +10459,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 716/shape_one_way_margin = 0.0
 716/shapes = [  ]
 716/z_index = 0
-717/name = "tileset_pls.png 717"
+717/name = "Rock Steep Slope Right"
 717/texture = ExtResource( 1 )
 717/tex_offset = Vector2( 0, 0 )
 717/modulate = Color( 1, 1, 1, 1 )
@@ -9992,7 +10473,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 717/shape_one_way_margin = 0.0
 717/shapes = [  ]
 717/z_index = 0
-718/name = "tileset_pls.png 718"
+718/name = "Slope Deep Rock Right"
 718/texture = ExtResource( 1 )
 718/tex_offset = Vector2( 0, 0 )
 718/modulate = Color( 1, 1, 1, 1 )
@@ -10006,7 +10487,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 718/shape_one_way_margin = 0.0
 718/shapes = [  ]
 718/z_index = 0
-719/name = "tileset_pls.png 719"
+719/name = "Rock Underground Plant 3 Right"
 719/texture = ExtResource( 1 )
 719/tex_offset = Vector2( 0, 0 )
 719/modulate = Color( 1, 1, 1, 1 )
@@ -10016,11 +10497,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 719/navigation_offset = Vector2( 0, 0 )
 719/shape_offset = Vector2( 0, 0 )
 719/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+719/shape = SubResource( 132 )
 719/shape_one_way = false
-719/shape_one_way_margin = 0.0
-719/shapes = [  ]
+719/shape_one_way_margin = 1.0
+719/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 132 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 719/z_index = 0
-720/name = "tileset_pls.png 720"
+720/name = "Rock Side Corner Right"
 720/texture = ExtResource( 1 )
 720/tex_offset = Vector2( 0, 0 )
 720/modulate = Color( 1, 1, 1, 1 )
@@ -10030,11 +10518,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 720/navigation_offset = Vector2( 0, 0 )
 720/shape_offset = Vector2( 0, 0 )
 720/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+720/shape = SubResource( 133 )
 720/shape_one_way = false
-720/shape_one_way_margin = 0.0
-720/shapes = [  ]
+720/shape_one_way_margin = 1.0
+720/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 133 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 720/z_index = 0
-721/name = "tileset_pls.png 721"
+721/name = "Rock Side Right 3"
 721/texture = ExtResource( 1 )
 721/tex_offset = Vector2( 0, 0 )
 721/modulate = Color( 1, 1, 1, 1 )
@@ -10044,11 +10539,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 721/navigation_offset = Vector2( 0, 0 )
 721/shape_offset = Vector2( 0, 0 )
 721/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+721/shape = SubResource( 134 )
 721/shape_one_way = false
-721/shape_one_way_margin = 0.0
-721/shapes = [  ]
+721/shape_one_way_margin = 1.0
+721/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 134 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 721/z_index = 0
-722/name = "tileset_pls.png 722"
+722/name = "Rock Side Right 4"
 722/texture = ExtResource( 1 )
 722/tex_offset = Vector2( 0, 0 )
 722/modulate = Color( 1, 1, 1, 1 )
@@ -10058,25 +10560,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 722/navigation_offset = Vector2( 0, 0 )
 722/shape_offset = Vector2( 0, 0 )
 722/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+722/shape = SubResource( 135 )
 722/shape_one_way = false
-722/shape_one_way_margin = 0.0
-722/shapes = [  ]
+722/shape_one_way_margin = 1.0
+722/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 135 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 722/z_index = 0
-723/name = "tileset_pls.png 723"
-723/texture = ExtResource( 1 )
-723/tex_offset = Vector2( 0, 0 )
-723/modulate = Color( 1, 1, 1, 1 )
-723/region = Rect2( 496, 240, 16, 16 )
-723/tile_mode = 0
-723/occluder_offset = Vector2( 0, 0 )
-723/navigation_offset = Vector2( 0, 0 )
-723/shape_offset = Vector2( 0, 0 )
-723/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-723/shape_one_way = false
-723/shape_one_way_margin = 0.0
-723/shapes = [  ]
-723/z_index = 0
-724/name = "tileset_pls.png 724"
+724/name = "Rock Side Right 6"
 724/texture = ExtResource( 1 )
 724/tex_offset = Vector2( 0, 0 )
 724/modulate = Color( 1, 1, 1, 1 )
@@ -10086,11 +10581,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 724/navigation_offset = Vector2( 0, 0 )
 724/shape_offset = Vector2( 0, 0 )
 724/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+724/shape = SubResource( 136 )
 724/shape_one_way = false
-724/shape_one_way_margin = 0.0
-724/shapes = [  ]
+724/shape_one_way_margin = 1.0
+724/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 136 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 724/z_index = 0
-725/name = "tileset_pls.png 725"
+725/name = "Rock Side Right 7"
 725/texture = ExtResource( 1 )
 725/tex_offset = Vector2( 0, 0 )
 725/modulate = Color( 1, 1, 1, 1 )
@@ -10100,11 +10602,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 725/navigation_offset = Vector2( 0, 0 )
 725/shape_offset = Vector2( 0, 0 )
 725/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+725/shape = SubResource( 137 )
 725/shape_one_way = false
-725/shape_one_way_margin = 0.0
-725/shapes = [  ]
+725/shape_one_way_margin = 1.0
+725/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 137 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 725/z_index = 0
-726/name = "tileset_pls.png 726"
+726/name = "Rock Generic Right"
 726/texture = ExtResource( 1 )
 726/tex_offset = Vector2( 0, 0 )
 726/modulate = Color( 1, 1, 1, 1 )
@@ -10114,9 +10623,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 726/navigation_offset = Vector2( 0, 0 )
 726/shape_offset = Vector2( 0, 0 )
 726/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+726/shape = SubResource( 138 )
 726/shape_one_way = false
-726/shape_one_way_margin = 0.0
-726/shapes = [  ]
+726/shape_one_way_margin = 1.0
+726/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 138 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 726/z_index = 0
 727/name = "tileset_pls.png 727"
 727/texture = ExtResource( 1 )
@@ -10482,7 +10998,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 752/shape_one_way_margin = 0.0
 752/shapes = [  ]
 752/z_index = 0
-753/name = "tileset_pls.png 753"
+753/name = "Rock Curve Top Right"
 753/texture = ExtResource( 1 )
 753/tex_offset = Vector2( 0, 0 )
 753/modulate = Color( 1, 1, 1, 1 )
@@ -10492,11 +11008,24 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 753/navigation_offset = Vector2( 0, 0 )
 753/shape_offset = Vector2( 0, 0 )
 753/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+753/shape = SubResource( 60 )
 753/shape_one_way = false
-753/shape_one_way_margin = 0.0
-753/shapes = [  ]
+753/shape_one_way_margin = 1.0
+753/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 60 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 139 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 753/z_index = 0
-754/name = "tileset_pls.png 754"
+754/name = "Rock Curve Deep Top Right"
 754/texture = ExtResource( 1 )
 754/tex_offset = Vector2( 0, 0 )
 754/modulate = Color( 1, 1, 1, 1 )
@@ -10506,11 +11035,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 754/navigation_offset = Vector2( 0, 0 )
 754/shape_offset = Vector2( 0, 0 )
 754/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+754/shape = SubResource( 61 )
 754/shape_one_way = false
-754/shape_one_way_margin = 0.0
-754/shapes = [  ]
+754/shape_one_way_margin = 1.0
+754/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 61 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 754/z_index = 0
-755/name = "tileset_pls.png 755"
+755/name = "Rock Underground Plant 1 Right"
 755/texture = ExtResource( 1 )
 755/tex_offset = Vector2( 0, 0 )
 755/modulate = Color( 1, 1, 1, 1 )
@@ -10520,11 +11056,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 755/navigation_offset = Vector2( 0, 0 )
 755/shape_offset = Vector2( 0, 0 )
 755/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+755/shape = SubResource( 140 )
 755/shape_one_way = false
-755/shape_one_way_margin = 0.0
-755/shapes = [  ]
+755/shape_one_way_margin = 1.0
+755/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 140 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 755/z_index = 0
-756/name = "tileset_pls.png 756"
+756/name = "Rock Underground Plant 2 Right"
 756/texture = ExtResource( 1 )
 756/tex_offset = Vector2( 0, 0 )
 756/modulate = Color( 1, 1, 1, 1 )
@@ -10534,11 +11077,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 756/navigation_offset = Vector2( 0, 0 )
 756/shape_offset = Vector2( 0, 0 )
 756/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+756/shape = SubResource( 141 )
 756/shape_one_way = false
-756/shape_one_way_margin = 0.0
-756/shapes = [  ]
+756/shape_one_way_margin = 1.0
+756/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 141 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 756/z_index = 0
-757/name = "tileset_pls.png 757"
+757/name = "Rock Underground Plant 4"
 757/texture = ExtResource( 1 )
 757/tex_offset = Vector2( 0, 0 )
 757/modulate = Color( 1, 1, 1, 1 )
@@ -10548,24 +11098,17 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 757/navigation_offset = Vector2( 0, 0 )
 757/shape_offset = Vector2( 0, 0 )
 757/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+757/shape = SubResource( 142 )
 757/shape_one_way = false
-757/shape_one_way_margin = 0.0
-757/shapes = [  ]
+757/shape_one_way_margin = 1.0
+757/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 142 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 757/z_index = 0
-758/name = "tileset_pls.png 758"
-758/texture = ExtResource( 1 )
-758/tex_offset = Vector2( 0, 0 )
-758/modulate = Color( 1, 1, 1, 1 )
-758/region = Rect2( 512, 240, 16, 16 )
-758/tile_mode = 0
-758/occluder_offset = Vector2( 0, 0 )
-758/navigation_offset = Vector2( 0, 0 )
-758/shape_offset = Vector2( 0, 0 )
-758/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-758/shape_one_way = false
-758/shape_one_way_margin = 0.0
-758/shapes = [  ]
-758/z_index = 0
 759/name = "tileset_pls.png 759"
 759/texture = ExtResource( 1 )
 759/tex_offset = Vector2( 0, 0 )
@@ -10734,7 +11277,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 770/shape_one_way_margin = 0.0
 770/shapes = [  ]
 770/z_index = 0
-771/name = "tileset_pls.png 771"
+771/name = "Rock Small Slope Right 1"
 771/texture = ExtResource( 1 )
 771/tex_offset = Vector2( 0, 0 )
 771/modulate = Color( 1, 1, 1, 1 )
@@ -10748,7 +11291,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 771/shape_one_way_margin = 0.0
 771/shapes = [  ]
 771/z_index = 0
-772/name = "tileset_pls.png 772"
+772/name = "Deep Rock 3 Right"
 772/texture = ExtResource( 1 )
 772/tex_offset = Vector2( 0, 0 )
 772/modulate = Color( 1, 1, 1, 1 )
@@ -10762,7 +11305,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 772/shape_one_way_margin = 0.0
 772/shapes = [  ]
 772/z_index = 0
-773/name = "tileset_pls.png 773"
+773/name = "Rock Weak Curve Top Right"
 773/texture = ExtResource( 1 )
 773/tex_offset = Vector2( 0, 0 )
 773/modulate = Color( 1, 1, 1, 1 )
@@ -10772,11 +11315,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 773/navigation_offset = Vector2( 0, 0 )
 773/shape_offset = Vector2( 0, 0 )
 773/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+773/shape = SubResource( 62 )
 773/shape_one_way = false
-773/shape_one_way_margin = 0.0
-773/shapes = [  ]
+773/shape_one_way_margin = 1.0
+773/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 62 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 773/z_index = 0
-774/name = "tileset_pls.png 774"
+774/name = "Rock Side Right 1"
 774/texture = ExtResource( 1 )
 774/tex_offset = Vector2( 0, 0 )
 774/modulate = Color( 1, 1, 1, 1 )
@@ -10786,25 +11336,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 774/navigation_offset = Vector2( 0, 0 )
 774/shape_offset = Vector2( 0, 0 )
 774/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+774/shape = SubResource( 143 )
 774/shape_one_way = false
-774/shape_one_way_margin = 0.0
-774/shapes = [  ]
+774/shape_one_way_margin = 1.0
+774/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 143 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 774/z_index = 0
-775/name = "tileset_pls.png 775"
-775/texture = ExtResource( 1 )
-775/tex_offset = Vector2( 0, 0 )
-775/modulate = Color( 1, 1, 1, 1 )
-775/region = Rect2( 528, 176, 16, 16 )
-775/tile_mode = 0
-775/occluder_offset = Vector2( 0, 0 )
-775/navigation_offset = Vector2( 0, 0 )
-775/shape_offset = Vector2( 0, 0 )
-775/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-775/shape_one_way = false
-775/shape_one_way_margin = 0.0
-775/shapes = [  ]
-775/z_index = 0
-776/name = "tileset_pls.png 776"
+776/name = "Rock Side Slope Right"
 776/texture = ExtResource( 1 )
 776/tex_offset = Vector2( 0, 0 )
 776/modulate = Color( 1, 1, 1, 1 )
@@ -10818,7 +11361,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 776/shape_one_way_margin = 0.0
 776/shapes = [  ]
 776/z_index = 0
-777/name = "tileset_pls.png 777"
+777/name = "Rock Curve Deep Bottom Right"
 777/texture = ExtResource( 1 )
 777/tex_offset = Vector2( 0, 0 )
 777/modulate = Color( 1, 1, 1, 1 )
@@ -10828,11 +11371,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 777/navigation_offset = Vector2( 0, 0 )
 777/shape_offset = Vector2( 0, 0 )
 777/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+777/shape = SubResource( 144 )
 777/shape_one_way = false
-777/shape_one_way_margin = 0.0
-777/shapes = [  ]
+777/shape_one_way_margin = 1.0
+777/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 144 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 777/z_index = 0
-778/name = "tileset_pls.png 778"
+778/name = "Rock Curve Bottom Right"
 778/texture = ExtResource( 1 )
 778/tex_offset = Vector2( 0, 0 )
 778/modulate = Color( 1, 1, 1, 1 )
@@ -10842,9 +11392,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 778/navigation_offset = Vector2( 0, 0 )
 778/shape_offset = Vector2( 0, 0 )
 778/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+778/shape = SubResource( 145 )
 778/shape_one_way = false
-778/shape_one_way_margin = 0.0
-778/shapes = [  ]
+778/shape_one_way_margin = 1.0
+778/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 145 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 778/z_index = 0
 779/name = "tileset_pls.png 779"
 779/texture = ExtResource( 1 )
@@ -11154,7 +11711,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 800/shape_one_way_margin = 0.0
 800/shapes = [  ]
 800/z_index = 0
-801/name = "tileset_pls.png 801"
+801/name = "Rock Halfslab Right"
 801/texture = ExtResource( 1 )
 801/tex_offset = Vector2( 0, 0 )
 801/modulate = Color( 1, 1, 1, 1 )
@@ -11168,7 +11725,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 801/shape_one_way_margin = 0.0
 801/shapes = [  ]
 801/z_index = 0
-802/name = "tileset_pls.png 802"
+802/name = "Deep Rock 2 Right"
 802/texture = ExtResource( 1 )
 802/tex_offset = Vector2( 0, 0 )
 802/modulate = Color( 1, 1, 1, 1 )
@@ -11182,21 +11739,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 802/shape_one_way_margin = 0.0
 802/shapes = [  ]
 802/z_index = 0
-803/name = "tileset_pls.png 803"
-803/texture = ExtResource( 1 )
-803/tex_offset = Vector2( 0, 0 )
-803/modulate = Color( 1, 1, 1, 1 )
-803/region = Rect2( 544, 176, 16, 16 )
-803/tile_mode = 0
-803/occluder_offset = Vector2( 0, 0 )
-803/navigation_offset = Vector2( 0, 0 )
-803/shape_offset = Vector2( 0, 0 )
-803/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-803/shape_one_way = false
-803/shape_one_way_margin = 0.0
-803/shapes = [  ]
-803/z_index = 0
-804/name = "tileset_pls.png 804"
+804/name = "Rock Weak Curve Bottom Right"
 804/texture = ExtResource( 1 )
 804/tex_offset = Vector2( 0, 0 )
 804/modulate = Color( 1, 1, 1, 1 )
@@ -11206,9 +11749,16 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 804/navigation_offset = Vector2( 0, 0 )
 804/shape_offset = Vector2( 0, 0 )
 804/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+804/shape = SubResource( 146 )
 804/shape_one_way = false
-804/shape_one_way_margin = 0.0
-804/shapes = [  ]
+804/shape_one_way_margin = 1.0
+804/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 146 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 804/z_index = 0
 805/name = "tileset_pls.png 805"
 805/texture = ExtResource( 1 )
@@ -11420,7 +11970,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 819/shape_one_way_margin = 0.0
 819/shapes = [  ]
 819/z_index = 0
-820/name = "tileset_pls.png 820"
+820/name = "Deep Rock 1 Right"
 820/texture = ExtResource( 1 )
 820/tex_offset = Vector2( 0, 0 )
 820/modulate = Color( 1, 1, 1, 1 )
@@ -11574,7 +12124,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 830/shape_one_way_margin = 0.0
 830/shapes = [  ]
 830/z_index = 0
-831/name = "Rock Slope"
+831/name = "Rock Slope Right"
 831/texture = ExtResource( 1 )
 831/tex_offset = Vector2( 0, 0 )
 831/modulate = Color( 1, 1, 1, 1 )
@@ -11584,14 +12134,14 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 831/navigation_offset = Vector2( 0, 0 )
 831/shape_offset = Vector2( 0, 0 )
 831/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-831/shape = SubResource( 2 )
+831/shape = SubResource( 65 )
 831/shape_one_way = false
 831/shape_one_way_margin = 1.0
 831/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 2 ),
+"shape": SubResource( 65 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 831/z_index = 0
@@ -11665,7 +12215,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 836/shape_one_way_margin = 0.0
 836/shapes = [  ]
 836/z_index = 0
-837/name = "tileset_pls.png 837"
+837/name = "Rock Left Spike 1"
 837/texture = ExtResource( 1 )
 837/tex_offset = Vector2( 0, 0 )
 837/modulate = Color( 1, 1, 1, 1 )
@@ -11675,11 +12225,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 837/navigation_offset = Vector2( 0, 0 )
 837/shape_offset = Vector2( 0, 0 )
 837/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+837/shape = SubResource( 66 )
 837/shape_one_way = false
-837/shape_one_way_margin = 0.0
-837/shapes = [  ]
+837/shape_one_way_margin = 1.0
+837/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 66 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 837/z_index = 0
-838/name = "tileset_pls.png 838"
+838/name = "Rock Left Spike 2"
 838/texture = ExtResource( 1 )
 838/tex_offset = Vector2( 0, 0 )
 838/modulate = Color( 1, 1, 1, 1 )
@@ -11749,7 +12306,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 842/shape_one_way_margin = 0.0
 842/shapes = [  ]
 842/z_index = 0
-843/name = "Spike 1"
+843/name = "Rock Up Spike 1"
 843/texture = ExtResource( 1 )
 843/tex_offset = Vector2( 0, 0 )
 843/modulate = Color( 1, 1, 1, 1 )
@@ -11770,7 +12327,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 843/z_index = 0
-844/name = "tileset_pls.png 844"
+844/name = "Rock Down Spike 1"
 844/texture = ExtResource( 1 )
 844/tex_offset = Vector2( 0, 0 )
 844/modulate = Color( 1, 1, 1, 1 )
@@ -11840,7 +12397,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 848/shape_one_way_margin = 0.0
 848/shapes = [  ]
 848/z_index = 0
-849/name = "Spike 2"
+849/name = "Rock Up Spike 2"
 849/texture = ExtResource( 1 )
 849/tex_offset = Vector2( 0, 0 )
 849/modulate = Color( 1, 1, 1, 1 )
@@ -11850,18 +12407,18 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 849/navigation_offset = Vector2( 0, 0 )
 849/shape_offset = Vector2( 0, 0 )
 849/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-849/shape = SubResource( 4 )
+849/shape = SubResource( 67 )
 849/shape_one_way = false
 849/shape_one_way_margin = 1.0
 849/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 4 ),
+"shape": SubResource( 67 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 849/z_index = 0
-850/name = "tileset_pls.png 850"
+850/name = "Rock Down Spike 2"
 850/texture = ExtResource( 1 )
 850/tex_offset = Vector2( 0, 0 )
 850/modulate = Color( 1, 1, 1, 1 )
@@ -11931,7 +12488,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 854/shape_one_way_margin = 0.0
 854/shapes = [  ]
 854/z_index = 0
-855/name = "tileset_pls.png 855"
+855/name = "Rock Right Spike 1"
 855/texture = ExtResource( 1 )
 855/tex_offset = Vector2( 0, 0 )
 855/modulate = Color( 1, 1, 1, 1 )
@@ -11945,7 +12502,7 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 855/shape_one_way_margin = 0.0
 855/shapes = [  ]
 855/z_index = 0
-856/name = "tileset_pls.png 856"
+856/name = "Rock Right Spike 2"
 856/texture = ExtResource( 1 )
 856/tex_offset = Vector2( 0, 0 )
 856/modulate = Color( 1, 1, 1, 1 )
@@ -23145,3 +23702,469 @@ points = PoolVector2Array( 0, 0, 0, 0, 16, 16, 0, 16 )
 1664/shape_one_way_margin = 0.0
 1664/shapes = [  ]
 1664/z_index = 0
+1665/name = "Small Rocks"
+1665/texture = ExtResource( 1 )
+1665/tex_offset = Vector2( 0, 0 )
+1665/modulate = Color( 1, 1, 1, 1 )
+1665/region = Rect2( 240, 16, 160, 16 )
+1665/tile_mode = 2
+1665/autotile/icon_coordinate = Vector2( 0, 0 )
+1665/autotile/tile_size = Vector2( 16, 16 )
+1665/autotile/spacing = 0
+1665/autotile/occluder_map = [  ]
+1665/autotile/navpoly_map = [  ]
+1665/autotile/priority_map = [  ]
+1665/autotile/z_index_map = [  ]
+1665/occluder_offset = Vector2( 0, 0 )
+1665/navigation_offset = Vector2( 0, 0 )
+1665/shape_offset = Vector2( 0, 0 )
+1665/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1665/shape_one_way = false
+1665/shape_one_way_margin = 0.0
+1665/shapes = [  ]
+1665/z_index = 0
+1666/name = "Rock Slope"
+1666/texture = ExtResource( 1 )
+1666/tex_offset = Vector2( 0, 0 )
+1666/modulate = Color( 1, 1, 1, 1 )
+1666/region = Rect2( 0, 0, 16, 16 )
+1666/tile_mode = 0
+1666/occluder_offset = Vector2( 0, 0 )
+1666/navigation_offset = Vector2( 0, 0 )
+1666/shape_offset = Vector2( 0, 0 )
+1666/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1666/shape_one_way = false
+1666/shape_one_way_margin = 0.0
+1666/shapes = [  ]
+1666/z_index = 0
+1667/name = "WorldTiles.png 1667"
+1667/texture = ExtResource( 1 )
+1667/tex_offset = Vector2( 0, 0 )
+1667/modulate = Color( 1, 1, 1, 1 )
+1667/region = Rect2( 768, 16, 64, 16 )
+1667/tile_mode = 0
+1667/occluder_offset = Vector2( 0, 0 )
+1667/navigation_offset = Vector2( 0, 0 )
+1667/shape_offset = Vector2( 0, 0 )
+1667/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1667/shape_one_way = false
+1667/shape_one_way_margin = 0.0
+1667/shapes = [  ]
+1667/z_index = 0
+1676/name = "Rock Ground 11"
+1676/texture = ExtResource( 1 )
+1676/tex_offset = Vector2( 0, 0 )
+1676/modulate = Color( 1, 1, 1, 1 )
+1676/region = Rect2( 384, 64, 16, 16 )
+1676/tile_mode = 0
+1676/occluder_offset = Vector2( 0, 0 )
+1676/navigation_offset = Vector2( 0, 0 )
+1676/shape_offset = Vector2( 0, 0 )
+1676/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1676/shape = SubResource( 16 )
+1676/shape_one_way = false
+1676/shape_one_way_margin = 1.0
+1676/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 16 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1676/z_index = 0
+1681/name = "Rock Underground 12"
+1681/texture = ExtResource( 1 )
+1681/tex_offset = Vector2( 0, 0 )
+1681/modulate = Color( 1, 1, 1, 1 )
+1681/region = Rect2( 384, 80, 16, 16 )
+1681/tile_mode = 0
+1681/occluder_offset = Vector2( 0, 0 )
+1681/navigation_offset = Vector2( 0, 0 )
+1681/shape_offset = Vector2( 0, 0 )
+1681/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1681/shape = SubResource( 18 )
+1681/shape_one_way = false
+1681/shape_one_way_margin = 1.0
+1681/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 18 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1681/z_index = 0
+1686/name = "Ground Rock 2"
+1686/texture = ExtResource( 1 )
+1686/tex_offset = Vector2( 0, 0 )
+1686/modulate = Color( 1, 1, 1, 1 )
+1686/region = Rect2( 224, 64, 16, 16 )
+1686/tile_mode = 0
+1686/occluder_offset = Vector2( 0, 0 )
+1686/navigation_offset = Vector2( 0, 0 )
+1686/shape_offset = Vector2( 0, 0 )
+1686/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1686/shape_one_way = false
+1686/shape_one_way_margin = 0.0
+1686/shapes = [  ]
+1686/z_index = 0
+1687/name = "Rock Ground 1"
+1687/texture = ExtResource( 1 )
+1687/tex_offset = Vector2( 0, 0 )
+1687/modulate = Color( 1, 1, 1, 1 )
+1687/region = Rect2( 208, 64, 16, 16 )
+1687/tile_mode = 0
+1687/occluder_offset = Vector2( 0, 0 )
+1687/navigation_offset = Vector2( 0, 0 )
+1687/shape_offset = Vector2( 0, 0 )
+1687/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1687/shape_one_way = false
+1687/shape_one_way_margin = 0.0
+1687/shapes = [  ]
+1687/z_index = 0
+1688/name = "Rock 2 Wide"
+1688/texture = ExtResource( 1 )
+1688/tex_offset = Vector2( 0, 0 )
+1688/modulate = Color( 1, 1, 1, 1 )
+1688/region = Rect2( 208, 48, 32, 16 )
+1688/tile_mode = 0
+1688/occluder_offset = Vector2( 0, 0 )
+1688/navigation_offset = Vector2( 0, 0 )
+1688/shape_offset = Vector2( 0, 0 )
+1688/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1688/shape_one_way = false
+1688/shape_one_way_margin = 0.0
+1688/shapes = [  ]
+1688/z_index = 0
+1689/name = "Rock Ground Edge Top Left"
+1689/texture = ExtResource( 1 )
+1689/tex_offset = Vector2( 0, 0 )
+1689/modulate = Color( 1, 1, 1, 1 )
+1689/region = Rect2( 176, 64, 16, 16 )
+1689/tile_mode = 0
+1689/occluder_offset = Vector2( 0, 0 )
+1689/navigation_offset = Vector2( 0, 0 )
+1689/shape_offset = Vector2( 0, 0 )
+1689/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1689/shape = SubResource( 48 )
+1689/shape_one_way = false
+1689/shape_one_way_margin = 1.0
+1689/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 48 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1689/z_index = 0
+1690/name = "Rock Floor Autotile"
+1690/texture = ExtResource( 1 )
+1690/tex_offset = Vector2( 0, 0 )
+1690/modulate = Color( 1, 1, 1, 1 )
+1690/region = Rect2( 128, 64, 352, 32 )
+1690/tile_mode = 1
+1690/autotile/bitmask_mode = 1
+1690/autotile/bitmask_flags = [ Vector2( 0, 0 ), 63, Vector2( 1, 0 ), 63, Vector2( 3, 0 ), 432, Vector2( 3, 1 ), 438, Vector2( 5, 0 ), 504, Vector2( 5, 1 ), 511, Vector2( 6, 0 ), 504, Vector2( 6, 1 ), 511, Vector2( 7, 0 ), 504, Vector2( 7, 1 ), 511, Vector2( 8, 0 ), 504, Vector2( 8, 1 ), 511, Vector2( 9, 0 ), 504, Vector2( 9, 1 ), 511, Vector2( 10, 0 ), 504, Vector2( 10, 1 ), 511, Vector2( 11, 0 ), 504, Vector2( 11, 1 ), 511, Vector2( 12, 0 ), 504, Vector2( 12, 1 ), 511, Vector2( 13, 0 ), 504, Vector2( 13, 1 ), 511, Vector2( 14, 0 ), 504, Vector2( 14, 1 ), 511, Vector2( 15, 0 ), 504, Vector2( 15, 1 ), 511, Vector2( 16, 0 ), 504, Vector2( 16, 1 ), 511, Vector2( 18, 0 ), 216, Vector2( 18, 1 ), 219, Vector2( 20, 0 ), 63, Vector2( 21, 0 ), 63 ]
+1690/autotile/icon_coordinate = Vector2( 0, 0 )
+1690/autotile/tile_size = Vector2( 16, 16 )
+1690/autotile/spacing = 0
+1690/autotile/occluder_map = [  ]
+1690/autotile/navpoly_map = [  ]
+1690/autotile/priority_map = [  ]
+1690/autotile/z_index_map = [  ]
+1690/occluder_offset = Vector2( 0, 0 )
+1690/navigation_offset = Vector2( 0, 0 )
+1690/shape_offset = Vector2( 0, 0 )
+1690/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1690/shape_one_way = false
+1690/shape_one_way_margin = 0.0
+1690/shapes = [  ]
+1690/z_index = 0
+1691/name = "Rock Side Right 2"
+1691/texture = ExtResource( 1 )
+1691/tex_offset = Vector2( 0, 0 )
+1691/modulate = Color( 1, 1, 1, 1 )
+1691/region = Rect2( 528, 176, 20, 16 )
+1691/tile_mode = 0
+1691/occluder_offset = Vector2( 0, 0 )
+1691/navigation_offset = Vector2( 0, 0 )
+1691/shape_offset = Vector2( 0, 0 )
+1691/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1691/shape_one_way = false
+1691/shape_one_way_margin = 0.0
+1691/shapes = [  ]
+1691/z_index = 0
+1692/name = "Rock Side Right 5"
+1692/texture = ExtResource( 1 )
+1692/tex_offset = Vector2( 0, 0 )
+1692/modulate = Color( 1, 1, 1, 1 )
+1692/region = Rect2( 496, 240, 32, 16 )
+1692/tile_mode = 0
+1692/occluder_offset = Vector2( 0, 0 )
+1692/navigation_offset = Vector2( 0, 0 )
+1692/shape_offset = Vector2( 0, 0 )
+1692/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1692/shape = SubResource( 83 )
+1692/shape_one_way = false
+1692/shape_one_way_margin = 1.0
+1692/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 83 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1692/z_index = 0
+1693/name = "Rock Side Left 2"
+1693/texture = ExtResource( 1 )
+1693/tex_offset = Vector2( 0, 0 )
+1693/modulate = Color( 1, 1, 1, 1 )
+1693/region = Rect2( 76, 176, 20, 16 )
+1693/tile_mode = 0
+1693/occluder_offset = Vector2( 0, 0 )
+1693/navigation_offset = Vector2( 0, 0 )
+1693/shape_offset = Vector2( 0, 0 )
+1693/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1693/shape = SubResource( 84 )
+1693/shape_one_way = false
+1693/shape_one_way_margin = 1.0
+1693/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 84 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1693/z_index = 0
+1694/name = "Rock Side Left 4"
+1694/texture = ExtResource( 1 )
+1694/tex_offset = Vector2( 0, 0 )
+1694/modulate = Color( 1, 1, 1, 1 )
+1694/region = Rect2( 96, 240, 32, 16 )
+1694/tile_mode = 0
+1694/occluder_offset = Vector2( 0, 0 )
+1694/navigation_offset = Vector2( 0, 0 )
+1694/shape_offset = Vector2( 0, 0 )
+1694/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1694/shape = SubResource( 85 )
+1694/shape_one_way = false
+1694/shape_one_way_margin = 1.0
+1694/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 85 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1694/z_index = 0
+1695/name = "Plants 1"
+1695/texture = ExtResource( 1 )
+1695/tex_offset = Vector2( 0, 0 )
+1695/modulate = Color( 1, 1, 1, 1 )
+1695/region = Rect2( 208, 128, 224, 48 )
+1695/tile_mode = 2
+1695/autotile/icon_coordinate = Vector2( 0, 0 )
+1695/autotile/tile_size = Vector2( 16, 16 )
+1695/autotile/spacing = 0
+1695/autotile/occluder_map = [  ]
+1695/autotile/navpoly_map = [  ]
+1695/autotile/priority_map = [  ]
+1695/autotile/z_index_map = [  ]
+1695/occluder_offset = Vector2( 0, 0 )
+1695/navigation_offset = Vector2( 0, 0 )
+1695/shape_offset = Vector2( 0, 0 )
+1695/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1695/shape_one_way = false
+1695/shape_one_way_margin = 0.0
+1695/shapes = [  ]
+1695/z_index = 0
+1696/name = "WorldTiles.png 1696"
+1696/texture = ExtResource( 1 )
+1696/tex_offset = Vector2( 0, 0 )
+1696/modulate = Color( 1, 1, 1, 1 )
+1696/region = Rect2( 384, 192, 16, 32 )
+1696/tile_mode = 0
+1696/occluder_offset = Vector2( 0, 0 )
+1696/navigation_offset = Vector2( 0, 0 )
+1696/shape_offset = Vector2( 0, 0 )
+1696/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1696/shape_one_way = false
+1696/shape_one_way_margin = 0.0
+1696/shapes = [  ]
+1696/z_index = 0
+1697/name = "WorldTiles.png 1697"
+1697/texture = ExtResource( 1 )
+1697/tex_offset = Vector2( 0, 0 )
+1697/modulate = Color( 1, 1, 1, 1 )
+1697/region = Rect2( 416, 176, 48, 32 )
+1697/tile_mode = 0
+1697/occluder_offset = Vector2( 0, 0 )
+1697/navigation_offset = Vector2( 0, 0 )
+1697/shape_offset = Vector2( 0, 0 )
+1697/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1697/shape_one_way = false
+1697/shape_one_way_margin = 0.0
+1697/shapes = [  ]
+1697/z_index = 0
+1698/name = "WorldTiles.png 1698"
+1698/texture = ExtResource( 1 )
+1698/tex_offset = Vector2( 0, 0 )
+1698/modulate = Color( 1, 1, 1, 1 )
+1698/region = Rect2( 336, 208, 32, 32 )
+1698/tile_mode = 0
+1698/occluder_offset = Vector2( 0, 0 )
+1698/navigation_offset = Vector2( 0, 0 )
+1698/shape_offset = Vector2( 0, 0 )
+1698/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1698/shape_one_way = false
+1698/shape_one_way_margin = 0.0
+1698/shapes = [  ]
+1698/z_index = 0
+1699/name = "WorldTiles.png 1699"
+1699/texture = ExtResource( 1 )
+1699/tex_offset = Vector2( 0, 0 )
+1699/modulate = Color( 1, 1, 1, 1 )
+1699/region = Rect2( 160, 176, 48, 32 )
+1699/tile_mode = 0
+1699/occluder_offset = Vector2( 0, 0 )
+1699/navigation_offset = Vector2( 0, 0 )
+1699/shape_offset = Vector2( 0, 0 )
+1699/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1699/shape_one_way = false
+1699/shape_one_way_margin = 0.0
+1699/shapes = [  ]
+1699/z_index = 0
+1700/name = "WorldTiles.png 1700"
+1700/texture = ExtResource( 1 )
+1700/tex_offset = Vector2( 0, 0 )
+1700/modulate = Color( 1, 1, 1, 1 )
+1700/region = Rect2( 224, 192, 16, 32 )
+1700/tile_mode = 0
+1700/occluder_offset = Vector2( 0, 0 )
+1700/navigation_offset = Vector2( 0, 0 )
+1700/shape_offset = Vector2( 0, 0 )
+1700/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1700/shape_one_way = false
+1700/shape_one_way_margin = 0.0
+1700/shapes = [  ]
+1700/z_index = 0
+1701/name = "WorldTiles.png 1701"
+1701/texture = ExtResource( 1 )
+1701/tex_offset = Vector2( 0, 0 )
+1701/modulate = Color( 1, 1, 1, 1 )
+1701/region = Rect2( 256, 208, 32, 32 )
+1701/tile_mode = 0
+1701/occluder_offset = Vector2( 0, 0 )
+1701/navigation_offset = Vector2( 0, 0 )
+1701/shape_offset = Vector2( 0, 0 )
+1701/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1701/shape_one_way = false
+1701/shape_one_way_margin = 0.0
+1701/shapes = [  ]
+1701/z_index = 0
+1702/name = "Lush Rock Top 5"
+1702/texture = ExtResource( 1 )
+1702/tex_offset = Vector2( 0, 0 )
+1702/modulate = Color( 1, 1, 1, 1 )
+1702/region = Rect2( 272, 240, 16, 32 )
+1702/tile_mode = 0
+1702/occluder_offset = Vector2( 0, 0 )
+1702/navigation_offset = Vector2( 0, 0 )
+1702/shape_offset = Vector2( 0, 0 )
+1702/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1702/shape = SubResource( 86 )
+1702/shape_one_way = false
+1702/shape_one_way_margin = 1.0
+1702/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 86 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1702/z_index = 0
+1703/name = "Lush Rock Top 6"
+1703/texture = ExtResource( 1 )
+1703/tex_offset = Vector2( 0, 0 )
+1703/modulate = Color( 1, 1, 1, 1 )
+1703/region = Rect2( 288, 240, 16, 32 )
+1703/tile_mode = 0
+1703/occluder_offset = Vector2( 0, 0 )
+1703/navigation_offset = Vector2( 0, 0 )
+1703/shape_offset = Vector2( 0, 0 )
+1703/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1703/shape = SubResource( 87 )
+1703/shape_one_way = false
+1703/shape_one_way_margin = 1.0
+1703/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 87 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1703/z_index = 0
+1704/name = "Lush Rock Top 7"
+1704/texture = ExtResource( 1 )
+1704/tex_offset = Vector2( 0, 0 )
+1704/modulate = Color( 1, 1, 1, 1 )
+1704/region = Rect2( 304, 240, 16, 32 )
+1704/tile_mode = 0
+1704/occluder_offset = Vector2( 0, 0 )
+1704/navigation_offset = Vector2( 0, 0 )
+1704/shape_offset = Vector2( 0, 0 )
+1704/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1704/shape = SubResource( 88 )
+1704/shape_one_way = false
+1704/shape_one_way_margin = 1.0
+1704/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 88 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1704/z_index = 0
+1705/name = "Lush Rock Top 8"
+1705/texture = ExtResource( 1 )
+1705/tex_offset = Vector2( 0, 0 )
+1705/modulate = Color( 1, 1, 1, 1 )
+1705/region = Rect2( 320, 240, 16, 32 )
+1705/tile_mode = 0
+1705/occluder_offset = Vector2( 0, 0 )
+1705/navigation_offset = Vector2( 0, 0 )
+1705/shape_offset = Vector2( 0, 0 )
+1705/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1705/shape = SubResource( 89 )
+1705/shape_one_way = false
+1705/shape_one_way_margin = 1.0
+1705/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 89 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1705/z_index = 0
+1706/name = "Lush Rock AutoTile"
+1706/texture = ExtResource( 1 )
+1706/tex_offset = Vector2( 0, 0 )
+1706/modulate = Color( 1, 1, 1, 1 )
+1706/region = Rect2( 112, 256, 400, 64 )
+1706/tile_mode = 1
+1706/autotile/bitmask_mode = 1
+1706/autotile/bitmask_flags = [ Vector2( 0, 0 ), 438, Vector2( 0, 1 ), 438, Vector2( 0, 3 ), 63, Vector2( 1, 0 ), 511, Vector2( 1, 1 ), 511, Vector2( 4, 0 ), 432, Vector2( 4, 1 ), 438, Vector2( 4, 3 ), 511, Vector2( 6, 0 ), 504, Vector2( 6, 1 ), 63, Vector2( 7, 0 ), 504, Vector2( 7, 1 ), 511, Vector2( 8, 0 ), 504, Vector2( 8, 1 ), 511, Vector2( 9, 0 ), 504, Vector2( 9, 1 ), 511, Vector2( 10, 0 ), 504, Vector2( 10, 1 ), 63, Vector2( 11, 0 ), 504, Vector2( 11, 1 ), 511, Vector2( 12, 0 ), 504, Vector2( 12, 1 ), 511, Vector2( 13, 0 ), 504, Vector2( 13, 1 ), 511, Vector2( 14, 0 ), 504, Vector2( 14, 1 ), 511, Vector2( 15, 0 ), 504, Vector2( 15, 1 ), 511, Vector2( 16, 0 ), 504, Vector2( 16, 1 ), 511, Vector2( 17, 0 ), 504, Vector2( 17, 1 ), 511, Vector2( 18, 0 ), 504, Vector2( 18, 1 ), 511, Vector2( 20, 0 ), 216, Vector2( 20, 1 ), 219, Vector2( 20, 3 ), 511, Vector2( 23, 0 ), 511, Vector2( 23, 1 ), 511, Vector2( 24, 0 ), 219, Vector2( 24, 1 ), 219, Vector2( 24, 3 ), 63 ]
+1706/autotile/icon_coordinate = Vector2( 0, 0 )
+1706/autotile/tile_size = Vector2( 16, 16 )
+1706/autotile/spacing = 0
+1706/autotile/occluder_map = [  ]
+1706/autotile/navpoly_map = [  ]
+1706/autotile/priority_map = [  ]
+1706/autotile/z_index_map = [  ]
+1706/occluder_offset = Vector2( 0, 0 )
+1706/navigation_offset = Vector2( 0, 0 )
+1706/shape_offset = Vector2( 0, 0 )
+1706/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1706/shape_one_way = false
+1706/shape_one_way_margin = 0.0
+1706/shapes = [  ]
+1706/z_index = 0
