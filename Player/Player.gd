@@ -1,4 +1,8 @@
 extends KinematicBody2D
+#note: all varaibles should be fully UPPERCASE.
+#All animations will have first letter Capitalized.
+#Input related things will have all lowercase.
+
 
 const UP = Vector2(0,-1);
 export var MAXSPEED = 80
@@ -28,18 +32,22 @@ func _physics_process(delta):
 	if Input.is_action_pressed("move_left"):
 		motion.x-=ACCELERATION
 		facing_right=false
-		$AnimationPlayer.play("Moving")
+		if ($AnimationPlayer.current_animation!= "Jump"):
+			$AnimationPlayer.play("Moving")
 	#If you move right, you move and face right. big brain
 	elif Input.is_action_pressed("move_right"):
 		motion.x+=ACCELERATION
 		facing_right=true
-		$AnimationPlayer.play("Moving")
+		if ($AnimationPlayer.current_animation!= "Jump"):
+			$AnimationPlayer.play("Moving")
 
 		
 	#Motion decay if you stop moving
 	else:
 		motion.x = lerp(motion.x,0,0.2)
-		$AnimationPlayer.play("Idle")
+		#Comment out the two lines below to make his idle animation become T pose.
+		if ($AnimationPlayer.current_animation!= "Jump"):
+			$AnimationPlayer.play("Idle")
 	
 	#u can only jump if on the floor
 	
@@ -48,8 +56,7 @@ func _physics_process(delta):
 			motion.y=-JUMPFORCE
 	if !is_on_floor():
 		if motion.y<0:
-			#Animated jumping
-			pass
+			$AnimationPlayer.play("Jump")
 		if motion.y>0:
 			#animate falling
 			pass
