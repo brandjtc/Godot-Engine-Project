@@ -9,13 +9,16 @@ height = 0.0
 [sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 5, 10 )
 
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 10, 21 )
+
 [sub_resource type="Animation" id=7]
 resource_name = "Falling"
 length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
 tracks/0/interp = 1
-tracks/0/loop_wrap = true
+tracks/0/loop_wrap = false
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
@@ -150,9 +153,6 @@ tracks/0/keys = {
 "values": [ 6, 7, 8, 7 ]
 }
 
-[sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 10, 21 )
-
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 120, 248 )
 script = ExtResource( 1 )
@@ -171,14 +171,22 @@ position = Vector2( 0, 6 )
 shape = SubResource( 1 )
 
 [node name="Arm Hitbox" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2( -13, -14 )
 shape = SubResource( 11 )
 
 [node name="Arm Hitbox2" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2( 13, -14 )
 shape = SubResource( 11 )
 
+[node name="Torso Hitbox" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 0, -21 )
+shape = SubResource( 10 )
+
 [node name="Camera2D" type="Camera2D" parent="."]
+visible = false
 position = Vector2( 0, -16 )
 current = true
 zoom = Vector2( 0.4, 0.4 )
@@ -215,6 +223,4 @@ anims/Moving = SubResource( 4 )
 anims/RESET = SubResource( 5 )
 "anims/Typing Idle" = SubResource( 6 )
 
-[node name="Torso Hitbox" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -21 )
-shape = SubResource( 10 )
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

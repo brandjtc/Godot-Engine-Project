@@ -3,6 +3,7 @@ extends KinematicBody2D
 #All animations will have first letter Capitalized.
 #Input related things will have all lowercase.
 
+var fallChecker=false
 
 const UP = Vector2(0,-1);
 export var MAXSPEED = 80
@@ -14,10 +15,10 @@ var motion = Vector2()
 var facing_right = true;
 
 
-
 func _ready():
-		pass
+	pass
 		
+# warning-ignore:unused_argument
 func _physics_process(delta):
 	motion.y+=GRAVITY
 	if motion.y>MAXFALLSPEED:
@@ -26,7 +27,10 @@ func _physics_process(delta):
 		$Sprite.scale.x=1
 	else:
 		$Sprite.scale.x=-1
-		
+	
+	if (is_on_wall()):
+		fallChecker=false
+	
 	#Clamp caps values at a minimum and maximum. This is capping our speed at the max speed value.
 	motion.x=clamp(motion.x,-MAXSPEED,MAXSPEED)
 	
@@ -36,6 +40,7 @@ func _physics_process(delta):
 		facing_right=false
 		if (is_on_floor()):
 			$AnimationPlayer.play("Moving")
+			
 			
 			
 	#If you move right, you move and face right. big brain
@@ -60,12 +65,9 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("jump"):
 			motion.y=-JUMPFORCE
 			$AnimationPlayer.play("Jump")
-	if !is_on_floor():
-		if motion.y>0:
-			$AnimationPlayer.play("Falling")
-			#$AnimationPlayer.stop("Fallindg")
-			if ($AnimationPlayer.current_animation!="Falling"):
-				$AnimationPlayer.play("Long Fall")
-
+			$AnimationPlayer.queue("Falling")
+			$AnimationPlayer.queue("Long Fall")
 	motion = move_and_slide(motion,UP)
-	
+
+
+
