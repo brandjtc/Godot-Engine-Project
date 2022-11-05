@@ -13,6 +13,8 @@ export var ACCELERATION= 10
 var motion = Vector2()
 var facing_right = true;
 
+
+
 func _ready():
 		pass
 		
@@ -32,21 +34,24 @@ func _physics_process(delta):
 	if Input.is_action_pressed("move_left"):
 		motion.x-=ACCELERATION
 		facing_right=false
-		if ($AnimationPlayer.current_animation!= "Jump"):
+		if (is_on_floor()):
 			$AnimationPlayer.play("Moving")
+			
+			
 	#If you move right, you move and face right. big brain
 	elif Input.is_action_pressed("move_right"):
 		motion.x+=ACCELERATION
 		facing_right=true
-		if ($AnimationPlayer.current_animation!= "Jump"):
+		if (is_on_floor()):
 			$AnimationPlayer.play("Moving")
+			
 
-		
 	#Motion decay if you stop moving
 	else:
 		motion.x = lerp(motion.x,0,0.2)
 		#Comment out the two lines below to make his idle animation become T pose.
-		if ($AnimationPlayer.current_animation!= "Jump"):
+		if (is_on_floor()):
+			#$AnimationPlayer.play("Pre Idle")
 			$AnimationPlayer.play("Idle")
 	
 	#u can only jump if on the floor
@@ -54,15 +59,13 @@ func _physics_process(delta):
 	if is_on_floor():
 		if Input.is_action_just_pressed("jump"):
 			motion.y=-JUMPFORCE
-	if !is_on_floor():
-		if motion.y<0:
 			$AnimationPlayer.play("Jump")
+	if !is_on_floor():
 		if motion.y>0:
-			#animate falling
-			pass
-	
-	
-	
+			$AnimationPlayer.play("Falling")
+			#$AnimationPlayer.stop("Fallindg")
+			if ($AnimationPlayer.current_animation!="Falling"):
+				$AnimationPlayer.play("Long Fall")
 
 	motion = move_and_slide(motion,UP)
 	
