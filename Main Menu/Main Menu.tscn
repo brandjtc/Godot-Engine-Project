@@ -1,0 +1,68 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Main Menu/Menu.gd" type="Script" id=1]
+[ext_resource path="res://Audio/Music/Chris Christodoulou - The Rain Formerly Known as Purple   Risk of Rain 2 (2020).mp3" type="AudioStream" id=2]
+[ext_resource path="res://Assets/Fonts/Terminal-16.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Assets/logo.png" type="Texture" id=4]
+
+[node name="Menu" type="Control"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -1053.0
+margin_right = 1920.0
+size_flags_horizontal = 3
+size_flags_vertical = 15
+script = ExtResource( 1 )
+
+[node name="Menu" type="VBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -142.0
+margin_right = 73.0
+
+[node name="TextureRect" type="TextureRect" parent="Menu"]
+margin_right = 73.0
+margin_bottom = 64.0
+texture = ExtResource( 4 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu"]
+margin_top = 68.0
+margin_right = 73.0
+margin_bottom = 142.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="Start" type="Button" parent="Menu/VBoxContainer"]
+margin_right = 73.0
+margin_bottom = 22.0
+focus_neighbour_top = NodePath("../Quit")
+focus_neighbour_bottom = NodePath("../Options")
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 3 )
+text = "Start"
+
+[node name="Options" type="Button" parent="Menu/VBoxContainer"]
+margin_top = 26.0
+margin_right = 73.0
+margin_bottom = 48.0
+focus_neighbour_top = NodePath("../Start")
+focus_neighbour_bottom = NodePath("../Quit")
+custom_fonts/font = ExtResource( 3 )
+text = "Options"
+
+[node name="Quit" type="Button" parent="Menu/VBoxContainer"]
+margin_top = 52.0
+margin_right = 73.0
+margin_bottom = 74.0
+focus_neighbour_top = NodePath("../Options")
+focus_neighbour_bottom = NodePath("../Start")
+custom_fonts/font = ExtResource( 3 )
+text = "Quit"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[connection signal="pressed" from="Menu/VBoxContainer/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Menu/VBoxContainer/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Menu/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
