@@ -1,7 +1,10 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
 [ext_resource path="res://Player/codebot sprite sheet.png" type="Texture" id=2]
+[ext_resource path="res://Player/Input.gd" type="Script" id=3]
+[ext_resource path="res://Player/Text Movement.gd" type="Script" id=4]
+[ext_resource path="res://Player/CommandProcessors.gd" type="Script" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
 height = 0.0
@@ -11,6 +14,11 @@ extents = Vector2( 5, 10 )
 
 [sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 10, 21 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=13]
 
 [sub_resource type="Animation" id=7]
 resource_name = "Falling"
@@ -164,7 +172,6 @@ position = Vector2( 0, -16 )
 texture = ExtResource( 2 )
 hframes = 6
 vframes = 6
-frame = 24
 
 [node name="Wheel Hitbox" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 6 )
@@ -186,13 +193,11 @@ position = Vector2( 0, -21 )
 shape = SubResource( 10 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-visible = false
 position = Vector2( 0, -16 )
 current = true
 zoom = Vector2( 0.4, 0.4 )
 
 [node name="Control" type="Control" parent="Camera2D"]
-visible = false
 margin_left = -120.0
 margin_top = -232.0
 margin_right = -80.0
@@ -213,6 +218,82 @@ margin_left = 54.0
 margin_right = 66.0
 margin_bottom = 40.0
 
+[node name="Text Movement" type="Control" parent="Camera2D"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 105.0
+margin_top = -140.0
+margin_right = 255.0
+margin_bottom = 145.0
+rect_min_size = Vector2( 150, 285 )
+script = ExtResource( 4 )
+
+[node name="CommandProcessors" type="Node" parent="Camera2D/Text Movement"]
+script = ExtResource( 5 )
+
+[node name="Background" type="PanelContainer" parent="Camera2D/Text Movement"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 12 )
+
+[node name="MarginContainer" type="MarginContainer" parent="Camera2D/Text Movement/Background"]
+margin_right = 150.0
+margin_bottom = 285.0
+custom_constants/margin_right = 7
+custom_constants/margin_top = 7
+custom_constants/margin_left = 7
+custom_constants/margin_bottom = 7
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Camera2D/Text Movement/Background/MarginContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 143.0
+margin_bottom = 278.0
+custom_constants/separation = 7
+
+[node name="OutputTop" type="PanelContainer" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer"]
+margin_right = 136.0
+margin_bottom = 226.0
+size_flags_vertical = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/OutputTop"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 129.0
+margin_bottom = 219.0
+scroll_horizontal_enabled = false
+
+[node name="TextHistory" type="VBoxContainer" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/OutputTop/ScrollContainer"]
+custom_constants/separation = 10
+
+[node name="InputContainer" type="PanelContainer" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer"]
+margin_top = 233.0
+margin_right = 136.0
+margin_bottom = 271.0
+rect_min_size = Vector2( 0, 38 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 129.0
+margin_bottom = 31.0
+
+[node name="Caret" type="Label" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer"]
+margin_top = 5.0
+margin_right = 8.0
+margin_bottom = 19.0
+text = ">"
+
+[node name="Input" type="LineEdit" parent="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer"]
+margin_left = 12.0
+margin_right = 122.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_styles/normal = SubResource( 13 )
+max_length = 13
+script = ExtResource( 3 )
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Falling = SubResource( 7 )
 anims/Idle = SubResource( 2 )
@@ -223,4 +304,6 @@ anims/Moving = SubResource( 4 )
 anims/RESET = SubResource( 5 )
 "anims/Typing Idle" = SubResource( 6 )
 
+[connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="." method="_on_Input_text_entered"]
+[connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" method="_on_Input_text_entered"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

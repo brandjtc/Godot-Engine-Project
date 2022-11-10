@@ -16,8 +16,9 @@ var facing_right = true;
 
 
 func _ready():
-	pass
-		
+	SCROLLBAR.connect("changed", self, "handle_scrollbar_changed")
+	MAX_SCROLL_LENGTH = SCROLLBAR.max_value
+	
 # warning-ignore:unused_argument
 func _physics_process(delta):
 	motion.y+=GRAVITY
@@ -35,7 +36,7 @@ func _physics_process(delta):
 	motion.x=clamp(motion.x,-MAXSPEED,MAXSPEED)
 	
 	#If you move left, you move and face left. big brain
-	if Input.is_action_pressed("move_left"):
+	if Input.is_action_pressed("move_left") or DIRECTION == 0:
 		motion.x-=ACCELERATION
 		facing_right=false
 		if (is_on_floor()):
@@ -44,7 +45,7 @@ func _physics_process(delta):
 			
 			
 	#If you move right, you move and face right. big brain
-	elif Input.is_action_pressed("move_right"):
+	elif Input.is_action_pressed("move_right") or DIRECTION == 1:
 		motion.x+=ACCELERATION
 		facing_right=true
 		if (is_on_floor()):
@@ -62,7 +63,7 @@ func _physics_process(delta):
 	#u can only jump if on the floor
 	
 	if is_on_floor():
-		if Input.is_action_just_pressed("jump"):
+		if Input.is_action_just_pressed("jump") or DIRECTION == 2:
 			motion.y=-JUMPFORCE
 			$AnimationPlayer.play("Jump")
 			$AnimationPlayer.queue("Falling")
@@ -71,3 +72,56 @@ func _physics_process(delta):
 
 
 
+const CommandHistory = preload ("res://Player/CommandHistory.tscn")
+export(int) var MAX_LINES_REMEMBERED := 30
+onready var HISTORY_ROWS = $"Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/OutputTop/ScrollContainer/TextHistory"
+onready var SCROLL = $"Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/OutputTop/ScrollContainer"
+onready var SCROLLBAR = SCROLL.get_v_scrollbar()
+var MAX_SCROLL_LENGTH=0
+var DIRECTION = -1
+
+
+func _on_Input_text_entered(new_text):
+	if new_text.empty():
+		return
+	var COMMAND_HISTORY = CommandHistory.instance()
+	var RESPONSE = process_command(new_text)
+	COMMAND_HISTORY.set_text(new_text, RESPONSE)
+	HISTORY_ROWS.add_child(COMMAND_HISTORY)
+	if HISTORY_ROWS.get_child_count()> MAX_LINES_REMEMBERED:
+		var FORGET_EARLIEST = HISTORY_ROWS.get_child_count()-MAX_LINES_REMEMBERED
+		for i in range (FORGET_EARLIEST):
+			 HISTORY_ROWS.get_child(i).queue_free()
+
+func handle_scrollbar_changed():
+	if(MAX_SCROLL_LENGTH != SCROLLBAR.max_value):
+		MAX_SCROLL_LENGTH = SCROLLBAR.max_value
+		SCROLL.scroll_vertical = MAX_SCROLL_LENGTH 
+
+func process_command(input: String) -> String:
+	var WORDS = input.split(" ", false, 0) 
+	if WORDS.size()== 0:
+		return "Error: No words were parsed"
+	var FIRST_WORD = WORDS[0].to_lower()
+	var SECOND_WORD = ""
+	if WORDS.size() > 1:
+		SECOND_WORD = WORDS[1].to_lower()
+	match FIRST_WORD:
+		"go":
+			return go(SECOND_WORD)
+		"stop":
+			DIRECTION = -1
+			return "Stopping"
+		_:
+			return "Error: Unrecognized command"
+
+func go(second_word: String) -> String:
+	if second_word == "":
+		return "Go where?"
+	if second_word == "left":
+		DIRECTION = 0
+	elif second_word == "right":
+		DIRECTION = 1
+	if second_word == "up":
+		DIRECTION = 2
+	return "Moving %s" % second_word
