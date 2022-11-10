@@ -304,6 +304,9 @@ anims/Moving = SubResource( 4 )
 anims/RESET = SubResource( 5 )
 "anims/Typing Idle" = SubResource( 6 )
 
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+
 [connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="." method="_on_Input_text_entered"]
 [connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" method="_on_Input_text_entered"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

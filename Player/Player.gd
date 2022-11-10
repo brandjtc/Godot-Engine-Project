@@ -62,12 +62,13 @@ func _physics_process(delta):
 	
 	#u can only jump if on the floor
 	
-	if is_on_floor():
+	if is_on_floor()&& ONLY_ONCE:
 		if Input.is_action_just_pressed("jump") or DIRECTION == 2:
 			motion.y=-JUMPFORCE
 			$AnimationPlayer.play("Jump")
 			$AnimationPlayer.queue("Falling")
 			$AnimationPlayer.queue("Long Fall")
+			ONLY_ONCE = false
 	motion = move_and_slide(motion,UP)
 
 
@@ -79,7 +80,7 @@ onready var SCROLL = $"Camera2D/Text Movement/Background/MarginContainer/VBoxCon
 onready var SCROLLBAR = SCROLL.get_v_scrollbar()
 var MAX_SCROLL_LENGTH=0
 var DIRECTION = -1
-
+onready var ONLY_ONCE : bool = true
 
 func _on_Input_text_entered(new_text):
 	if new_text.empty():
@@ -112,6 +113,10 @@ func process_command(input: String) -> String:
 		"stop":
 			DIRECTION = -1
 			return "Stopping"
+		"jump":
+			DIRECTION = 2
+			ONLY_ONCE = true
+			return "Jumping"
 		_:
 			return "Error: Unrecognized command"
 
@@ -123,5 +128,6 @@ func go(second_word: String) -> String:
 	elif second_word == "right":
 		DIRECTION = 1
 	if second_word == "up":
+		ONLY_ONCE = true
 		DIRECTION = 2
 	return "Moving %s" % second_word
