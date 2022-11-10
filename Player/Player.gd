@@ -36,7 +36,7 @@ func _physics_process(delta):
 	motion.x=clamp(motion.x,-MAXSPEED,MAXSPEED)
 	
 	#If you move left, you move and face left. big brain
-	if Input.is_action_pressed("move_left") or DIRECTION == 0:
+	if Input.is_action_pressed("move_left") or DIRECTION_X == 0:
 		motion.x-=ACCELERATION
 		facing_right=false
 		if (is_on_floor()):
@@ -45,12 +45,11 @@ func _physics_process(delta):
 			
 			
 	#If you move right, you move and face right. big brain
-	elif Input.is_action_pressed("move_right") or DIRECTION == 1:
+	elif Input.is_action_pressed("move_right") or DIRECTION_X == 1:
 		motion.x+=ACCELERATION
 		facing_right=true
 		if (is_on_floor()):
 			$AnimationPlayer.play("Moving")
-			
 
 	#Motion decay if you stop moving
 	else:
@@ -63,7 +62,7 @@ func _physics_process(delta):
 	#u can only jump if on the floor
 	
 	if is_on_floor()&& ONLY_ONCE:
-		if Input.is_action_just_pressed("jump") or DIRECTION == 2:
+		if Input.is_action_just_pressed("jump") or DIRECTION_Y == 0:
 			motion.y=-JUMPFORCE
 			$AnimationPlayer.play("Jump")
 			$AnimationPlayer.queue("Falling")
@@ -79,7 +78,8 @@ onready var HISTORY_ROWS = $"Camera2D/Text Movement/Background/MarginContainer/V
 onready var SCROLL = $"Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/OutputTop/ScrollContainer"
 onready var SCROLLBAR = SCROLL.get_v_scrollbar()
 var MAX_SCROLL_LENGTH=0
-var DIRECTION = -1
+var DIRECTION_X = -1
+var DIRECTION_Y = -1
 onready var ONLY_ONCE : bool = true
 
 func _on_Input_text_entered(new_text):
@@ -111,10 +111,10 @@ func process_command(input: String) -> String:
 		"go":
 			return go(SECOND_WORD)
 		"stop":
-			DIRECTION = -1
+			DIRECTION_X = -1
 			return "Stopping"
 		"jump":
-			DIRECTION = 2
+			DIRECTION_Y = 0
 			ONLY_ONCE = true
 			return "Jumping"
 		_:
@@ -124,10 +124,10 @@ func go(second_word: String) -> String:
 	if second_word == "":
 		return "Go where?"
 	if second_word == "left":
-		DIRECTION = 0
+		DIRECTION_X = 0
 	elif second_word == "right":
-		DIRECTION = 1
+		DIRECTION_X = 1
 	if second_word == "up":
 		ONLY_ONCE = true
-		DIRECTION = 2
+		DIRECTION_Y = 0
 	return "Moving %s" % second_word
