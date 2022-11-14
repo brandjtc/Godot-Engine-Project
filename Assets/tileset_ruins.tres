@@ -1,6 +1,258 @@
-[gd_resource type="TileSet" load_steps=2 format=2]
+[gd_resource type="TileSet" load_steps=86 format=2]
 
-[ext_resource path="PixelPlatformerSet/tileset_ruins.png" type="Texture" id=1]
+[ext_resource path="res://Assets/PixelPlatformerSet/tileset_ruins.png" type="Texture" id=1]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=14]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=16]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=20]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=32]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=38]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=39]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=40]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=41]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=42]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=43]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=44]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=45]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=46]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=47]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=48]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=49]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=50]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=51]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=52]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=53]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=54]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=55]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=56]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=57]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=58]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=59]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=60]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=61]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=62]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=63]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=64]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=65]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=66]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=67]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=68]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=69]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=70]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=71]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=72]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=73]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=74]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=75]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=76]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=77]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=78]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=79]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=80]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=81]
+points = PoolVector2Array( 16, 16, 0, 16, 16, 8, 16, 8 )
+
+[sub_resource type="ConvexPolygonShape2D" id=82]
+points = PoolVector2Array( 16, 16, 0, 16, 0, 8, 16, 0, 16, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=83]
+points = PoolVector2Array( 0, 0, 0, 0, 16, 8, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=84]
+points = PoolVector2Array( 0, 8, 0, 8, 0, 8, 16, 16, 0, 16 )
 
 [resource]
 0/name = "tileset_ruins.png 0"
@@ -11,6 +263,10 @@
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
 0/shapes = [  ]
 0/z_index = 0
 1/name = "tileset_ruins.png 1"
@@ -21,6 +277,10 @@
 1/tile_mode = 0
 1/occluder_offset = Vector2( 0, 0 )
 1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
 1/shapes = [  ]
 1/z_index = 0
 2/name = "tileset_ruins.png 2"
@@ -31,6 +291,10 @@
 2/tile_mode = 0
 2/occluder_offset = Vector2( 0, 0 )
 2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
 2/shapes = [  ]
 2/z_index = 0
 3/name = "tileset_ruins.png 3"
@@ -41,6 +305,10 @@
 3/tile_mode = 0
 3/occluder_offset = Vector2( 0, 0 )
 3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
 3/shapes = [  ]
 3/z_index = 0
 4/name = "tileset_ruins.png 4"
@@ -51,6 +319,10 @@
 4/tile_mode = 0
 4/occluder_offset = Vector2( 0, 0 )
 4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
 4/shapes = [  ]
 4/z_index = 0
 5/name = "tileset_ruins.png 5"
@@ -61,6 +333,10 @@
 5/tile_mode = 0
 5/occluder_offset = Vector2( 0, 0 )
 5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
 5/shapes = [  ]
 5/z_index = 0
 6/name = "tileset_ruins.png 6"
@@ -71,6 +347,10 @@
 6/tile_mode = 0
 6/occluder_offset = Vector2( 0, 0 )
 6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
 6/shapes = [  ]
 6/z_index = 0
 7/name = "tileset_ruins.png 7"
@@ -81,6 +361,10 @@
 7/tile_mode = 0
 7/occluder_offset = Vector2( 0, 0 )
 7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
 7/shapes = [  ]
 7/z_index = 0
 8/name = "tileset_ruins.png 8"
@@ -91,6 +375,10 @@
 8/tile_mode = 0
 8/occluder_offset = Vector2( 0, 0 )
 8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
 8/shapes = [  ]
 8/z_index = 0
 9/name = "tileset_ruins.png 9"
@@ -101,6 +389,10 @@
 9/tile_mode = 0
 9/occluder_offset = Vector2( 0, 0 )
 9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
 9/shapes = [  ]
 9/z_index = 0
 10/name = "tileset_ruins.png 10"
@@ -111,6 +403,10 @@
 10/tile_mode = 0
 10/occluder_offset = Vector2( 0, 0 )
 10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
 10/shapes = [  ]
 10/z_index = 0
 11/name = "tileset_ruins.png 11"
@@ -121,6 +417,10 @@
 11/tile_mode = 0
 11/occluder_offset = Vector2( 0, 0 )
 11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape_one_way = false
+11/shape_one_way_margin = 0.0
 11/shapes = [  ]
 11/z_index = 0
 12/name = "tileset_ruins.png 12"
@@ -131,6 +431,10 @@
 12/tile_mode = 0
 12/occluder_offset = Vector2( 0, 0 )
 12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
 12/shapes = [  ]
 12/z_index = 0
 13/name = "tileset_ruins.png 13"
@@ -141,6 +445,10 @@
 13/tile_mode = 0
 13/occluder_offset = Vector2( 0, 0 )
 13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape_one_way = false
+13/shape_one_way_margin = 0.0
 13/shapes = [  ]
 13/z_index = 0
 14/name = "tileset_ruins.png 14"
@@ -151,6 +459,10 @@
 14/tile_mode = 0
 14/occluder_offset = Vector2( 0, 0 )
 14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
 14/shapes = [  ]
 14/z_index = 0
 15/name = "tileset_ruins.png 15"
@@ -161,6 +473,10 @@
 15/tile_mode = 0
 15/occluder_offset = Vector2( 0, 0 )
 15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
 15/shapes = [  ]
 15/z_index = 0
 16/name = "tileset_ruins.png 16"
@@ -171,6 +487,10 @@
 16/tile_mode = 0
 16/occluder_offset = Vector2( 0, 0 )
 16/navigation_offset = Vector2( 0, 0 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape_one_way = false
+16/shape_one_way_margin = 0.0
 16/shapes = [  ]
 16/z_index = 0
 17/name = "tileset_ruins.png 17"
@@ -181,6 +501,10 @@
 17/tile_mode = 0
 17/occluder_offset = Vector2( 0, 0 )
 17/navigation_offset = Vector2( 0, 0 )
+17/shape_offset = Vector2( 0, 0 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+17/shape_one_way = false
+17/shape_one_way_margin = 0.0
 17/shapes = [  ]
 17/z_index = 0
 18/name = "tileset_ruins.png 18"
@@ -191,6 +515,10 @@
 18/tile_mode = 0
 18/occluder_offset = Vector2( 0, 0 )
 18/navigation_offset = Vector2( 0, 0 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape_one_way = false
+18/shape_one_way_margin = 0.0
 18/shapes = [  ]
 18/z_index = 0
 19/name = "tileset_ruins.png 19"
@@ -201,6 +529,10 @@
 19/tile_mode = 0
 19/occluder_offset = Vector2( 0, 0 )
 19/navigation_offset = Vector2( 0, 0 )
+19/shape_offset = Vector2( 0, 0 )
+19/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+19/shape_one_way = false
+19/shape_one_way_margin = 0.0
 19/shapes = [  ]
 19/z_index = 0
 20/name = "tileset_ruins.png 20"
@@ -211,6 +543,10 @@
 20/tile_mode = 0
 20/occluder_offset = Vector2( 0, 0 )
 20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, 0 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+20/shape_one_way = false
+20/shape_one_way_margin = 0.0
 20/shapes = [  ]
 20/z_index = 0
 21/name = "tileset_ruins.png 21"
@@ -221,6 +557,10 @@
 21/tile_mode = 0
 21/occluder_offset = Vector2( 0, 0 )
 21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, 0 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape_one_way = false
+21/shape_one_way_margin = 0.0
 21/shapes = [  ]
 21/z_index = 0
 22/name = "tileset_ruins.png 22"
@@ -231,6 +571,10 @@
 22/tile_mode = 0
 22/occluder_offset = Vector2( 0, 0 )
 22/navigation_offset = Vector2( 0, 0 )
+22/shape_offset = Vector2( 0, 0 )
+22/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+22/shape_one_way = false
+22/shape_one_way_margin = 0.0
 22/shapes = [  ]
 22/z_index = 0
 23/name = "tileset_ruins.png 23"
@@ -241,6 +585,10 @@
 23/tile_mode = 0
 23/occluder_offset = Vector2( 0, 0 )
 23/navigation_offset = Vector2( 0, 0 )
+23/shape_offset = Vector2( 0, 0 )
+23/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+23/shape_one_way = false
+23/shape_one_way_margin = 0.0
 23/shapes = [  ]
 23/z_index = 0
 24/name = "tileset_ruins.png 24"
@@ -251,6 +599,10 @@
 24/tile_mode = 0
 24/occluder_offset = Vector2( 0, 0 )
 24/navigation_offset = Vector2( 0, 0 )
+24/shape_offset = Vector2( 0, 0 )
+24/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+24/shape_one_way = false
+24/shape_one_way_margin = 0.0
 24/shapes = [  ]
 24/z_index = 0
 25/name = "tileset_ruins.png 25"
@@ -261,6 +613,10 @@
 25/tile_mode = 0
 25/occluder_offset = Vector2( 0, 0 )
 25/navigation_offset = Vector2( 0, 0 )
+25/shape_offset = Vector2( 0, 0 )
+25/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+25/shape_one_way = false
+25/shape_one_way_margin = 0.0
 25/shapes = [  ]
 25/z_index = 0
 26/name = "tileset_ruins.png 26"
@@ -271,6 +627,10 @@
 26/tile_mode = 0
 26/occluder_offset = Vector2( 0, 0 )
 26/navigation_offset = Vector2( 0, 0 )
+26/shape_offset = Vector2( 0, 0 )
+26/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+26/shape_one_way = false
+26/shape_one_way_margin = 0.0
 26/shapes = [  ]
 26/z_index = 0
 27/name = "tileset_ruins.png 27"
@@ -281,6 +641,10 @@
 27/tile_mode = 0
 27/occluder_offset = Vector2( 0, 0 )
 27/navigation_offset = Vector2( 0, 0 )
+27/shape_offset = Vector2( 0, 0 )
+27/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+27/shape_one_way = false
+27/shape_one_way_margin = 0.0
 27/shapes = [  ]
 27/z_index = 0
 28/name = "tileset_ruins.png 28"
@@ -291,6 +655,10 @@
 28/tile_mode = 0
 28/occluder_offset = Vector2( 0, 0 )
 28/navigation_offset = Vector2( 0, 0 )
+28/shape_offset = Vector2( 0, 0 )
+28/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+28/shape_one_way = false
+28/shape_one_way_margin = 0.0
 28/shapes = [  ]
 28/z_index = 0
 29/name = "tileset_ruins.png 29"
@@ -301,6 +669,10 @@
 29/tile_mode = 0
 29/occluder_offset = Vector2( 0, 0 )
 29/navigation_offset = Vector2( 0, 0 )
+29/shape_offset = Vector2( 0, 0 )
+29/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+29/shape_one_way = false
+29/shape_one_way_margin = 0.0
 29/shapes = [  ]
 29/z_index = 0
 30/name = "tileset_ruins.png 30"
@@ -311,6 +683,10 @@
 30/tile_mode = 0
 30/occluder_offset = Vector2( 0, 0 )
 30/navigation_offset = Vector2( 0, 0 )
+30/shape_offset = Vector2( 0, 0 )
+30/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+30/shape_one_way = false
+30/shape_one_way_margin = 0.0
 30/shapes = [  ]
 30/z_index = 0
 31/name = "tileset_ruins.png 31"
@@ -321,6 +697,10 @@
 31/tile_mode = 0
 31/occluder_offset = Vector2( 0, 0 )
 31/navigation_offset = Vector2( 0, 0 )
+31/shape_offset = Vector2( 0, 0 )
+31/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+31/shape_one_way = false
+31/shape_one_way_margin = 0.0
 31/shapes = [  ]
 31/z_index = 0
 32/name = "tileset_ruins.png 32"
@@ -331,6 +711,10 @@
 32/tile_mode = 0
 32/occluder_offset = Vector2( 0, 0 )
 32/navigation_offset = Vector2( 0, 0 )
+32/shape_offset = Vector2( 0, 0 )
+32/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+32/shape_one_way = false
+32/shape_one_way_margin = 0.0
 32/shapes = [  ]
 32/z_index = 0
 33/name = "tileset_ruins.png 33"
@@ -341,6 +725,10 @@
 33/tile_mode = 0
 33/occluder_offset = Vector2( 0, 0 )
 33/navigation_offset = Vector2( 0, 0 )
+33/shape_offset = Vector2( 0, 0 )
+33/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+33/shape_one_way = false
+33/shape_one_way_margin = 0.0
 33/shapes = [  ]
 33/z_index = 0
 34/name = "tileset_ruins.png 34"
@@ -351,6 +739,10 @@
 34/tile_mode = 0
 34/occluder_offset = Vector2( 0, 0 )
 34/navigation_offset = Vector2( 0, 0 )
+34/shape_offset = Vector2( 0, 0 )
+34/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+34/shape_one_way = false
+34/shape_one_way_margin = 0.0
 34/shapes = [  ]
 34/z_index = 0
 35/name = "tileset_ruins.png 35"
@@ -361,6 +753,10 @@
 35/tile_mode = 0
 35/occluder_offset = Vector2( 0, 0 )
 35/navigation_offset = Vector2( 0, 0 )
+35/shape_offset = Vector2( 0, 0 )
+35/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+35/shape_one_way = false
+35/shape_one_way_margin = 0.0
 35/shapes = [  ]
 35/z_index = 0
 36/name = "tileset_ruins.png 36"
@@ -371,6 +767,10 @@
 36/tile_mode = 0
 36/occluder_offset = Vector2( 0, 0 )
 36/navigation_offset = Vector2( 0, 0 )
+36/shape_offset = Vector2( 0, 0 )
+36/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+36/shape_one_way = false
+36/shape_one_way_margin = 0.0
 36/shapes = [  ]
 36/z_index = 0
 37/name = "tileset_ruins.png 37"
@@ -381,6 +781,10 @@
 37/tile_mode = 0
 37/occluder_offset = Vector2( 0, 0 )
 37/navigation_offset = Vector2( 0, 0 )
+37/shape_offset = Vector2( 0, 0 )
+37/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+37/shape_one_way = false
+37/shape_one_way_margin = 0.0
 37/shapes = [  ]
 37/z_index = 0
 38/name = "tileset_ruins.png 38"
@@ -391,6 +795,10 @@
 38/tile_mode = 0
 38/occluder_offset = Vector2( 0, 0 )
 38/navigation_offset = Vector2( 0, 0 )
+38/shape_offset = Vector2( 0, 0 )
+38/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+38/shape_one_way = false
+38/shape_one_way_margin = 0.0
 38/shapes = [  ]
 38/z_index = 0
 39/name = "tileset_ruins.png 39"
@@ -401,6 +809,10 @@
 39/tile_mode = 0
 39/occluder_offset = Vector2( 0, 0 )
 39/navigation_offset = Vector2( 0, 0 )
+39/shape_offset = Vector2( 0, 0 )
+39/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+39/shape_one_way = false
+39/shape_one_way_margin = 0.0
 39/shapes = [  ]
 39/z_index = 0
 40/name = "tileset_ruins.png 40"
@@ -411,6 +823,10 @@
 40/tile_mode = 0
 40/occluder_offset = Vector2( 0, 0 )
 40/navigation_offset = Vector2( 0, 0 )
+40/shape_offset = Vector2( 0, 0 )
+40/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+40/shape_one_way = false
+40/shape_one_way_margin = 0.0
 40/shapes = [  ]
 40/z_index = 0
 41/name = "tileset_ruins.png 41"
@@ -421,6 +837,10 @@
 41/tile_mode = 0
 41/occluder_offset = Vector2( 0, 0 )
 41/navigation_offset = Vector2( 0, 0 )
+41/shape_offset = Vector2( 0, 0 )
+41/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+41/shape_one_way = false
+41/shape_one_way_margin = 0.0
 41/shapes = [  ]
 41/z_index = 0
 42/name = "tileset_ruins.png 42"
@@ -431,6 +851,10 @@
 42/tile_mode = 0
 42/occluder_offset = Vector2( 0, 0 )
 42/navigation_offset = Vector2( 0, 0 )
+42/shape_offset = Vector2( 0, 0 )
+42/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+42/shape_one_way = false
+42/shape_one_way_margin = 0.0
 42/shapes = [  ]
 42/z_index = 0
 43/name = "tileset_ruins.png 43"
@@ -441,6 +865,10 @@
 43/tile_mode = 0
 43/occluder_offset = Vector2( 0, 0 )
 43/navigation_offset = Vector2( 0, 0 )
+43/shape_offset = Vector2( 0, 0 )
+43/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+43/shape_one_way = false
+43/shape_one_way_margin = 0.0
 43/shapes = [  ]
 43/z_index = 0
 44/name = "tileset_ruins.png 44"
@@ -451,6 +879,10 @@
 44/tile_mode = 0
 44/occluder_offset = Vector2( 0, 0 )
 44/navigation_offset = Vector2( 0, 0 )
+44/shape_offset = Vector2( 0, 0 )
+44/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+44/shape_one_way = false
+44/shape_one_way_margin = 0.0
 44/shapes = [  ]
 44/z_index = 0
 45/name = "tileset_ruins.png 45"
@@ -461,6 +893,10 @@
 45/tile_mode = 0
 45/occluder_offset = Vector2( 0, 0 )
 45/navigation_offset = Vector2( 0, 0 )
+45/shape_offset = Vector2( 0, 0 )
+45/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+45/shape_one_way = false
+45/shape_one_way_margin = 0.0
 45/shapes = [  ]
 45/z_index = 0
 46/name = "tileset_ruins.png 46"
@@ -471,6 +907,10 @@
 46/tile_mode = 0
 46/occluder_offset = Vector2( 0, 0 )
 46/navigation_offset = Vector2( 0, 0 )
+46/shape_offset = Vector2( 0, 0 )
+46/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+46/shape_one_way = false
+46/shape_one_way_margin = 0.0
 46/shapes = [  ]
 46/z_index = 0
 47/name = "tileset_ruins.png 47"
@@ -481,6 +921,10 @@
 47/tile_mode = 0
 47/occluder_offset = Vector2( 0, 0 )
 47/navigation_offset = Vector2( 0, 0 )
+47/shape_offset = Vector2( 0, 0 )
+47/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+47/shape_one_way = false
+47/shape_one_way_margin = 0.0
 47/shapes = [  ]
 47/z_index = 0
 48/name = "tileset_ruins.png 48"
@@ -491,6 +935,10 @@
 48/tile_mode = 0
 48/occluder_offset = Vector2( 0, 0 )
 48/navigation_offset = Vector2( 0, 0 )
+48/shape_offset = Vector2( 0, 0 )
+48/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+48/shape_one_way = false
+48/shape_one_way_margin = 0.0
 48/shapes = [  ]
 48/z_index = 0
 49/name = "tileset_ruins.png 49"
@@ -501,6 +949,10 @@
 49/tile_mode = 0
 49/occluder_offset = Vector2( 0, 0 )
 49/navigation_offset = Vector2( 0, 0 )
+49/shape_offset = Vector2( 0, 0 )
+49/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+49/shape_one_way = false
+49/shape_one_way_margin = 0.0
 49/shapes = [  ]
 49/z_index = 0
 50/name = "tileset_ruins.png 50"
@@ -511,6 +963,10 @@
 50/tile_mode = 0
 50/occluder_offset = Vector2( 0, 0 )
 50/navigation_offset = Vector2( 0, 0 )
+50/shape_offset = Vector2( 0, 0 )
+50/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+50/shape_one_way = false
+50/shape_one_way_margin = 0.0
 50/shapes = [  ]
 50/z_index = 0
 51/name = "tileset_ruins.png 51"
@@ -521,6 +977,10 @@
 51/tile_mode = 0
 51/occluder_offset = Vector2( 0, 0 )
 51/navigation_offset = Vector2( 0, 0 )
+51/shape_offset = Vector2( 0, 0 )
+51/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+51/shape_one_way = false
+51/shape_one_way_margin = 0.0
 51/shapes = [  ]
 51/z_index = 0
 52/name = "tileset_ruins.png 52"
@@ -531,6 +991,10 @@
 52/tile_mode = 0
 52/occluder_offset = Vector2( 0, 0 )
 52/navigation_offset = Vector2( 0, 0 )
+52/shape_offset = Vector2( 0, 0 )
+52/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+52/shape_one_way = false
+52/shape_one_way_margin = 0.0
 52/shapes = [  ]
 52/z_index = 0
 53/name = "tileset_ruins.png 53"
@@ -541,6 +1005,10 @@
 53/tile_mode = 0
 53/occluder_offset = Vector2( 0, 0 )
 53/navigation_offset = Vector2( 0, 0 )
+53/shape_offset = Vector2( 0, 0 )
+53/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+53/shape_one_way = false
+53/shape_one_way_margin = 0.0
 53/shapes = [  ]
 53/z_index = 0
 54/name = "tileset_ruins.png 54"
@@ -551,6 +1019,10 @@
 54/tile_mode = 0
 54/occluder_offset = Vector2( 0, 0 )
 54/navigation_offset = Vector2( 0, 0 )
+54/shape_offset = Vector2( 0, 0 )
+54/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+54/shape_one_way = false
+54/shape_one_way_margin = 0.0
 54/shapes = [  ]
 54/z_index = 0
 55/name = "tileset_ruins.png 55"
@@ -561,6 +1033,10 @@
 55/tile_mode = 0
 55/occluder_offset = Vector2( 0, 0 )
 55/navigation_offset = Vector2( 0, 0 )
+55/shape_offset = Vector2( 0, 0 )
+55/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+55/shape_one_way = false
+55/shape_one_way_margin = 0.0
 55/shapes = [  ]
 55/z_index = 0
 56/name = "tileset_ruins.png 56"
@@ -571,6 +1047,10 @@
 56/tile_mode = 0
 56/occluder_offset = Vector2( 0, 0 )
 56/navigation_offset = Vector2( 0, 0 )
+56/shape_offset = Vector2( 0, 0 )
+56/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+56/shape_one_way = false
+56/shape_one_way_margin = 0.0
 56/shapes = [  ]
 56/z_index = 0
 57/name = "tileset_ruins.png 57"
@@ -581,6 +1061,10 @@
 57/tile_mode = 0
 57/occluder_offset = Vector2( 0, 0 )
 57/navigation_offset = Vector2( 0, 0 )
+57/shape_offset = Vector2( 0, 0 )
+57/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+57/shape_one_way = false
+57/shape_one_way_margin = 0.0
 57/shapes = [  ]
 57/z_index = 0
 58/name = "tileset_ruins.png 58"
@@ -591,6 +1075,10 @@
 58/tile_mode = 0
 58/occluder_offset = Vector2( 0, 0 )
 58/navigation_offset = Vector2( 0, 0 )
+58/shape_offset = Vector2( 0, 0 )
+58/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+58/shape_one_way = false
+58/shape_one_way_margin = 0.0
 58/shapes = [  ]
 58/z_index = 0
 59/name = "tileset_ruins.png 59"
@@ -601,6 +1089,10 @@
 59/tile_mode = 0
 59/occluder_offset = Vector2( 0, 0 )
 59/navigation_offset = Vector2( 0, 0 )
+59/shape_offset = Vector2( 0, 0 )
+59/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+59/shape_one_way = false
+59/shape_one_way_margin = 0.0
 59/shapes = [  ]
 59/z_index = 0
 60/name = "tileset_ruins.png 60"
@@ -611,6 +1103,10 @@
 60/tile_mode = 0
 60/occluder_offset = Vector2( 0, 0 )
 60/navigation_offset = Vector2( 0, 0 )
+60/shape_offset = Vector2( 0, 0 )
+60/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+60/shape_one_way = false
+60/shape_one_way_margin = 0.0
 60/shapes = [  ]
 60/z_index = 0
 61/name = "tileset_ruins.png 61"
@@ -621,6 +1117,10 @@
 61/tile_mode = 0
 61/occluder_offset = Vector2( 0, 0 )
 61/navigation_offset = Vector2( 0, 0 )
+61/shape_offset = Vector2( 0, 0 )
+61/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+61/shape_one_way = false
+61/shape_one_way_margin = 0.0
 61/shapes = [  ]
 61/z_index = 0
 62/name = "tileset_ruins.png 62"
@@ -631,6 +1131,10 @@
 62/tile_mode = 0
 62/occluder_offset = Vector2( 0, 0 )
 62/navigation_offset = Vector2( 0, 0 )
+62/shape_offset = Vector2( 0, 0 )
+62/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+62/shape_one_way = false
+62/shape_one_way_margin = 0.0
 62/shapes = [  ]
 62/z_index = 0
 63/name = "tileset_ruins.png 63"
@@ -641,6 +1145,10 @@
 63/tile_mode = 0
 63/occluder_offset = Vector2( 0, 0 )
 63/navigation_offset = Vector2( 0, 0 )
+63/shape_offset = Vector2( 0, 0 )
+63/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+63/shape_one_way = false
+63/shape_one_way_margin = 0.0
 63/shapes = [  ]
 63/z_index = 0
 64/name = "tileset_ruins.png 64"
@@ -651,6 +1159,10 @@
 64/tile_mode = 0
 64/occluder_offset = Vector2( 0, 0 )
 64/navigation_offset = Vector2( 0, 0 )
+64/shape_offset = Vector2( 0, 0 )
+64/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+64/shape_one_way = false
+64/shape_one_way_margin = 0.0
 64/shapes = [  ]
 64/z_index = 0
 65/name = "tileset_ruins.png 65"
@@ -661,6 +1173,10 @@
 65/tile_mode = 0
 65/occluder_offset = Vector2( 0, 0 )
 65/navigation_offset = Vector2( 0, 0 )
+65/shape_offset = Vector2( 0, 0 )
+65/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+65/shape_one_way = false
+65/shape_one_way_margin = 0.0
 65/shapes = [  ]
 65/z_index = 0
 66/name = "tileset_ruins.png 66"
@@ -671,6 +1187,10 @@
 66/tile_mode = 0
 66/occluder_offset = Vector2( 0, 0 )
 66/navigation_offset = Vector2( 0, 0 )
+66/shape_offset = Vector2( 0, 0 )
+66/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+66/shape_one_way = false
+66/shape_one_way_margin = 0.0
 66/shapes = [  ]
 66/z_index = 0
 67/name = "tileset_ruins.png 67"
@@ -681,6 +1201,10 @@
 67/tile_mode = 0
 67/occluder_offset = Vector2( 0, 0 )
 67/navigation_offset = Vector2( 0, 0 )
+67/shape_offset = Vector2( 0, 0 )
+67/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+67/shape_one_way = false
+67/shape_one_way_margin = 0.0
 67/shapes = [  ]
 67/z_index = 0
 68/name = "tileset_ruins.png 68"
@@ -691,6 +1215,10 @@
 68/tile_mode = 0
 68/occluder_offset = Vector2( 0, 0 )
 68/navigation_offset = Vector2( 0, 0 )
+68/shape_offset = Vector2( 0, 0 )
+68/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+68/shape_one_way = false
+68/shape_one_way_margin = 0.0
 68/shapes = [  ]
 68/z_index = 0
 69/name = "tileset_ruins.png 69"
@@ -701,6 +1229,10 @@
 69/tile_mode = 0
 69/occluder_offset = Vector2( 0, 0 )
 69/navigation_offset = Vector2( 0, 0 )
+69/shape_offset = Vector2( 0, 0 )
+69/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+69/shape_one_way = false
+69/shape_one_way_margin = 0.0
 69/shapes = [  ]
 69/z_index = 0
 70/name = "tileset_ruins.png 70"
@@ -711,6 +1243,10 @@
 70/tile_mode = 0
 70/occluder_offset = Vector2( 0, 0 )
 70/navigation_offset = Vector2( 0, 0 )
+70/shape_offset = Vector2( 0, 0 )
+70/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+70/shape_one_way = false
+70/shape_one_way_margin = 0.0
 70/shapes = [  ]
 70/z_index = 0
 71/name = "tileset_ruins.png 71"
@@ -721,6 +1257,10 @@
 71/tile_mode = 0
 71/occluder_offset = Vector2( 0, 0 )
 71/navigation_offset = Vector2( 0, 0 )
+71/shape_offset = Vector2( 0, 0 )
+71/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+71/shape_one_way = false
+71/shape_one_way_margin = 0.0
 71/shapes = [  ]
 71/z_index = 0
 72/name = "tileset_ruins.png 72"
@@ -731,6 +1271,10 @@
 72/tile_mode = 0
 72/occluder_offset = Vector2( 0, 0 )
 72/navigation_offset = Vector2( 0, 0 )
+72/shape_offset = Vector2( 0, 0 )
+72/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+72/shape_one_way = false
+72/shape_one_way_margin = 0.0
 72/shapes = [  ]
 72/z_index = 0
 73/name = "tileset_ruins.png 73"
@@ -741,6 +1285,10 @@
 73/tile_mode = 0
 73/occluder_offset = Vector2( 0, 0 )
 73/navigation_offset = Vector2( 0, 0 )
+73/shape_offset = Vector2( 0, 0 )
+73/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+73/shape_one_way = false
+73/shape_one_way_margin = 0.0
 73/shapes = [  ]
 73/z_index = 0
 74/name = "tileset_ruins.png 74"
@@ -751,6 +1299,10 @@
 74/tile_mode = 0
 74/occluder_offset = Vector2( 0, 0 )
 74/navigation_offset = Vector2( 0, 0 )
+74/shape_offset = Vector2( 0, 0 )
+74/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+74/shape_one_way = false
+74/shape_one_way_margin = 0.0
 74/shapes = [  ]
 74/z_index = 0
 75/name = "tileset_ruins.png 75"
@@ -761,6 +1313,10 @@
 75/tile_mode = 0
 75/occluder_offset = Vector2( 0, 0 )
 75/navigation_offset = Vector2( 0, 0 )
+75/shape_offset = Vector2( 0, 0 )
+75/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+75/shape_one_way = false
+75/shape_one_way_margin = 0.0
 75/shapes = [  ]
 75/z_index = 0
 76/name = "tileset_ruins.png 76"
@@ -771,6 +1327,10 @@
 76/tile_mode = 0
 76/occluder_offset = Vector2( 0, 0 )
 76/navigation_offset = Vector2( 0, 0 )
+76/shape_offset = Vector2( 0, 0 )
+76/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+76/shape_one_way = false
+76/shape_one_way_margin = 0.0
 76/shapes = [  ]
 76/z_index = 0
 77/name = "tileset_ruins.png 77"
@@ -781,6 +1341,10 @@
 77/tile_mode = 0
 77/occluder_offset = Vector2( 0, 0 )
 77/navigation_offset = Vector2( 0, 0 )
+77/shape_offset = Vector2( 0, 0 )
+77/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+77/shape_one_way = false
+77/shape_one_way_margin = 0.0
 77/shapes = [  ]
 77/z_index = 0
 78/name = "tileset_ruins.png 78"
@@ -791,6 +1355,10 @@
 78/tile_mode = 0
 78/occluder_offset = Vector2( 0, 0 )
 78/navigation_offset = Vector2( 0, 0 )
+78/shape_offset = Vector2( 0, 0 )
+78/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+78/shape_one_way = false
+78/shape_one_way_margin = 0.0
 78/shapes = [  ]
 78/z_index = 0
 79/name = "tileset_ruins.png 79"
@@ -801,6 +1369,10 @@
 79/tile_mode = 0
 79/occluder_offset = Vector2( 0, 0 )
 79/navigation_offset = Vector2( 0, 0 )
+79/shape_offset = Vector2( 0, 0 )
+79/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+79/shape_one_way = false
+79/shape_one_way_margin = 0.0
 79/shapes = [  ]
 79/z_index = 0
 80/name = "tileset_ruins.png 80"
@@ -811,6 +1383,10 @@
 80/tile_mode = 0
 80/occluder_offset = Vector2( 0, 0 )
 80/navigation_offset = Vector2( 0, 0 )
+80/shape_offset = Vector2( 0, 0 )
+80/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+80/shape_one_way = false
+80/shape_one_way_margin = 0.0
 80/shapes = [  ]
 80/z_index = 0
 81/name = "tileset_ruins.png 81"
@@ -821,6 +1397,10 @@
 81/tile_mode = 0
 81/occluder_offset = Vector2( 0, 0 )
 81/navigation_offset = Vector2( 0, 0 )
+81/shape_offset = Vector2( 0, 0 )
+81/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+81/shape_one_way = false
+81/shape_one_way_margin = 0.0
 81/shapes = [  ]
 81/z_index = 0
 82/name = "tileset_ruins.png 82"
@@ -831,6 +1411,10 @@
 82/tile_mode = 0
 82/occluder_offset = Vector2( 0, 0 )
 82/navigation_offset = Vector2( 0, 0 )
+82/shape_offset = Vector2( 0, 0 )
+82/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+82/shape_one_way = false
+82/shape_one_way_margin = 0.0
 82/shapes = [  ]
 82/z_index = 0
 83/name = "tileset_ruins.png 83"
@@ -841,6 +1425,10 @@
 83/tile_mode = 0
 83/occluder_offset = Vector2( 0, 0 )
 83/navigation_offset = Vector2( 0, 0 )
+83/shape_offset = Vector2( 0, 0 )
+83/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+83/shape_one_way = false
+83/shape_one_way_margin = 0.0
 83/shapes = [  ]
 83/z_index = 0
 84/name = "tileset_ruins.png 84"
@@ -851,6 +1439,10 @@
 84/tile_mode = 0
 84/occluder_offset = Vector2( 0, 0 )
 84/navigation_offset = Vector2( 0, 0 )
+84/shape_offset = Vector2( 0, 0 )
+84/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+84/shape_one_way = false
+84/shape_one_way_margin = 0.0
 84/shapes = [  ]
 84/z_index = 0
 85/name = "tileset_ruins.png 85"
@@ -861,6 +1453,10 @@
 85/tile_mode = 0
 85/occluder_offset = Vector2( 0, 0 )
 85/navigation_offset = Vector2( 0, 0 )
+85/shape_offset = Vector2( 0, 0 )
+85/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+85/shape_one_way = false
+85/shape_one_way_margin = 0.0
 85/shapes = [  ]
 85/z_index = 0
 86/name = "tileset_ruins.png 86"
@@ -871,6 +1467,10 @@
 86/tile_mode = 0
 86/occluder_offset = Vector2( 0, 0 )
 86/navigation_offset = Vector2( 0, 0 )
+86/shape_offset = Vector2( 0, 0 )
+86/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+86/shape_one_way = false
+86/shape_one_way_margin = 0.0
 86/shapes = [  ]
 86/z_index = 0
 87/name = "tileset_ruins.png 87"
@@ -881,6 +1481,10 @@
 87/tile_mode = 0
 87/occluder_offset = Vector2( 0, 0 )
 87/navigation_offset = Vector2( 0, 0 )
+87/shape_offset = Vector2( 0, 0 )
+87/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+87/shape_one_way = false
+87/shape_one_way_margin = 0.0
 87/shapes = [  ]
 87/z_index = 0
 88/name = "tileset_ruins.png 88"
@@ -891,6 +1495,10 @@
 88/tile_mode = 0
 88/occluder_offset = Vector2( 0, 0 )
 88/navigation_offset = Vector2( 0, 0 )
+88/shape_offset = Vector2( 0, 0 )
+88/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+88/shape_one_way = false
+88/shape_one_way_margin = 0.0
 88/shapes = [  ]
 88/z_index = 0
 89/name = "tileset_ruins.png 89"
@@ -901,6 +1509,10 @@
 89/tile_mode = 0
 89/occluder_offset = Vector2( 0, 0 )
 89/navigation_offset = Vector2( 0, 0 )
+89/shape_offset = Vector2( 0, 0 )
+89/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+89/shape_one_way = false
+89/shape_one_way_margin = 0.0
 89/shapes = [  ]
 89/z_index = 0
 90/name = "tileset_ruins.png 90"
@@ -911,6 +1523,10 @@
 90/tile_mode = 0
 90/occluder_offset = Vector2( 0, 0 )
 90/navigation_offset = Vector2( 0, 0 )
+90/shape_offset = Vector2( 0, 0 )
+90/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+90/shape_one_way = false
+90/shape_one_way_margin = 0.0
 90/shapes = [  ]
 90/z_index = 0
 91/name = "tileset_ruins.png 91"
@@ -921,6 +1537,10 @@
 91/tile_mode = 0
 91/occluder_offset = Vector2( 0, 0 )
 91/navigation_offset = Vector2( 0, 0 )
+91/shape_offset = Vector2( 0, 0 )
+91/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+91/shape_one_way = false
+91/shape_one_way_margin = 0.0
 91/shapes = [  ]
 91/z_index = 0
 92/name = "tileset_ruins.png 92"
@@ -931,6 +1551,10 @@
 92/tile_mode = 0
 92/occluder_offset = Vector2( 0, 0 )
 92/navigation_offset = Vector2( 0, 0 )
+92/shape_offset = Vector2( 0, 0 )
+92/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+92/shape_one_way = false
+92/shape_one_way_margin = 0.0
 92/shapes = [  ]
 92/z_index = 0
 93/name = "tileset_ruins.png 93"
@@ -941,6 +1565,10 @@
 93/tile_mode = 0
 93/occluder_offset = Vector2( 0, 0 )
 93/navigation_offset = Vector2( 0, 0 )
+93/shape_offset = Vector2( 0, 0 )
+93/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+93/shape_one_way = false
+93/shape_one_way_margin = 0.0
 93/shapes = [  ]
 93/z_index = 0
 94/name = "tileset_ruins.png 94"
@@ -951,6 +1579,10 @@
 94/tile_mode = 0
 94/occluder_offset = Vector2( 0, 0 )
 94/navigation_offset = Vector2( 0, 0 )
+94/shape_offset = Vector2( 0, 0 )
+94/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+94/shape_one_way = false
+94/shape_one_way_margin = 0.0
 94/shapes = [  ]
 94/z_index = 0
 95/name = "tileset_ruins.png 95"
@@ -961,6 +1593,10 @@
 95/tile_mode = 0
 95/occluder_offset = Vector2( 0, 0 )
 95/navigation_offset = Vector2( 0, 0 )
+95/shape_offset = Vector2( 0, 0 )
+95/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+95/shape_one_way = false
+95/shape_one_way_margin = 0.0
 95/shapes = [  ]
 95/z_index = 0
 96/name = "tileset_ruins.png 96"
@@ -971,6 +1607,10 @@
 96/tile_mode = 0
 96/occluder_offset = Vector2( 0, 0 )
 96/navigation_offset = Vector2( 0, 0 )
+96/shape_offset = Vector2( 0, 0 )
+96/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+96/shape_one_way = false
+96/shape_one_way_margin = 0.0
 96/shapes = [  ]
 96/z_index = 0
 97/name = "tileset_ruins.png 97"
@@ -981,6 +1621,10 @@
 97/tile_mode = 0
 97/occluder_offset = Vector2( 0, 0 )
 97/navigation_offset = Vector2( 0, 0 )
+97/shape_offset = Vector2( 0, 0 )
+97/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+97/shape_one_way = false
+97/shape_one_way_margin = 0.0
 97/shapes = [  ]
 97/z_index = 0
 98/name = "tileset_ruins.png 98"
@@ -991,6 +1635,10 @@
 98/tile_mode = 0
 98/occluder_offset = Vector2( 0, 0 )
 98/navigation_offset = Vector2( 0, 0 )
+98/shape_offset = Vector2( 0, 0 )
+98/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+98/shape_one_way = false
+98/shape_one_way_margin = 0.0
 98/shapes = [  ]
 98/z_index = 0
 99/name = "tileset_ruins.png 99"
@@ -1001,6 +1649,10 @@
 99/tile_mode = 0
 99/occluder_offset = Vector2( 0, 0 )
 99/navigation_offset = Vector2( 0, 0 )
+99/shape_offset = Vector2( 0, 0 )
+99/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+99/shape_one_way = false
+99/shape_one_way_margin = 0.0
 99/shapes = [  ]
 99/z_index = 0
 100/name = "tileset_ruins.png 100"
@@ -1011,6 +1663,10 @@
 100/tile_mode = 0
 100/occluder_offset = Vector2( 0, 0 )
 100/navigation_offset = Vector2( 0, 0 )
+100/shape_offset = Vector2( 0, 0 )
+100/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+100/shape_one_way = false
+100/shape_one_way_margin = 0.0
 100/shapes = [  ]
 100/z_index = 0
 101/name = "tileset_ruins.png 101"
@@ -1021,6 +1677,10 @@
 101/tile_mode = 0
 101/occluder_offset = Vector2( 0, 0 )
 101/navigation_offset = Vector2( 0, 0 )
+101/shape_offset = Vector2( 0, 0 )
+101/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+101/shape_one_way = false
+101/shape_one_way_margin = 0.0
 101/shapes = [  ]
 101/z_index = 0
 102/name = "tileset_ruins.png 102"
@@ -1031,6 +1691,10 @@
 102/tile_mode = 0
 102/occluder_offset = Vector2( 0, 0 )
 102/navigation_offset = Vector2( 0, 0 )
+102/shape_offset = Vector2( 0, 0 )
+102/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+102/shape_one_way = false
+102/shape_one_way_margin = 0.0
 102/shapes = [  ]
 102/z_index = 0
 103/name = "tileset_ruins.png 103"
@@ -1041,6 +1705,10 @@
 103/tile_mode = 0
 103/occluder_offset = Vector2( 0, 0 )
 103/navigation_offset = Vector2( 0, 0 )
+103/shape_offset = Vector2( 0, 0 )
+103/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+103/shape_one_way = false
+103/shape_one_way_margin = 0.0
 103/shapes = [  ]
 103/z_index = 0
 104/name = "tileset_ruins.png 104"
@@ -1051,6 +1719,10 @@
 104/tile_mode = 0
 104/occluder_offset = Vector2( 0, 0 )
 104/navigation_offset = Vector2( 0, 0 )
+104/shape_offset = Vector2( 0, 0 )
+104/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+104/shape_one_way = false
+104/shape_one_way_margin = 0.0
 104/shapes = [  ]
 104/z_index = 0
 105/name = "tileset_ruins.png 105"
@@ -1061,6 +1733,10 @@
 105/tile_mode = 0
 105/occluder_offset = Vector2( 0, 0 )
 105/navigation_offset = Vector2( 0, 0 )
+105/shape_offset = Vector2( 0, 0 )
+105/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+105/shape_one_way = false
+105/shape_one_way_margin = 0.0
 105/shapes = [  ]
 105/z_index = 0
 106/name = "tileset_ruins.png 106"
@@ -1071,6 +1747,10 @@
 106/tile_mode = 0
 106/occluder_offset = Vector2( 0, 0 )
 106/navigation_offset = Vector2( 0, 0 )
+106/shape_offset = Vector2( 0, 0 )
+106/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+106/shape_one_way = false
+106/shape_one_way_margin = 0.0
 106/shapes = [  ]
 106/z_index = 0
 107/name = "tileset_ruins.png 107"
@@ -1081,6 +1761,10 @@
 107/tile_mode = 0
 107/occluder_offset = Vector2( 0, 0 )
 107/navigation_offset = Vector2( 0, 0 )
+107/shape_offset = Vector2( 0, 0 )
+107/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+107/shape_one_way = false
+107/shape_one_way_margin = 0.0
 107/shapes = [  ]
 107/z_index = 0
 108/name = "tileset_ruins.png 108"
@@ -1091,6 +1775,10 @@
 108/tile_mode = 0
 108/occluder_offset = Vector2( 0, 0 )
 108/navigation_offset = Vector2( 0, 0 )
+108/shape_offset = Vector2( 0, 0 )
+108/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+108/shape_one_way = false
+108/shape_one_way_margin = 0.0
 108/shapes = [  ]
 108/z_index = 0
 109/name = "tileset_ruins.png 109"
@@ -1101,6 +1789,10 @@
 109/tile_mode = 0
 109/occluder_offset = Vector2( 0, 0 )
 109/navigation_offset = Vector2( 0, 0 )
+109/shape_offset = Vector2( 0, 0 )
+109/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+109/shape_one_way = false
+109/shape_one_way_margin = 0.0
 109/shapes = [  ]
 109/z_index = 0
 110/name = "tileset_ruins.png 110"
@@ -1111,6 +1803,10 @@
 110/tile_mode = 0
 110/occluder_offset = Vector2( 0, 0 )
 110/navigation_offset = Vector2( 0, 0 )
+110/shape_offset = Vector2( 0, 0 )
+110/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+110/shape_one_way = false
+110/shape_one_way_margin = 0.0
 110/shapes = [  ]
 110/z_index = 0
 111/name = "tileset_ruins.png 111"
@@ -1121,6 +1817,10 @@
 111/tile_mode = 0
 111/occluder_offset = Vector2( 0, 0 )
 111/navigation_offset = Vector2( 0, 0 )
+111/shape_offset = Vector2( 0, 0 )
+111/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+111/shape_one_way = false
+111/shape_one_way_margin = 0.0
 111/shapes = [  ]
 111/z_index = 0
 112/name = "tileset_ruins.png 112"
@@ -1131,6 +1831,10 @@
 112/tile_mode = 0
 112/occluder_offset = Vector2( 0, 0 )
 112/navigation_offset = Vector2( 0, 0 )
+112/shape_offset = Vector2( 0, 0 )
+112/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+112/shape_one_way = false
+112/shape_one_way_margin = 0.0
 112/shapes = [  ]
 112/z_index = 0
 113/name = "tileset_ruins.png 113"
@@ -1141,6 +1845,10 @@
 113/tile_mode = 0
 113/occluder_offset = Vector2( 0, 0 )
 113/navigation_offset = Vector2( 0, 0 )
+113/shape_offset = Vector2( 0, 0 )
+113/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+113/shape_one_way = false
+113/shape_one_way_margin = 0.0
 113/shapes = [  ]
 113/z_index = 0
 114/name = "tileset_ruins.png 114"
@@ -1151,6 +1859,10 @@
 114/tile_mode = 0
 114/occluder_offset = Vector2( 0, 0 )
 114/navigation_offset = Vector2( 0, 0 )
+114/shape_offset = Vector2( 0, 0 )
+114/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+114/shape_one_way = false
+114/shape_one_way_margin = 0.0
 114/shapes = [  ]
 114/z_index = 0
 115/name = "tileset_ruins.png 115"
@@ -1161,6 +1873,10 @@
 115/tile_mode = 0
 115/occluder_offset = Vector2( 0, 0 )
 115/navigation_offset = Vector2( 0, 0 )
+115/shape_offset = Vector2( 0, 0 )
+115/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+115/shape_one_way = false
+115/shape_one_way_margin = 0.0
 115/shapes = [  ]
 115/z_index = 0
 116/name = "tileset_ruins.png 116"
@@ -1171,6 +1887,10 @@
 116/tile_mode = 0
 116/occluder_offset = Vector2( 0, 0 )
 116/navigation_offset = Vector2( 0, 0 )
+116/shape_offset = Vector2( 0, 0 )
+116/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+116/shape_one_way = false
+116/shape_one_way_margin = 0.0
 116/shapes = [  ]
 116/z_index = 0
 117/name = "tileset_ruins.png 117"
@@ -1181,6 +1901,10 @@
 117/tile_mode = 0
 117/occluder_offset = Vector2( 0, 0 )
 117/navigation_offset = Vector2( 0, 0 )
+117/shape_offset = Vector2( 0, 0 )
+117/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+117/shape_one_way = false
+117/shape_one_way_margin = 0.0
 117/shapes = [  ]
 117/z_index = 0
 118/name = "tileset_ruins.png 118"
@@ -1191,6 +1915,10 @@
 118/tile_mode = 0
 118/occluder_offset = Vector2( 0, 0 )
 118/navigation_offset = Vector2( 0, 0 )
+118/shape_offset = Vector2( 0, 0 )
+118/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+118/shape_one_way = false
+118/shape_one_way_margin = 0.0
 118/shapes = [  ]
 118/z_index = 0
 119/name = "tileset_ruins.png 119"
@@ -1201,6 +1929,10 @@
 119/tile_mode = 0
 119/occluder_offset = Vector2( 0, 0 )
 119/navigation_offset = Vector2( 0, 0 )
+119/shape_offset = Vector2( 0, 0 )
+119/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+119/shape_one_way = false
+119/shape_one_way_margin = 0.0
 119/shapes = [  ]
 119/z_index = 0
 120/name = "tileset_ruins.png 120"
@@ -1211,6 +1943,10 @@
 120/tile_mode = 0
 120/occluder_offset = Vector2( 0, 0 )
 120/navigation_offset = Vector2( 0, 0 )
+120/shape_offset = Vector2( 0, 0 )
+120/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+120/shape_one_way = false
+120/shape_one_way_margin = 0.0
 120/shapes = [  ]
 120/z_index = 0
 121/name = "tileset_ruins.png 121"
@@ -1221,6 +1957,10 @@
 121/tile_mode = 0
 121/occluder_offset = Vector2( 0, 0 )
 121/navigation_offset = Vector2( 0, 0 )
+121/shape_offset = Vector2( 0, 0 )
+121/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+121/shape_one_way = false
+121/shape_one_way_margin = 0.0
 121/shapes = [  ]
 121/z_index = 0
 122/name = "tileset_ruins.png 122"
@@ -1231,6 +1971,10 @@
 122/tile_mode = 0
 122/occluder_offset = Vector2( 0, 0 )
 122/navigation_offset = Vector2( 0, 0 )
+122/shape_offset = Vector2( 0, 0 )
+122/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+122/shape_one_way = false
+122/shape_one_way_margin = 0.0
 122/shapes = [  ]
 122/z_index = 0
 123/name = "tileset_ruins.png 123"
@@ -1241,6 +1985,10 @@
 123/tile_mode = 0
 123/occluder_offset = Vector2( 0, 0 )
 123/navigation_offset = Vector2( 0, 0 )
+123/shape_offset = Vector2( 0, 0 )
+123/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+123/shape_one_way = false
+123/shape_one_way_margin = 0.0
 123/shapes = [  ]
 123/z_index = 0
 124/name = "tileset_ruins.png 124"
@@ -1251,6 +1999,10 @@
 124/tile_mode = 0
 124/occluder_offset = Vector2( 0, 0 )
 124/navigation_offset = Vector2( 0, 0 )
+124/shape_offset = Vector2( 0, 0 )
+124/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+124/shape_one_way = false
+124/shape_one_way_margin = 0.0
 124/shapes = [  ]
 124/z_index = 0
 125/name = "tileset_ruins.png 125"
@@ -1261,6 +2013,10 @@
 125/tile_mode = 0
 125/occluder_offset = Vector2( 0, 0 )
 125/navigation_offset = Vector2( 0, 0 )
+125/shape_offset = Vector2( 0, 0 )
+125/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+125/shape_one_way = false
+125/shape_one_way_margin = 0.0
 125/shapes = [  ]
 125/z_index = 0
 126/name = "tileset_ruins.png 126"
@@ -1271,6 +2027,10 @@
 126/tile_mode = 0
 126/occluder_offset = Vector2( 0, 0 )
 126/navigation_offset = Vector2( 0, 0 )
+126/shape_offset = Vector2( 0, 0 )
+126/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+126/shape_one_way = false
+126/shape_one_way_margin = 0.0
 126/shapes = [  ]
 126/z_index = 0
 127/name = "tileset_ruins.png 127"
@@ -1281,6 +2041,10 @@
 127/tile_mode = 0
 127/occluder_offset = Vector2( 0, 0 )
 127/navigation_offset = Vector2( 0, 0 )
+127/shape_offset = Vector2( 0, 0 )
+127/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+127/shape_one_way = false
+127/shape_one_way_margin = 0.0
 127/shapes = [  ]
 127/z_index = 0
 128/name = "tileset_ruins.png 128"
@@ -1291,6 +2055,10 @@
 128/tile_mode = 0
 128/occluder_offset = Vector2( 0, 0 )
 128/navigation_offset = Vector2( 0, 0 )
+128/shape_offset = Vector2( 0, 0 )
+128/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+128/shape_one_way = false
+128/shape_one_way_margin = 0.0
 128/shapes = [  ]
 128/z_index = 0
 129/name = "tileset_ruins.png 129"
@@ -1301,6 +2069,10 @@
 129/tile_mode = 0
 129/occluder_offset = Vector2( 0, 0 )
 129/navigation_offset = Vector2( 0, 0 )
+129/shape_offset = Vector2( 0, 0 )
+129/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+129/shape_one_way = false
+129/shape_one_way_margin = 0.0
 129/shapes = [  ]
 129/z_index = 0
 130/name = "tileset_ruins.png 130"
@@ -1311,6 +2083,10 @@
 130/tile_mode = 0
 130/occluder_offset = Vector2( 0, 0 )
 130/navigation_offset = Vector2( 0, 0 )
+130/shape_offset = Vector2( 0, 0 )
+130/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+130/shape_one_way = false
+130/shape_one_way_margin = 0.0
 130/shapes = [  ]
 130/z_index = 0
 131/name = "tileset_ruins.png 131"
@@ -1321,6 +2097,10 @@
 131/tile_mode = 0
 131/occluder_offset = Vector2( 0, 0 )
 131/navigation_offset = Vector2( 0, 0 )
+131/shape_offset = Vector2( 0, 0 )
+131/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+131/shape_one_way = false
+131/shape_one_way_margin = 0.0
 131/shapes = [  ]
 131/z_index = 0
 132/name = "tileset_ruins.png 132"
@@ -1331,6 +2111,10 @@
 132/tile_mode = 0
 132/occluder_offset = Vector2( 0, 0 )
 132/navigation_offset = Vector2( 0, 0 )
+132/shape_offset = Vector2( 0, 0 )
+132/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+132/shape_one_way = false
+132/shape_one_way_margin = 0.0
 132/shapes = [  ]
 132/z_index = 0
 133/name = "tileset_ruins.png 133"
@@ -1341,6 +2125,10 @@
 133/tile_mode = 0
 133/occluder_offset = Vector2( 0, 0 )
 133/navigation_offset = Vector2( 0, 0 )
+133/shape_offset = Vector2( 0, 0 )
+133/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+133/shape_one_way = false
+133/shape_one_way_margin = 0.0
 133/shapes = [  ]
 133/z_index = 0
 134/name = "tileset_ruins.png 134"
@@ -1351,6 +2139,10 @@
 134/tile_mode = 0
 134/occluder_offset = Vector2( 0, 0 )
 134/navigation_offset = Vector2( 0, 0 )
+134/shape_offset = Vector2( 0, 0 )
+134/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+134/shape_one_way = false
+134/shape_one_way_margin = 0.0
 134/shapes = [  ]
 134/z_index = 0
 135/name = "tileset_ruins.png 135"
@@ -1361,6 +2153,10 @@
 135/tile_mode = 0
 135/occluder_offset = Vector2( 0, 0 )
 135/navigation_offset = Vector2( 0, 0 )
+135/shape_offset = Vector2( 0, 0 )
+135/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+135/shape_one_way = false
+135/shape_one_way_margin = 0.0
 135/shapes = [  ]
 135/z_index = 0
 136/name = "tileset_ruins.png 136"
@@ -1371,6 +2167,10 @@
 136/tile_mode = 0
 136/occluder_offset = Vector2( 0, 0 )
 136/navigation_offset = Vector2( 0, 0 )
+136/shape_offset = Vector2( 0, 0 )
+136/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+136/shape_one_way = false
+136/shape_one_way_margin = 0.0
 136/shapes = [  ]
 136/z_index = 0
 137/name = "tileset_ruins.png 137"
@@ -1381,6 +2181,10 @@
 137/tile_mode = 0
 137/occluder_offset = Vector2( 0, 0 )
 137/navigation_offset = Vector2( 0, 0 )
+137/shape_offset = Vector2( 0, 0 )
+137/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+137/shape_one_way = false
+137/shape_one_way_margin = 0.0
 137/shapes = [  ]
 137/z_index = 0
 138/name = "tileset_ruins.png 138"
@@ -1391,6 +2195,10 @@
 138/tile_mode = 0
 138/occluder_offset = Vector2( 0, 0 )
 138/navigation_offset = Vector2( 0, 0 )
+138/shape_offset = Vector2( 0, 0 )
+138/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+138/shape_one_way = false
+138/shape_one_way_margin = 0.0
 138/shapes = [  ]
 138/z_index = 0
 139/name = "tileset_ruins.png 139"
@@ -1401,6 +2209,10 @@
 139/tile_mode = 0
 139/occluder_offset = Vector2( 0, 0 )
 139/navigation_offset = Vector2( 0, 0 )
+139/shape_offset = Vector2( 0, 0 )
+139/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+139/shape_one_way = false
+139/shape_one_way_margin = 0.0
 139/shapes = [  ]
 139/z_index = 0
 140/name = "tileset_ruins.png 140"
@@ -1411,6 +2223,10 @@
 140/tile_mode = 0
 140/occluder_offset = Vector2( 0, 0 )
 140/navigation_offset = Vector2( 0, 0 )
+140/shape_offset = Vector2( 0, 0 )
+140/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+140/shape_one_way = false
+140/shape_one_way_margin = 0.0
 140/shapes = [  ]
 140/z_index = 0
 141/name = "tileset_ruins.png 141"
@@ -1421,6 +2237,10 @@
 141/tile_mode = 0
 141/occluder_offset = Vector2( 0, 0 )
 141/navigation_offset = Vector2( 0, 0 )
+141/shape_offset = Vector2( 0, 0 )
+141/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+141/shape_one_way = false
+141/shape_one_way_margin = 0.0
 141/shapes = [  ]
 141/z_index = 0
 142/name = "tileset_ruins.png 142"
@@ -1431,6 +2251,10 @@
 142/tile_mode = 0
 142/occluder_offset = Vector2( 0, 0 )
 142/navigation_offset = Vector2( 0, 0 )
+142/shape_offset = Vector2( 0, 0 )
+142/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+142/shape_one_way = false
+142/shape_one_way_margin = 0.0
 142/shapes = [  ]
 142/z_index = 0
 143/name = "tileset_ruins.png 143"
@@ -1441,6 +2265,10 @@
 143/tile_mode = 0
 143/occluder_offset = Vector2( 0, 0 )
 143/navigation_offset = Vector2( 0, 0 )
+143/shape_offset = Vector2( 0, 0 )
+143/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+143/shape_one_way = false
+143/shape_one_way_margin = 0.0
 143/shapes = [  ]
 143/z_index = 0
 144/name = "tileset_ruins.png 144"
@@ -1451,6 +2279,10 @@
 144/tile_mode = 0
 144/occluder_offset = Vector2( 0, 0 )
 144/navigation_offset = Vector2( 0, 0 )
+144/shape_offset = Vector2( 0, 0 )
+144/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+144/shape_one_way = false
+144/shape_one_way_margin = 0.0
 144/shapes = [  ]
 144/z_index = 0
 145/name = "tileset_ruins.png 145"
@@ -1461,6 +2293,10 @@
 145/tile_mode = 0
 145/occluder_offset = Vector2( 0, 0 )
 145/navigation_offset = Vector2( 0, 0 )
+145/shape_offset = Vector2( 0, 0 )
+145/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+145/shape_one_way = false
+145/shape_one_way_margin = 0.0
 145/shapes = [  ]
 145/z_index = 0
 146/name = "tileset_ruins.png 146"
@@ -1471,6 +2307,10 @@
 146/tile_mode = 0
 146/occluder_offset = Vector2( 0, 0 )
 146/navigation_offset = Vector2( 0, 0 )
+146/shape_offset = Vector2( 0, 0 )
+146/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+146/shape_one_way = false
+146/shape_one_way_margin = 0.0
 146/shapes = [  ]
 146/z_index = 0
 147/name = "tileset_ruins.png 147"
@@ -1481,6 +2321,10 @@
 147/tile_mode = 0
 147/occluder_offset = Vector2( 0, 0 )
 147/navigation_offset = Vector2( 0, 0 )
+147/shape_offset = Vector2( 0, 0 )
+147/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+147/shape_one_way = false
+147/shape_one_way_margin = 0.0
 147/shapes = [  ]
 147/z_index = 0
 148/name = "tileset_ruins.png 148"
@@ -1491,6 +2335,10 @@
 148/tile_mode = 0
 148/occluder_offset = Vector2( 0, 0 )
 148/navigation_offset = Vector2( 0, 0 )
+148/shape_offset = Vector2( 0, 0 )
+148/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+148/shape_one_way = false
+148/shape_one_way_margin = 0.0
 148/shapes = [  ]
 148/z_index = 0
 149/name = "tileset_ruins.png 149"
@@ -1501,6 +2349,10 @@
 149/tile_mode = 0
 149/occluder_offset = Vector2( 0, 0 )
 149/navigation_offset = Vector2( 0, 0 )
+149/shape_offset = Vector2( 0, 0 )
+149/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+149/shape_one_way = false
+149/shape_one_way_margin = 0.0
 149/shapes = [  ]
 149/z_index = 0
 150/name = "tileset_ruins.png 150"
@@ -1511,6 +2363,10 @@
 150/tile_mode = 0
 150/occluder_offset = Vector2( 0, 0 )
 150/navigation_offset = Vector2( 0, 0 )
+150/shape_offset = Vector2( 0, 0 )
+150/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+150/shape_one_way = false
+150/shape_one_way_margin = 0.0
 150/shapes = [  ]
 150/z_index = 0
 151/name = "tileset_ruins.png 151"
@@ -1521,6 +2377,10 @@
 151/tile_mode = 0
 151/occluder_offset = Vector2( 0, 0 )
 151/navigation_offset = Vector2( 0, 0 )
+151/shape_offset = Vector2( 0, 0 )
+151/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+151/shape_one_way = false
+151/shape_one_way_margin = 0.0
 151/shapes = [  ]
 151/z_index = 0
 152/name = "tileset_ruins.png 152"
@@ -1531,6 +2391,10 @@
 152/tile_mode = 0
 152/occluder_offset = Vector2( 0, 0 )
 152/navigation_offset = Vector2( 0, 0 )
+152/shape_offset = Vector2( 0, 0 )
+152/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+152/shape_one_way = false
+152/shape_one_way_margin = 0.0
 152/shapes = [  ]
 152/z_index = 0
 153/name = "tileset_ruins.png 153"
@@ -1541,6 +2405,10 @@
 153/tile_mode = 0
 153/occluder_offset = Vector2( 0, 0 )
 153/navigation_offset = Vector2( 0, 0 )
+153/shape_offset = Vector2( 0, 0 )
+153/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+153/shape_one_way = false
+153/shape_one_way_margin = 0.0
 153/shapes = [  ]
 153/z_index = 0
 154/name = "tileset_ruins.png 154"
@@ -1551,6 +2419,10 @@
 154/tile_mode = 0
 154/occluder_offset = Vector2( 0, 0 )
 154/navigation_offset = Vector2( 0, 0 )
+154/shape_offset = Vector2( 0, 0 )
+154/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+154/shape_one_way = false
+154/shape_one_way_margin = 0.0
 154/shapes = [  ]
 154/z_index = 0
 155/name = "tileset_ruins.png 155"
@@ -1561,6 +2433,10 @@
 155/tile_mode = 0
 155/occluder_offset = Vector2( 0, 0 )
 155/navigation_offset = Vector2( 0, 0 )
+155/shape_offset = Vector2( 0, 0 )
+155/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+155/shape_one_way = false
+155/shape_one_way_margin = 0.0
 155/shapes = [  ]
 155/z_index = 0
 156/name = "tileset_ruins.png 156"
@@ -1571,6 +2447,10 @@
 156/tile_mode = 0
 156/occluder_offset = Vector2( 0, 0 )
 156/navigation_offset = Vector2( 0, 0 )
+156/shape_offset = Vector2( 0, 0 )
+156/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+156/shape_one_way = false
+156/shape_one_way_margin = 0.0
 156/shapes = [  ]
 156/z_index = 0
 157/name = "tileset_ruins.png 157"
@@ -1581,6 +2461,10 @@
 157/tile_mode = 0
 157/occluder_offset = Vector2( 0, 0 )
 157/navigation_offset = Vector2( 0, 0 )
+157/shape_offset = Vector2( 0, 0 )
+157/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+157/shape_one_way = false
+157/shape_one_way_margin = 0.0
 157/shapes = [  ]
 157/z_index = 0
 158/name = "tileset_ruins.png 158"
@@ -1591,6 +2475,10 @@
 158/tile_mode = 0
 158/occluder_offset = Vector2( 0, 0 )
 158/navigation_offset = Vector2( 0, 0 )
+158/shape_offset = Vector2( 0, 0 )
+158/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+158/shape_one_way = false
+158/shape_one_way_margin = 0.0
 158/shapes = [  ]
 158/z_index = 0
 159/name = "tileset_ruins.png 159"
@@ -1601,6 +2489,10 @@
 159/tile_mode = 0
 159/occluder_offset = Vector2( 0, 0 )
 159/navigation_offset = Vector2( 0, 0 )
+159/shape_offset = Vector2( 0, 0 )
+159/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+159/shape_one_way = false
+159/shape_one_way_margin = 0.0
 159/shapes = [  ]
 159/z_index = 0
 160/name = "tileset_ruins.png 160"
@@ -1611,6 +2503,10 @@
 160/tile_mode = 0
 160/occluder_offset = Vector2( 0, 0 )
 160/navigation_offset = Vector2( 0, 0 )
+160/shape_offset = Vector2( 0, 0 )
+160/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+160/shape_one_way = false
+160/shape_one_way_margin = 0.0
 160/shapes = [  ]
 160/z_index = 0
 161/name = "tileset_ruins.png 161"
@@ -1621,6 +2517,10 @@
 161/tile_mode = 0
 161/occluder_offset = Vector2( 0, 0 )
 161/navigation_offset = Vector2( 0, 0 )
+161/shape_offset = Vector2( 0, 0 )
+161/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+161/shape_one_way = false
+161/shape_one_way_margin = 0.0
 161/shapes = [  ]
 161/z_index = 0
 162/name = "tileset_ruins.png 162"
@@ -1631,6 +2531,10 @@
 162/tile_mode = 0
 162/occluder_offset = Vector2( 0, 0 )
 162/navigation_offset = Vector2( 0, 0 )
+162/shape_offset = Vector2( 0, 0 )
+162/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+162/shape_one_way = false
+162/shape_one_way_margin = 0.0
 162/shapes = [  ]
 162/z_index = 0
 163/name = "tileset_ruins.png 163"
@@ -1641,6 +2545,10 @@
 163/tile_mode = 0
 163/occluder_offset = Vector2( 0, 0 )
 163/navigation_offset = Vector2( 0, 0 )
+163/shape_offset = Vector2( 0, 0 )
+163/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+163/shape_one_way = false
+163/shape_one_way_margin = 0.0
 163/shapes = [  ]
 163/z_index = 0
 164/name = "tileset_ruins.png 164"
@@ -1651,6 +2559,10 @@
 164/tile_mode = 0
 164/occluder_offset = Vector2( 0, 0 )
 164/navigation_offset = Vector2( 0, 0 )
+164/shape_offset = Vector2( 0, 0 )
+164/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+164/shape_one_way = false
+164/shape_one_way_margin = 0.0
 164/shapes = [  ]
 164/z_index = 0
 165/name = "tileset_ruins.png 165"
@@ -1661,6 +2573,10 @@
 165/tile_mode = 0
 165/occluder_offset = Vector2( 0, 0 )
 165/navigation_offset = Vector2( 0, 0 )
+165/shape_offset = Vector2( 0, 0 )
+165/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+165/shape_one_way = false
+165/shape_one_way_margin = 0.0
 165/shapes = [  ]
 165/z_index = 0
 166/name = "tileset_ruins.png 166"
@@ -1671,6 +2587,10 @@
 166/tile_mode = 0
 166/occluder_offset = Vector2( 0, 0 )
 166/navigation_offset = Vector2( 0, 0 )
+166/shape_offset = Vector2( 0, 0 )
+166/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+166/shape_one_way = false
+166/shape_one_way_margin = 0.0
 166/shapes = [  ]
 166/z_index = 0
 167/name = "tileset_ruins.png 167"
@@ -1681,6 +2601,10 @@
 167/tile_mode = 0
 167/occluder_offset = Vector2( 0, 0 )
 167/navigation_offset = Vector2( 0, 0 )
+167/shape_offset = Vector2( 0, 0 )
+167/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+167/shape_one_way = false
+167/shape_one_way_margin = 0.0
 167/shapes = [  ]
 167/z_index = 0
 168/name = "tileset_ruins.png 168"
@@ -1691,6 +2615,10 @@
 168/tile_mode = 0
 168/occluder_offset = Vector2( 0, 0 )
 168/navigation_offset = Vector2( 0, 0 )
+168/shape_offset = Vector2( 0, 0 )
+168/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+168/shape_one_way = false
+168/shape_one_way_margin = 0.0
 168/shapes = [  ]
 168/z_index = 0
 169/name = "tileset_ruins.png 169"
@@ -1701,6 +2629,10 @@
 169/tile_mode = 0
 169/occluder_offset = Vector2( 0, 0 )
 169/navigation_offset = Vector2( 0, 0 )
+169/shape_offset = Vector2( 0, 0 )
+169/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+169/shape_one_way = false
+169/shape_one_way_margin = 0.0
 169/shapes = [  ]
 169/z_index = 0
 170/name = "tileset_ruins.png 170"
@@ -1711,6 +2643,10 @@
 170/tile_mode = 0
 170/occluder_offset = Vector2( 0, 0 )
 170/navigation_offset = Vector2( 0, 0 )
+170/shape_offset = Vector2( 0, 0 )
+170/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+170/shape_one_way = false
+170/shape_one_way_margin = 0.0
 170/shapes = [  ]
 170/z_index = 0
 171/name = "tileset_ruins.png 171"
@@ -1721,6 +2657,10 @@
 171/tile_mode = 0
 171/occluder_offset = Vector2( 0, 0 )
 171/navigation_offset = Vector2( 0, 0 )
+171/shape_offset = Vector2( 0, 0 )
+171/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+171/shape_one_way = false
+171/shape_one_way_margin = 0.0
 171/shapes = [  ]
 171/z_index = 0
 172/name = "tileset_ruins.png 172"
@@ -1731,6 +2671,10 @@
 172/tile_mode = 0
 172/occluder_offset = Vector2( 0, 0 )
 172/navigation_offset = Vector2( 0, 0 )
+172/shape_offset = Vector2( 0, 0 )
+172/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+172/shape_one_way = false
+172/shape_one_way_margin = 0.0
 172/shapes = [  ]
 172/z_index = 0
 173/name = "tileset_ruins.png 173"
@@ -1741,6 +2685,10 @@
 173/tile_mode = 0
 173/occluder_offset = Vector2( 0, 0 )
 173/navigation_offset = Vector2( 0, 0 )
+173/shape_offset = Vector2( 0, 0 )
+173/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+173/shape_one_way = false
+173/shape_one_way_margin = 0.0
 173/shapes = [  ]
 173/z_index = 0
 174/name = "tileset_ruins.png 174"
@@ -1751,6 +2699,10 @@
 174/tile_mode = 0
 174/occluder_offset = Vector2( 0, 0 )
 174/navigation_offset = Vector2( 0, 0 )
+174/shape_offset = Vector2( 0, 0 )
+174/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+174/shape_one_way = false
+174/shape_one_way_margin = 0.0
 174/shapes = [  ]
 174/z_index = 0
 175/name = "tileset_ruins.png 175"
@@ -1761,6 +2713,10 @@
 175/tile_mode = 0
 175/occluder_offset = Vector2( 0, 0 )
 175/navigation_offset = Vector2( 0, 0 )
+175/shape_offset = Vector2( 0, 0 )
+175/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+175/shape_one_way = false
+175/shape_one_way_margin = 0.0
 175/shapes = [  ]
 175/z_index = 0
 176/name = "tileset_ruins.png 176"
@@ -1771,6 +2727,10 @@
 176/tile_mode = 0
 176/occluder_offset = Vector2( 0, 0 )
 176/navigation_offset = Vector2( 0, 0 )
+176/shape_offset = Vector2( 0, 0 )
+176/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+176/shape_one_way = false
+176/shape_one_way_margin = 0.0
 176/shapes = [  ]
 176/z_index = 0
 177/name = "tileset_ruins.png 177"
@@ -1781,6 +2741,10 @@
 177/tile_mode = 0
 177/occluder_offset = Vector2( 0, 0 )
 177/navigation_offset = Vector2( 0, 0 )
+177/shape_offset = Vector2( 0, 0 )
+177/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+177/shape_one_way = false
+177/shape_one_way_margin = 0.0
 177/shapes = [  ]
 177/z_index = 0
 178/name = "tileset_ruins.png 178"
@@ -1791,6 +2755,10 @@
 178/tile_mode = 0
 178/occluder_offset = Vector2( 0, 0 )
 178/navigation_offset = Vector2( 0, 0 )
+178/shape_offset = Vector2( 0, 0 )
+178/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+178/shape_one_way = false
+178/shape_one_way_margin = 0.0
 178/shapes = [  ]
 178/z_index = 0
 179/name = "tileset_ruins.png 179"
@@ -1801,6 +2769,10 @@
 179/tile_mode = 0
 179/occluder_offset = Vector2( 0, 0 )
 179/navigation_offset = Vector2( 0, 0 )
+179/shape_offset = Vector2( 0, 0 )
+179/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+179/shape_one_way = false
+179/shape_one_way_margin = 0.0
 179/shapes = [  ]
 179/z_index = 0
 180/name = "tileset_ruins.png 180"
@@ -1811,6 +2783,10 @@
 180/tile_mode = 0
 180/occluder_offset = Vector2( 0, 0 )
 180/navigation_offset = Vector2( 0, 0 )
+180/shape_offset = Vector2( 0, 0 )
+180/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+180/shape_one_way = false
+180/shape_one_way_margin = 0.0
 180/shapes = [  ]
 180/z_index = 0
 181/name = "tileset_ruins.png 181"
@@ -1821,6 +2797,10 @@
 181/tile_mode = 0
 181/occluder_offset = Vector2( 0, 0 )
 181/navigation_offset = Vector2( 0, 0 )
+181/shape_offset = Vector2( 0, 0 )
+181/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+181/shape_one_way = false
+181/shape_one_way_margin = 0.0
 181/shapes = [  ]
 181/z_index = 0
 182/name = "tileset_ruins.png 182"
@@ -1831,6 +2811,10 @@
 182/tile_mode = 0
 182/occluder_offset = Vector2( 0, 0 )
 182/navigation_offset = Vector2( 0, 0 )
+182/shape_offset = Vector2( 0, 0 )
+182/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+182/shape_one_way = false
+182/shape_one_way_margin = 0.0
 182/shapes = [  ]
 182/z_index = 0
 183/name = "tileset_ruins.png 183"
@@ -1841,6 +2825,10 @@
 183/tile_mode = 0
 183/occluder_offset = Vector2( 0, 0 )
 183/navigation_offset = Vector2( 0, 0 )
+183/shape_offset = Vector2( 0, 0 )
+183/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+183/shape_one_way = false
+183/shape_one_way_margin = 0.0
 183/shapes = [  ]
 183/z_index = 0
 184/name = "tileset_ruins.png 184"
@@ -1851,6 +2839,10 @@
 184/tile_mode = 0
 184/occluder_offset = Vector2( 0, 0 )
 184/navigation_offset = Vector2( 0, 0 )
+184/shape_offset = Vector2( 0, 0 )
+184/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+184/shape_one_way = false
+184/shape_one_way_margin = 0.0
 184/shapes = [  ]
 184/z_index = 0
 185/name = "tileset_ruins.png 185"
@@ -1861,6 +2853,10 @@
 185/tile_mode = 0
 185/occluder_offset = Vector2( 0, 0 )
 185/navigation_offset = Vector2( 0, 0 )
+185/shape_offset = Vector2( 0, 0 )
+185/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+185/shape_one_way = false
+185/shape_one_way_margin = 0.0
 185/shapes = [  ]
 185/z_index = 0
 186/name = "tileset_ruins.png 186"
@@ -1871,6 +2867,10 @@
 186/tile_mode = 0
 186/occluder_offset = Vector2( 0, 0 )
 186/navigation_offset = Vector2( 0, 0 )
+186/shape_offset = Vector2( 0, 0 )
+186/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+186/shape_one_way = false
+186/shape_one_way_margin = 0.0
 186/shapes = [  ]
 186/z_index = 0
 187/name = "tileset_ruins.png 187"
@@ -1881,6 +2881,10 @@
 187/tile_mode = 0
 187/occluder_offset = Vector2( 0, 0 )
 187/navigation_offset = Vector2( 0, 0 )
+187/shape_offset = Vector2( 0, 0 )
+187/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+187/shape_one_way = false
+187/shape_one_way_margin = 0.0
 187/shapes = [  ]
 187/z_index = 0
 188/name = "tileset_ruins.png 188"
@@ -1891,6 +2895,10 @@
 188/tile_mode = 0
 188/occluder_offset = Vector2( 0, 0 )
 188/navigation_offset = Vector2( 0, 0 )
+188/shape_offset = Vector2( 0, 0 )
+188/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+188/shape_one_way = false
+188/shape_one_way_margin = 0.0
 188/shapes = [  ]
 188/z_index = 0
 189/name = "tileset_ruins.png 189"
@@ -1901,6 +2909,10 @@
 189/tile_mode = 0
 189/occluder_offset = Vector2( 0, 0 )
 189/navigation_offset = Vector2( 0, 0 )
+189/shape_offset = Vector2( 0, 0 )
+189/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+189/shape_one_way = false
+189/shape_one_way_margin = 0.0
 189/shapes = [  ]
 189/z_index = 0
 190/name = "tileset_ruins.png 190"
@@ -1911,6 +2923,10 @@
 190/tile_mode = 0
 190/occluder_offset = Vector2( 0, 0 )
 190/navigation_offset = Vector2( 0, 0 )
+190/shape_offset = Vector2( 0, 0 )
+190/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+190/shape_one_way = false
+190/shape_one_way_margin = 0.0
 190/shapes = [  ]
 190/z_index = 0
 191/name = "tileset_ruins.png 191"
@@ -1921,6 +2937,10 @@
 191/tile_mode = 0
 191/occluder_offset = Vector2( 0, 0 )
 191/navigation_offset = Vector2( 0, 0 )
+191/shape_offset = Vector2( 0, 0 )
+191/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+191/shape_one_way = false
+191/shape_one_way_margin = 0.0
 191/shapes = [  ]
 191/z_index = 0
 192/name = "tileset_ruins.png 192"
@@ -1931,6 +2951,10 @@
 192/tile_mode = 0
 192/occluder_offset = Vector2( 0, 0 )
 192/navigation_offset = Vector2( 0, 0 )
+192/shape_offset = Vector2( 0, 0 )
+192/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+192/shape_one_way = false
+192/shape_one_way_margin = 0.0
 192/shapes = [  ]
 192/z_index = 0
 193/name = "tileset_ruins.png 193"
@@ -1941,6 +2965,10 @@
 193/tile_mode = 0
 193/occluder_offset = Vector2( 0, 0 )
 193/navigation_offset = Vector2( 0, 0 )
+193/shape_offset = Vector2( 0, 0 )
+193/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+193/shape_one_way = false
+193/shape_one_way_margin = 0.0
 193/shapes = [  ]
 193/z_index = 0
 194/name = "tileset_ruins.png 194"
@@ -1951,6 +2979,10 @@
 194/tile_mode = 0
 194/occluder_offset = Vector2( 0, 0 )
 194/navigation_offset = Vector2( 0, 0 )
+194/shape_offset = Vector2( 0, 0 )
+194/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+194/shape_one_way = false
+194/shape_one_way_margin = 0.0
 194/shapes = [  ]
 194/z_index = 0
 195/name = "tileset_ruins.png 195"
@@ -1961,6 +2993,10 @@
 195/tile_mode = 0
 195/occluder_offset = Vector2( 0, 0 )
 195/navigation_offset = Vector2( 0, 0 )
+195/shape_offset = Vector2( 0, 0 )
+195/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+195/shape_one_way = false
+195/shape_one_way_margin = 0.0
 195/shapes = [  ]
 195/z_index = 0
 196/name = "tileset_ruins.png 196"
@@ -1971,6 +3007,10 @@
 196/tile_mode = 0
 196/occluder_offset = Vector2( 0, 0 )
 196/navigation_offset = Vector2( 0, 0 )
+196/shape_offset = Vector2( 0, 0 )
+196/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+196/shape_one_way = false
+196/shape_one_way_margin = 0.0
 196/shapes = [  ]
 196/z_index = 0
 197/name = "tileset_ruins.png 197"
@@ -1981,6 +3021,10 @@
 197/tile_mode = 0
 197/occluder_offset = Vector2( 0, 0 )
 197/navigation_offset = Vector2( 0, 0 )
+197/shape_offset = Vector2( 0, 0 )
+197/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+197/shape_one_way = false
+197/shape_one_way_margin = 0.0
 197/shapes = [  ]
 197/z_index = 0
 198/name = "tileset_ruins.png 198"
@@ -1991,6 +3035,10 @@
 198/tile_mode = 0
 198/occluder_offset = Vector2( 0, 0 )
 198/navigation_offset = Vector2( 0, 0 )
+198/shape_offset = Vector2( 0, 0 )
+198/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+198/shape_one_way = false
+198/shape_one_way_margin = 0.0
 198/shapes = [  ]
 198/z_index = 0
 199/name = "tileset_ruins.png 199"
@@ -2001,6 +3049,10 @@
 199/tile_mode = 0
 199/occluder_offset = Vector2( 0, 0 )
 199/navigation_offset = Vector2( 0, 0 )
+199/shape_offset = Vector2( 0, 0 )
+199/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+199/shape_one_way = false
+199/shape_one_way_margin = 0.0
 199/shapes = [  ]
 199/z_index = 0
 200/name = "tileset_ruins.png 200"
@@ -2011,6 +3063,10 @@
 200/tile_mode = 0
 200/occluder_offset = Vector2( 0, 0 )
 200/navigation_offset = Vector2( 0, 0 )
+200/shape_offset = Vector2( 0, 0 )
+200/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+200/shape_one_way = false
+200/shape_one_way_margin = 0.0
 200/shapes = [  ]
 200/z_index = 0
 201/name = "tileset_ruins.png 201"
@@ -2021,6 +3077,10 @@
 201/tile_mode = 0
 201/occluder_offset = Vector2( 0, 0 )
 201/navigation_offset = Vector2( 0, 0 )
+201/shape_offset = Vector2( 0, 0 )
+201/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+201/shape_one_way = false
+201/shape_one_way_margin = 0.0
 201/shapes = [  ]
 201/z_index = 0
 202/name = "tileset_ruins.png 202"
@@ -2031,6 +3091,10 @@
 202/tile_mode = 0
 202/occluder_offset = Vector2( 0, 0 )
 202/navigation_offset = Vector2( 0, 0 )
+202/shape_offset = Vector2( 0, 0 )
+202/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+202/shape_one_way = false
+202/shape_one_way_margin = 0.0
 202/shapes = [  ]
 202/z_index = 0
 203/name = "tileset_ruins.png 203"
@@ -2041,6 +3105,10 @@
 203/tile_mode = 0
 203/occluder_offset = Vector2( 0, 0 )
 203/navigation_offset = Vector2( 0, 0 )
+203/shape_offset = Vector2( 0, 0 )
+203/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+203/shape_one_way = false
+203/shape_one_way_margin = 0.0
 203/shapes = [  ]
 203/z_index = 0
 204/name = "tileset_ruins.png 204"
@@ -2051,6 +3119,10 @@
 204/tile_mode = 0
 204/occluder_offset = Vector2( 0, 0 )
 204/navigation_offset = Vector2( 0, 0 )
+204/shape_offset = Vector2( 0, 0 )
+204/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+204/shape_one_way = false
+204/shape_one_way_margin = 0.0
 204/shapes = [  ]
 204/z_index = 0
 205/name = "tileset_ruins.png 205"
@@ -2061,6 +3133,10 @@
 205/tile_mode = 0
 205/occluder_offset = Vector2( 0, 0 )
 205/navigation_offset = Vector2( 0, 0 )
+205/shape_offset = Vector2( 0, 0 )
+205/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+205/shape_one_way = false
+205/shape_one_way_margin = 0.0
 205/shapes = [  ]
 205/z_index = 0
 206/name = "tileset_ruins.png 206"
@@ -2071,6 +3147,10 @@
 206/tile_mode = 0
 206/occluder_offset = Vector2( 0, 0 )
 206/navigation_offset = Vector2( 0, 0 )
+206/shape_offset = Vector2( 0, 0 )
+206/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+206/shape_one_way = false
+206/shape_one_way_margin = 0.0
 206/shapes = [  ]
 206/z_index = 0
 207/name = "tileset_ruins.png 207"
@@ -2081,6 +3161,10 @@
 207/tile_mode = 0
 207/occluder_offset = Vector2( 0, 0 )
 207/navigation_offset = Vector2( 0, 0 )
+207/shape_offset = Vector2( 0, 0 )
+207/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+207/shape_one_way = false
+207/shape_one_way_margin = 0.0
 207/shapes = [  ]
 207/z_index = 0
 208/name = "tileset_ruins.png 208"
@@ -2091,6 +3175,10 @@
 208/tile_mode = 0
 208/occluder_offset = Vector2( 0, 0 )
 208/navigation_offset = Vector2( 0, 0 )
+208/shape_offset = Vector2( 0, 0 )
+208/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+208/shape_one_way = false
+208/shape_one_way_margin = 0.0
 208/shapes = [  ]
 208/z_index = 0
 209/name = "tileset_ruins.png 209"
@@ -2101,6 +3189,10 @@
 209/tile_mode = 0
 209/occluder_offset = Vector2( 0, 0 )
 209/navigation_offset = Vector2( 0, 0 )
+209/shape_offset = Vector2( 0, 0 )
+209/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+209/shape_one_way = false
+209/shape_one_way_margin = 0.0
 209/shapes = [  ]
 209/z_index = 0
 210/name = "tileset_ruins.png 210"
@@ -2111,6 +3203,10 @@
 210/tile_mode = 0
 210/occluder_offset = Vector2( 0, 0 )
 210/navigation_offset = Vector2( 0, 0 )
+210/shape_offset = Vector2( 0, 0 )
+210/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+210/shape_one_way = false
+210/shape_one_way_margin = 0.0
 210/shapes = [  ]
 210/z_index = 0
 211/name = "tileset_ruins.png 211"
@@ -2121,6 +3217,10 @@
 211/tile_mode = 0
 211/occluder_offset = Vector2( 0, 0 )
 211/navigation_offset = Vector2( 0, 0 )
+211/shape_offset = Vector2( 0, 0 )
+211/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+211/shape_one_way = false
+211/shape_one_way_margin = 0.0
 211/shapes = [  ]
 211/z_index = 0
 212/name = "tileset_ruins.png 212"
@@ -2131,6 +3231,10 @@
 212/tile_mode = 0
 212/occluder_offset = Vector2( 0, 0 )
 212/navigation_offset = Vector2( 0, 0 )
+212/shape_offset = Vector2( 0, 0 )
+212/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+212/shape_one_way = false
+212/shape_one_way_margin = 0.0
 212/shapes = [  ]
 212/z_index = 0
 213/name = "tileset_ruins.png 213"
@@ -2141,6 +3245,10 @@
 213/tile_mode = 0
 213/occluder_offset = Vector2( 0, 0 )
 213/navigation_offset = Vector2( 0, 0 )
+213/shape_offset = Vector2( 0, 0 )
+213/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+213/shape_one_way = false
+213/shape_one_way_margin = 0.0
 213/shapes = [  ]
 213/z_index = 0
 214/name = "tileset_ruins.png 214"
@@ -2151,6 +3259,10 @@
 214/tile_mode = 0
 214/occluder_offset = Vector2( 0, 0 )
 214/navigation_offset = Vector2( 0, 0 )
+214/shape_offset = Vector2( 0, 0 )
+214/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+214/shape_one_way = false
+214/shape_one_way_margin = 0.0
 214/shapes = [  ]
 214/z_index = 0
 215/name = "tileset_ruins.png 215"
@@ -2161,6 +3273,10 @@
 215/tile_mode = 0
 215/occluder_offset = Vector2( 0, 0 )
 215/navigation_offset = Vector2( 0, 0 )
+215/shape_offset = Vector2( 0, 0 )
+215/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+215/shape_one_way = false
+215/shape_one_way_margin = 0.0
 215/shapes = [  ]
 215/z_index = 0
 216/name = "tileset_ruins.png 216"
@@ -2171,6 +3287,10 @@
 216/tile_mode = 0
 216/occluder_offset = Vector2( 0, 0 )
 216/navigation_offset = Vector2( 0, 0 )
+216/shape_offset = Vector2( 0, 0 )
+216/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+216/shape_one_way = false
+216/shape_one_way_margin = 0.0
 216/shapes = [  ]
 216/z_index = 0
 217/name = "tileset_ruins.png 217"
@@ -2181,6 +3301,10 @@
 217/tile_mode = 0
 217/occluder_offset = Vector2( 0, 0 )
 217/navigation_offset = Vector2( 0, 0 )
+217/shape_offset = Vector2( 0, 0 )
+217/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+217/shape_one_way = false
+217/shape_one_way_margin = 0.0
 217/shapes = [  ]
 217/z_index = 0
 218/name = "tileset_ruins.png 218"
@@ -2191,6 +3315,10 @@
 218/tile_mode = 0
 218/occluder_offset = Vector2( 0, 0 )
 218/navigation_offset = Vector2( 0, 0 )
+218/shape_offset = Vector2( 0, 0 )
+218/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+218/shape_one_way = false
+218/shape_one_way_margin = 0.0
 218/shapes = [  ]
 218/z_index = 0
 219/name = "tileset_ruins.png 219"
@@ -2201,6 +3329,10 @@
 219/tile_mode = 0
 219/occluder_offset = Vector2( 0, 0 )
 219/navigation_offset = Vector2( 0, 0 )
+219/shape_offset = Vector2( 0, 0 )
+219/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+219/shape_one_way = false
+219/shape_one_way_margin = 0.0
 219/shapes = [  ]
 219/z_index = 0
 220/name = "tileset_ruins.png 220"
@@ -2211,6 +3343,10 @@
 220/tile_mode = 0
 220/occluder_offset = Vector2( 0, 0 )
 220/navigation_offset = Vector2( 0, 0 )
+220/shape_offset = Vector2( 0, 0 )
+220/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+220/shape_one_way = false
+220/shape_one_way_margin = 0.0
 220/shapes = [  ]
 220/z_index = 0
 221/name = "tileset_ruins.png 221"
@@ -2221,6 +3357,10 @@
 221/tile_mode = 0
 221/occluder_offset = Vector2( 0, 0 )
 221/navigation_offset = Vector2( 0, 0 )
+221/shape_offset = Vector2( 0, 0 )
+221/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+221/shape_one_way = false
+221/shape_one_way_margin = 0.0
 221/shapes = [  ]
 221/z_index = 0
 222/name = "tileset_ruins.png 222"
@@ -2231,6 +3371,10 @@
 222/tile_mode = 0
 222/occluder_offset = Vector2( 0, 0 )
 222/navigation_offset = Vector2( 0, 0 )
+222/shape_offset = Vector2( 0, 0 )
+222/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+222/shape_one_way = false
+222/shape_one_way_margin = 0.0
 222/shapes = [  ]
 222/z_index = 0
 223/name = "tileset_ruins.png 223"
@@ -2241,6 +3385,10 @@
 223/tile_mode = 0
 223/occluder_offset = Vector2( 0, 0 )
 223/navigation_offset = Vector2( 0, 0 )
+223/shape_offset = Vector2( 0, 0 )
+223/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+223/shape_one_way = false
+223/shape_one_way_margin = 0.0
 223/shapes = [  ]
 223/z_index = 0
 224/name = "tileset_ruins.png 224"
@@ -2251,6 +3399,10 @@
 224/tile_mode = 0
 224/occluder_offset = Vector2( 0, 0 )
 224/navigation_offset = Vector2( 0, 0 )
+224/shape_offset = Vector2( 0, 0 )
+224/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+224/shape_one_way = false
+224/shape_one_way_margin = 0.0
 224/shapes = [  ]
 224/z_index = 0
 225/name = "tileset_ruins.png 225"
@@ -2261,6 +3413,10 @@
 225/tile_mode = 0
 225/occluder_offset = Vector2( 0, 0 )
 225/navigation_offset = Vector2( 0, 0 )
+225/shape_offset = Vector2( 0, 0 )
+225/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+225/shape_one_way = false
+225/shape_one_way_margin = 0.0
 225/shapes = [  ]
 225/z_index = 0
 226/name = "tileset_ruins.png 226"
@@ -2271,6 +3427,10 @@
 226/tile_mode = 0
 226/occluder_offset = Vector2( 0, 0 )
 226/navigation_offset = Vector2( 0, 0 )
+226/shape_offset = Vector2( 0, 0 )
+226/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+226/shape_one_way = false
+226/shape_one_way_margin = 0.0
 226/shapes = [  ]
 226/z_index = 0
 227/name = "tileset_ruins.png 227"
@@ -2281,6 +3441,10 @@
 227/tile_mode = 0
 227/occluder_offset = Vector2( 0, 0 )
 227/navigation_offset = Vector2( 0, 0 )
+227/shape_offset = Vector2( 0, 0 )
+227/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+227/shape_one_way = false
+227/shape_one_way_margin = 0.0
 227/shapes = [  ]
 227/z_index = 0
 228/name = "tileset_ruins.png 228"
@@ -2291,6 +3455,10 @@
 228/tile_mode = 0
 228/occluder_offset = Vector2( 0, 0 )
 228/navigation_offset = Vector2( 0, 0 )
+228/shape_offset = Vector2( 0, 0 )
+228/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+228/shape_one_way = false
+228/shape_one_way_margin = 0.0
 228/shapes = [  ]
 228/z_index = 0
 229/name = "tileset_ruins.png 229"
@@ -2301,6 +3469,10 @@
 229/tile_mode = 0
 229/occluder_offset = Vector2( 0, 0 )
 229/navigation_offset = Vector2( 0, 0 )
+229/shape_offset = Vector2( 0, 0 )
+229/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+229/shape_one_way = false
+229/shape_one_way_margin = 0.0
 229/shapes = [  ]
 229/z_index = 0
 230/name = "tileset_ruins.png 230"
@@ -2311,6 +3483,10 @@
 230/tile_mode = 0
 230/occluder_offset = Vector2( 0, 0 )
 230/navigation_offset = Vector2( 0, 0 )
+230/shape_offset = Vector2( 0, 0 )
+230/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+230/shape_one_way = false
+230/shape_one_way_margin = 0.0
 230/shapes = [  ]
 230/z_index = 0
 231/name = "tileset_ruins.png 231"
@@ -2321,6 +3497,10 @@
 231/tile_mode = 0
 231/occluder_offset = Vector2( 0, 0 )
 231/navigation_offset = Vector2( 0, 0 )
+231/shape_offset = Vector2( 0, 0 )
+231/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+231/shape_one_way = false
+231/shape_one_way_margin = 0.0
 231/shapes = [  ]
 231/z_index = 0
 232/name = "tileset_ruins.png 232"
@@ -2331,6 +3511,10 @@
 232/tile_mode = 0
 232/occluder_offset = Vector2( 0, 0 )
 232/navigation_offset = Vector2( 0, 0 )
+232/shape_offset = Vector2( 0, 0 )
+232/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+232/shape_one_way = false
+232/shape_one_way_margin = 0.0
 232/shapes = [  ]
 232/z_index = 0
 233/name = "tileset_ruins.png 233"
@@ -2341,6 +3525,10 @@
 233/tile_mode = 0
 233/occluder_offset = Vector2( 0, 0 )
 233/navigation_offset = Vector2( 0, 0 )
+233/shape_offset = Vector2( 0, 0 )
+233/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+233/shape_one_way = false
+233/shape_one_way_margin = 0.0
 233/shapes = [  ]
 233/z_index = 0
 234/name = "tileset_ruins.png 234"
@@ -2351,6 +3539,10 @@
 234/tile_mode = 0
 234/occluder_offset = Vector2( 0, 0 )
 234/navigation_offset = Vector2( 0, 0 )
+234/shape_offset = Vector2( 0, 0 )
+234/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+234/shape_one_way = false
+234/shape_one_way_margin = 0.0
 234/shapes = [  ]
 234/z_index = 0
 235/name = "tileset_ruins.png 235"
@@ -2361,6 +3553,10 @@
 235/tile_mode = 0
 235/occluder_offset = Vector2( 0, 0 )
 235/navigation_offset = Vector2( 0, 0 )
+235/shape_offset = Vector2( 0, 0 )
+235/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+235/shape_one_way = false
+235/shape_one_way_margin = 0.0
 235/shapes = [  ]
 235/z_index = 0
 236/name = "tileset_ruins.png 236"
@@ -2371,6 +3567,10 @@
 236/tile_mode = 0
 236/occluder_offset = Vector2( 0, 0 )
 236/navigation_offset = Vector2( 0, 0 )
+236/shape_offset = Vector2( 0, 0 )
+236/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+236/shape_one_way = false
+236/shape_one_way_margin = 0.0
 236/shapes = [  ]
 236/z_index = 0
 237/name = "tileset_ruins.png 237"
@@ -2381,6 +3581,10 @@
 237/tile_mode = 0
 237/occluder_offset = Vector2( 0, 0 )
 237/navigation_offset = Vector2( 0, 0 )
+237/shape_offset = Vector2( 0, 0 )
+237/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+237/shape_one_way = false
+237/shape_one_way_margin = 0.0
 237/shapes = [  ]
 237/z_index = 0
 238/name = "tileset_ruins.png 238"
@@ -2391,6 +3595,10 @@
 238/tile_mode = 0
 238/occluder_offset = Vector2( 0, 0 )
 238/navigation_offset = Vector2( 0, 0 )
+238/shape_offset = Vector2( 0, 0 )
+238/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+238/shape_one_way = false
+238/shape_one_way_margin = 0.0
 238/shapes = [  ]
 238/z_index = 0
 239/name = "tileset_ruins.png 239"
@@ -2401,6 +3609,10 @@
 239/tile_mode = 0
 239/occluder_offset = Vector2( 0, 0 )
 239/navigation_offset = Vector2( 0, 0 )
+239/shape_offset = Vector2( 0, 0 )
+239/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+239/shape_one_way = false
+239/shape_one_way_margin = 0.0
 239/shapes = [  ]
 239/z_index = 0
 240/name = "tileset_ruins.png 240"
@@ -2411,6 +3623,10 @@
 240/tile_mode = 0
 240/occluder_offset = Vector2( 0, 0 )
 240/navigation_offset = Vector2( 0, 0 )
+240/shape_offset = Vector2( 0, 0 )
+240/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+240/shape_one_way = false
+240/shape_one_way_margin = 0.0
 240/shapes = [  ]
 240/z_index = 0
 241/name = "tileset_ruins.png 241"
@@ -2421,6 +3637,10 @@
 241/tile_mode = 0
 241/occluder_offset = Vector2( 0, 0 )
 241/navigation_offset = Vector2( 0, 0 )
+241/shape_offset = Vector2( 0, 0 )
+241/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+241/shape_one_way = false
+241/shape_one_way_margin = 0.0
 241/shapes = [  ]
 241/z_index = 0
 242/name = "tileset_ruins.png 242"
@@ -2431,6 +3651,10 @@
 242/tile_mode = 0
 242/occluder_offset = Vector2( 0, 0 )
 242/navigation_offset = Vector2( 0, 0 )
+242/shape_offset = Vector2( 0, 0 )
+242/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+242/shape_one_way = false
+242/shape_one_way_margin = 0.0
 242/shapes = [  ]
 242/z_index = 0
 243/name = "tileset_ruins.png 243"
@@ -2441,6 +3665,10 @@
 243/tile_mode = 0
 243/occluder_offset = Vector2( 0, 0 )
 243/navigation_offset = Vector2( 0, 0 )
+243/shape_offset = Vector2( 0, 0 )
+243/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+243/shape_one_way = false
+243/shape_one_way_margin = 0.0
 243/shapes = [  ]
 243/z_index = 0
 244/name = "tileset_ruins.png 244"
@@ -2451,6 +3679,10 @@
 244/tile_mode = 0
 244/occluder_offset = Vector2( 0, 0 )
 244/navigation_offset = Vector2( 0, 0 )
+244/shape_offset = Vector2( 0, 0 )
+244/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+244/shape_one_way = false
+244/shape_one_way_margin = 0.0
 244/shapes = [  ]
 244/z_index = 0
 245/name = "tileset_ruins.png 245"
@@ -2461,6 +3693,10 @@
 245/tile_mode = 0
 245/occluder_offset = Vector2( 0, 0 )
 245/navigation_offset = Vector2( 0, 0 )
+245/shape_offset = Vector2( 0, 0 )
+245/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+245/shape_one_way = false
+245/shape_one_way_margin = 0.0
 245/shapes = [  ]
 245/z_index = 0
 246/name = "tileset_ruins.png 246"
@@ -2471,6 +3707,10 @@
 246/tile_mode = 0
 246/occluder_offset = Vector2( 0, 0 )
 246/navigation_offset = Vector2( 0, 0 )
+246/shape_offset = Vector2( 0, 0 )
+246/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+246/shape_one_way = false
+246/shape_one_way_margin = 0.0
 246/shapes = [  ]
 246/z_index = 0
 247/name = "tileset_ruins.png 247"
@@ -2481,6 +3721,10 @@
 247/tile_mode = 0
 247/occluder_offset = Vector2( 0, 0 )
 247/navigation_offset = Vector2( 0, 0 )
+247/shape_offset = Vector2( 0, 0 )
+247/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+247/shape_one_way = false
+247/shape_one_way_margin = 0.0
 247/shapes = [  ]
 247/z_index = 0
 248/name = "tileset_ruins.png 248"
@@ -2491,6 +3735,10 @@
 248/tile_mode = 0
 248/occluder_offset = Vector2( 0, 0 )
 248/navigation_offset = Vector2( 0, 0 )
+248/shape_offset = Vector2( 0, 0 )
+248/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+248/shape_one_way = false
+248/shape_one_way_margin = 0.0
 248/shapes = [  ]
 248/z_index = 0
 249/name = "tileset_ruins.png 249"
@@ -2501,6 +3749,10 @@
 249/tile_mode = 0
 249/occluder_offset = Vector2( 0, 0 )
 249/navigation_offset = Vector2( 0, 0 )
+249/shape_offset = Vector2( 0, 0 )
+249/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+249/shape_one_way = false
+249/shape_one_way_margin = 0.0
 249/shapes = [  ]
 249/z_index = 0
 250/name = "tileset_ruins.png 250"
@@ -2511,6 +3763,10 @@
 250/tile_mode = 0
 250/occluder_offset = Vector2( 0, 0 )
 250/navigation_offset = Vector2( 0, 0 )
+250/shape_offset = Vector2( 0, 0 )
+250/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+250/shape_one_way = false
+250/shape_one_way_margin = 0.0
 250/shapes = [  ]
 250/z_index = 0
 251/name = "tileset_ruins.png 251"
@@ -2521,6 +3777,10 @@
 251/tile_mode = 0
 251/occluder_offset = Vector2( 0, 0 )
 251/navigation_offset = Vector2( 0, 0 )
+251/shape_offset = Vector2( 0, 0 )
+251/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+251/shape_one_way = false
+251/shape_one_way_margin = 0.0
 251/shapes = [  ]
 251/z_index = 0
 252/name = "tileset_ruins.png 252"
@@ -2531,6 +3791,10 @@
 252/tile_mode = 0
 252/occluder_offset = Vector2( 0, 0 )
 252/navigation_offset = Vector2( 0, 0 )
+252/shape_offset = Vector2( 0, 0 )
+252/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+252/shape_one_way = false
+252/shape_one_way_margin = 0.0
 252/shapes = [  ]
 252/z_index = 0
 253/name = "tileset_ruins.png 253"
@@ -2541,6 +3805,10 @@
 253/tile_mode = 0
 253/occluder_offset = Vector2( 0, 0 )
 253/navigation_offset = Vector2( 0, 0 )
+253/shape_offset = Vector2( 0, 0 )
+253/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+253/shape_one_way = false
+253/shape_one_way_margin = 0.0
 253/shapes = [  ]
 253/z_index = 0
 254/name = "tileset_ruins.png 254"
@@ -2551,6 +3819,10 @@
 254/tile_mode = 0
 254/occluder_offset = Vector2( 0, 0 )
 254/navigation_offset = Vector2( 0, 0 )
+254/shape_offset = Vector2( 0, 0 )
+254/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+254/shape_one_way = false
+254/shape_one_way_margin = 0.0
 254/shapes = [  ]
 254/z_index = 0
 255/name = "tileset_ruins.png 255"
@@ -2561,6 +3833,10 @@
 255/tile_mode = 0
 255/occluder_offset = Vector2( 0, 0 )
 255/navigation_offset = Vector2( 0, 0 )
+255/shape_offset = Vector2( 0, 0 )
+255/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+255/shape_one_way = false
+255/shape_one_way_margin = 0.0
 255/shapes = [  ]
 255/z_index = 0
 256/name = "tileset_ruins.png 256"
@@ -2571,6 +3847,10 @@
 256/tile_mode = 0
 256/occluder_offset = Vector2( 0, 0 )
 256/navigation_offset = Vector2( 0, 0 )
+256/shape_offset = Vector2( 0, 0 )
+256/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+256/shape_one_way = false
+256/shape_one_way_margin = 0.0
 256/shapes = [  ]
 256/z_index = 0
 257/name = "tileset_ruins.png 257"
@@ -2581,6 +3861,10 @@
 257/tile_mode = 0
 257/occluder_offset = Vector2( 0, 0 )
 257/navigation_offset = Vector2( 0, 0 )
+257/shape_offset = Vector2( 0, 0 )
+257/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+257/shape_one_way = false
+257/shape_one_way_margin = 0.0
 257/shapes = [  ]
 257/z_index = 0
 258/name = "tileset_ruins.png 258"
@@ -2591,6 +3875,10 @@
 258/tile_mode = 0
 258/occluder_offset = Vector2( 0, 0 )
 258/navigation_offset = Vector2( 0, 0 )
+258/shape_offset = Vector2( 0, 0 )
+258/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+258/shape_one_way = false
+258/shape_one_way_margin = 0.0
 258/shapes = [  ]
 258/z_index = 0
 259/name = "tileset_ruins.png 259"
@@ -2601,6 +3889,10 @@
 259/tile_mode = 0
 259/occluder_offset = Vector2( 0, 0 )
 259/navigation_offset = Vector2( 0, 0 )
+259/shape_offset = Vector2( 0, 0 )
+259/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+259/shape_one_way = false
+259/shape_one_way_margin = 0.0
 259/shapes = [  ]
 259/z_index = 0
 260/name = "tileset_ruins.png 260"
@@ -2611,6 +3903,10 @@
 260/tile_mode = 0
 260/occluder_offset = Vector2( 0, 0 )
 260/navigation_offset = Vector2( 0, 0 )
+260/shape_offset = Vector2( 0, 0 )
+260/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+260/shape_one_way = false
+260/shape_one_way_margin = 0.0
 260/shapes = [  ]
 260/z_index = 0
 261/name = "tileset_ruins.png 261"
@@ -2621,6 +3917,10 @@
 261/tile_mode = 0
 261/occluder_offset = Vector2( 0, 0 )
 261/navigation_offset = Vector2( 0, 0 )
+261/shape_offset = Vector2( 0, 0 )
+261/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+261/shape_one_way = false
+261/shape_one_way_margin = 0.0
 261/shapes = [  ]
 261/z_index = 0
 262/name = "tileset_ruins.png 262"
@@ -2631,6 +3931,10 @@
 262/tile_mode = 0
 262/occluder_offset = Vector2( 0, 0 )
 262/navigation_offset = Vector2( 0, 0 )
+262/shape_offset = Vector2( 0, 0 )
+262/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+262/shape_one_way = false
+262/shape_one_way_margin = 0.0
 262/shapes = [  ]
 262/z_index = 0
 263/name = "tileset_ruins.png 263"
@@ -2641,6 +3945,10 @@
 263/tile_mode = 0
 263/occluder_offset = Vector2( 0, 0 )
 263/navigation_offset = Vector2( 0, 0 )
+263/shape_offset = Vector2( 0, 0 )
+263/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+263/shape_one_way = false
+263/shape_one_way_margin = 0.0
 263/shapes = [  ]
 263/z_index = 0
 264/name = "tileset_ruins.png 264"
@@ -2651,6 +3959,10 @@
 264/tile_mode = 0
 264/occluder_offset = Vector2( 0, 0 )
 264/navigation_offset = Vector2( 0, 0 )
+264/shape_offset = Vector2( 0, 0 )
+264/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+264/shape_one_way = false
+264/shape_one_way_margin = 0.0
 264/shapes = [  ]
 264/z_index = 0
 265/name = "tileset_ruins.png 265"
@@ -2661,6 +3973,10 @@
 265/tile_mode = 0
 265/occluder_offset = Vector2( 0, 0 )
 265/navigation_offset = Vector2( 0, 0 )
+265/shape_offset = Vector2( 0, 0 )
+265/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+265/shape_one_way = false
+265/shape_one_way_margin = 0.0
 265/shapes = [  ]
 265/z_index = 0
 266/name = "tileset_ruins.png 266"
@@ -2671,6 +3987,10 @@
 266/tile_mode = 0
 266/occluder_offset = Vector2( 0, 0 )
 266/navigation_offset = Vector2( 0, 0 )
+266/shape_offset = Vector2( 0, 0 )
+266/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+266/shape_one_way = false
+266/shape_one_way_margin = 0.0
 266/shapes = [  ]
 266/z_index = 0
 267/name = "tileset_ruins.png 267"
@@ -2681,6 +4001,10 @@
 267/tile_mode = 0
 267/occluder_offset = Vector2( 0, 0 )
 267/navigation_offset = Vector2( 0, 0 )
+267/shape_offset = Vector2( 0, 0 )
+267/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+267/shape_one_way = false
+267/shape_one_way_margin = 0.0
 267/shapes = [  ]
 267/z_index = 0
 268/name = "tileset_ruins.png 268"
@@ -2691,6 +4015,10 @@
 268/tile_mode = 0
 268/occluder_offset = Vector2( 0, 0 )
 268/navigation_offset = Vector2( 0, 0 )
+268/shape_offset = Vector2( 0, 0 )
+268/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+268/shape_one_way = false
+268/shape_one_way_margin = 0.0
 268/shapes = [  ]
 268/z_index = 0
 269/name = "tileset_ruins.png 269"
@@ -2701,6 +4029,10 @@
 269/tile_mode = 0
 269/occluder_offset = Vector2( 0, 0 )
 269/navigation_offset = Vector2( 0, 0 )
+269/shape_offset = Vector2( 0, 0 )
+269/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+269/shape_one_way = false
+269/shape_one_way_margin = 0.0
 269/shapes = [  ]
 269/z_index = 0
 270/name = "tileset_ruins.png 270"
@@ -2711,6 +4043,10 @@
 270/tile_mode = 0
 270/occluder_offset = Vector2( 0, 0 )
 270/navigation_offset = Vector2( 0, 0 )
+270/shape_offset = Vector2( 0, 0 )
+270/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+270/shape_one_way = false
+270/shape_one_way_margin = 0.0
 270/shapes = [  ]
 270/z_index = 0
 271/name = "tileset_ruins.png 271"
@@ -2721,6 +4057,10 @@
 271/tile_mode = 0
 271/occluder_offset = Vector2( 0, 0 )
 271/navigation_offset = Vector2( 0, 0 )
+271/shape_offset = Vector2( 0, 0 )
+271/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+271/shape_one_way = false
+271/shape_one_way_margin = 0.0
 271/shapes = [  ]
 271/z_index = 0
 272/name = "tileset_ruins.png 272"
@@ -2731,6 +4071,10 @@
 272/tile_mode = 0
 272/occluder_offset = Vector2( 0, 0 )
 272/navigation_offset = Vector2( 0, 0 )
+272/shape_offset = Vector2( 0, 0 )
+272/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+272/shape_one_way = false
+272/shape_one_way_margin = 0.0
 272/shapes = [  ]
 272/z_index = 0
 273/name = "tileset_ruins.png 273"
@@ -2741,6 +4085,10 @@
 273/tile_mode = 0
 273/occluder_offset = Vector2( 0, 0 )
 273/navigation_offset = Vector2( 0, 0 )
+273/shape_offset = Vector2( 0, 0 )
+273/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+273/shape_one_way = false
+273/shape_one_way_margin = 0.0
 273/shapes = [  ]
 273/z_index = 0
 274/name = "tileset_ruins.png 274"
@@ -2751,6 +4099,10 @@
 274/tile_mode = 0
 274/occluder_offset = Vector2( 0, 0 )
 274/navigation_offset = Vector2( 0, 0 )
+274/shape_offset = Vector2( 0, 0 )
+274/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+274/shape_one_way = false
+274/shape_one_way_margin = 0.0
 274/shapes = [  ]
 274/z_index = 0
 275/name = "tileset_ruins.png 275"
@@ -2761,6 +4113,10 @@
 275/tile_mode = 0
 275/occluder_offset = Vector2( 0, 0 )
 275/navigation_offset = Vector2( 0, 0 )
+275/shape_offset = Vector2( 0, 0 )
+275/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+275/shape_one_way = false
+275/shape_one_way_margin = 0.0
 275/shapes = [  ]
 275/z_index = 0
 276/name = "tileset_ruins.png 276"
@@ -2771,6 +4127,10 @@
 276/tile_mode = 0
 276/occluder_offset = Vector2( 0, 0 )
 276/navigation_offset = Vector2( 0, 0 )
+276/shape_offset = Vector2( 0, 0 )
+276/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+276/shape_one_way = false
+276/shape_one_way_margin = 0.0
 276/shapes = [  ]
 276/z_index = 0
 277/name = "tileset_ruins.png 277"
@@ -2781,6 +4141,10 @@
 277/tile_mode = 0
 277/occluder_offset = Vector2( 0, 0 )
 277/navigation_offset = Vector2( 0, 0 )
+277/shape_offset = Vector2( 0, 0 )
+277/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+277/shape_one_way = false
+277/shape_one_way_margin = 0.0
 277/shapes = [  ]
 277/z_index = 0
 278/name = "tileset_ruins.png 278"
@@ -2791,6 +4155,10 @@
 278/tile_mode = 0
 278/occluder_offset = Vector2( 0, 0 )
 278/navigation_offset = Vector2( 0, 0 )
+278/shape_offset = Vector2( 0, 0 )
+278/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+278/shape_one_way = false
+278/shape_one_way_margin = 0.0
 278/shapes = [  ]
 278/z_index = 0
 279/name = "tileset_ruins.png 279"
@@ -2801,6 +4169,10 @@
 279/tile_mode = 0
 279/occluder_offset = Vector2( 0, 0 )
 279/navigation_offset = Vector2( 0, 0 )
+279/shape_offset = Vector2( 0, 0 )
+279/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+279/shape_one_way = false
+279/shape_one_way_margin = 0.0
 279/shapes = [  ]
 279/z_index = 0
 280/name = "tileset_ruins.png 280"
@@ -2811,6 +4183,10 @@
 280/tile_mode = 0
 280/occluder_offset = Vector2( 0, 0 )
 280/navigation_offset = Vector2( 0, 0 )
+280/shape_offset = Vector2( 0, 0 )
+280/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+280/shape_one_way = false
+280/shape_one_way_margin = 0.0
 280/shapes = [  ]
 280/z_index = 0
 281/name = "tileset_ruins.png 281"
@@ -2821,6 +4197,10 @@
 281/tile_mode = 0
 281/occluder_offset = Vector2( 0, 0 )
 281/navigation_offset = Vector2( 0, 0 )
+281/shape_offset = Vector2( 0, 0 )
+281/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+281/shape_one_way = false
+281/shape_one_way_margin = 0.0
 281/shapes = [  ]
 281/z_index = 0
 282/name = "tileset_ruins.png 282"
@@ -2831,6 +4211,10 @@
 282/tile_mode = 0
 282/occluder_offset = Vector2( 0, 0 )
 282/navigation_offset = Vector2( 0, 0 )
+282/shape_offset = Vector2( 0, 0 )
+282/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+282/shape_one_way = false
+282/shape_one_way_margin = 0.0
 282/shapes = [  ]
 282/z_index = 0
 283/name = "tileset_ruins.png 283"
@@ -2841,6 +4225,10 @@
 283/tile_mode = 0
 283/occluder_offset = Vector2( 0, 0 )
 283/navigation_offset = Vector2( 0, 0 )
+283/shape_offset = Vector2( 0, 0 )
+283/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+283/shape_one_way = false
+283/shape_one_way_margin = 0.0
 283/shapes = [  ]
 283/z_index = 0
 284/name = "tileset_ruins.png 284"
@@ -2851,6 +4239,10 @@
 284/tile_mode = 0
 284/occluder_offset = Vector2( 0, 0 )
 284/navigation_offset = Vector2( 0, 0 )
+284/shape_offset = Vector2( 0, 0 )
+284/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+284/shape_one_way = false
+284/shape_one_way_margin = 0.0
 284/shapes = [  ]
 284/z_index = 0
 285/name = "tileset_ruins.png 285"
@@ -2861,6 +4253,10 @@
 285/tile_mode = 0
 285/occluder_offset = Vector2( 0, 0 )
 285/navigation_offset = Vector2( 0, 0 )
+285/shape_offset = Vector2( 0, 0 )
+285/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+285/shape_one_way = false
+285/shape_one_way_margin = 0.0
 285/shapes = [  ]
 285/z_index = 0
 286/name = "tileset_ruins.png 286"
@@ -2871,6 +4267,10 @@
 286/tile_mode = 0
 286/occluder_offset = Vector2( 0, 0 )
 286/navigation_offset = Vector2( 0, 0 )
+286/shape_offset = Vector2( 0, 0 )
+286/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+286/shape_one_way = false
+286/shape_one_way_margin = 0.0
 286/shapes = [  ]
 286/z_index = 0
 287/name = "tileset_ruins.png 287"
@@ -2881,6 +4281,10 @@
 287/tile_mode = 0
 287/occluder_offset = Vector2( 0, 0 )
 287/navigation_offset = Vector2( 0, 0 )
+287/shape_offset = Vector2( 0, 0 )
+287/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+287/shape_one_way = false
+287/shape_one_way_margin = 0.0
 287/shapes = [  ]
 287/z_index = 0
 288/name = "tileset_ruins.png 288"
@@ -2891,6 +4295,10 @@
 288/tile_mode = 0
 288/occluder_offset = Vector2( 0, 0 )
 288/navigation_offset = Vector2( 0, 0 )
+288/shape_offset = Vector2( 0, 0 )
+288/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+288/shape_one_way = false
+288/shape_one_way_margin = 0.0
 288/shapes = [  ]
 288/z_index = 0
 289/name = "tileset_ruins.png 289"
@@ -2901,6 +4309,10 @@
 289/tile_mode = 0
 289/occluder_offset = Vector2( 0, 0 )
 289/navigation_offset = Vector2( 0, 0 )
+289/shape_offset = Vector2( 0, 0 )
+289/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+289/shape_one_way = false
+289/shape_one_way_margin = 0.0
 289/shapes = [  ]
 289/z_index = 0
 290/name = "tileset_ruins.png 290"
@@ -2911,6 +4323,10 @@
 290/tile_mode = 0
 290/occluder_offset = Vector2( 0, 0 )
 290/navigation_offset = Vector2( 0, 0 )
+290/shape_offset = Vector2( 0, 0 )
+290/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+290/shape_one_way = false
+290/shape_one_way_margin = 0.0
 290/shapes = [  ]
 290/z_index = 0
 291/name = "tileset_ruins.png 291"
@@ -2921,6 +4337,10 @@
 291/tile_mode = 0
 291/occluder_offset = Vector2( 0, 0 )
 291/navigation_offset = Vector2( 0, 0 )
+291/shape_offset = Vector2( 0, 0 )
+291/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+291/shape_one_way = false
+291/shape_one_way_margin = 0.0
 291/shapes = [  ]
 291/z_index = 0
 292/name = "tileset_ruins.png 292"
@@ -2931,6 +4351,10 @@
 292/tile_mode = 0
 292/occluder_offset = Vector2( 0, 0 )
 292/navigation_offset = Vector2( 0, 0 )
+292/shape_offset = Vector2( 0, 0 )
+292/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+292/shape_one_way = false
+292/shape_one_way_margin = 0.0
 292/shapes = [  ]
 292/z_index = 0
 293/name = "tileset_ruins.png 293"
@@ -2941,6 +4365,10 @@
 293/tile_mode = 0
 293/occluder_offset = Vector2( 0, 0 )
 293/navigation_offset = Vector2( 0, 0 )
+293/shape_offset = Vector2( 0, 0 )
+293/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+293/shape_one_way = false
+293/shape_one_way_margin = 0.0
 293/shapes = [  ]
 293/z_index = 0
 294/name = "tileset_ruins.png 294"
@@ -2951,6 +4379,10 @@
 294/tile_mode = 0
 294/occluder_offset = Vector2( 0, 0 )
 294/navigation_offset = Vector2( 0, 0 )
+294/shape_offset = Vector2( 0, 0 )
+294/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+294/shape_one_way = false
+294/shape_one_way_margin = 0.0
 294/shapes = [  ]
 294/z_index = 0
 295/name = "tileset_ruins.png 295"
@@ -2961,6 +4393,10 @@
 295/tile_mode = 0
 295/occluder_offset = Vector2( 0, 0 )
 295/navigation_offset = Vector2( 0, 0 )
+295/shape_offset = Vector2( 0, 0 )
+295/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+295/shape_one_way = false
+295/shape_one_way_margin = 0.0
 295/shapes = [  ]
 295/z_index = 0
 296/name = "tileset_ruins.png 296"
@@ -2971,6 +4407,10 @@
 296/tile_mode = 0
 296/occluder_offset = Vector2( 0, 0 )
 296/navigation_offset = Vector2( 0, 0 )
+296/shape_offset = Vector2( 0, 0 )
+296/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+296/shape_one_way = false
+296/shape_one_way_margin = 0.0
 296/shapes = [  ]
 296/z_index = 0
 297/name = "tileset_ruins.png 297"
@@ -2981,6 +4421,10 @@
 297/tile_mode = 0
 297/occluder_offset = Vector2( 0, 0 )
 297/navigation_offset = Vector2( 0, 0 )
+297/shape_offset = Vector2( 0, 0 )
+297/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+297/shape_one_way = false
+297/shape_one_way_margin = 0.0
 297/shapes = [  ]
 297/z_index = 0
 298/name = "tileset_ruins.png 298"
@@ -2991,6 +4435,10 @@
 298/tile_mode = 0
 298/occluder_offset = Vector2( 0, 0 )
 298/navigation_offset = Vector2( 0, 0 )
+298/shape_offset = Vector2( 0, 0 )
+298/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+298/shape_one_way = false
+298/shape_one_way_margin = 0.0
 298/shapes = [  ]
 298/z_index = 0
 299/name = "tileset_ruins.png 299"
@@ -3001,6 +4449,10 @@
 299/tile_mode = 0
 299/occluder_offset = Vector2( 0, 0 )
 299/navigation_offset = Vector2( 0, 0 )
+299/shape_offset = Vector2( 0, 0 )
+299/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+299/shape_one_way = false
+299/shape_one_way_margin = 0.0
 299/shapes = [  ]
 299/z_index = 0
 300/name = "tileset_ruins.png 300"
@@ -3011,6 +4463,10 @@
 300/tile_mode = 0
 300/occluder_offset = Vector2( 0, 0 )
 300/navigation_offset = Vector2( 0, 0 )
+300/shape_offset = Vector2( 0, 0 )
+300/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+300/shape_one_way = false
+300/shape_one_way_margin = 0.0
 300/shapes = [  ]
 300/z_index = 0
 301/name = "tileset_ruins.png 301"
@@ -3021,6 +4477,10 @@
 301/tile_mode = 0
 301/occluder_offset = Vector2( 0, 0 )
 301/navigation_offset = Vector2( 0, 0 )
+301/shape_offset = Vector2( 0, 0 )
+301/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+301/shape_one_way = false
+301/shape_one_way_margin = 0.0
 301/shapes = [  ]
 301/z_index = 0
 302/name = "tileset_ruins.png 302"
@@ -3031,5 +4491,560 @@
 302/tile_mode = 0
 302/occluder_offset = Vector2( 0, 0 )
 302/navigation_offset = Vector2( 0, 0 )
+302/shape_offset = Vector2( 0, 0 )
+302/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+302/shape_one_way = false
+302/shape_one_way_margin = 0.0
 302/shapes = [  ]
 302/z_index = 0
+303/name = "Inner Red Ruin Autotile"
+303/texture = ExtResource( 1 )
+303/tex_offset = Vector2( 0, 0 )
+303/modulate = Color( 1, 1, 1, 1 )
+303/region = Rect2( 0, -16, 16, 16 )
+303/tile_mode = 1
+303/autotile/bitmask_mode = 0
+303/autotile/bitmask_flags = [  ]
+303/autotile/icon_coordinate = Vector2( 0, 0 )
+303/autotile/tile_size = Vector2( 16, 16 )
+303/autotile/spacing = 0
+303/autotile/occluder_map = [  ]
+303/autotile/navpoly_map = [  ]
+303/autotile/priority_map = [  ]
+303/autotile/z_index_map = [  ]
+303/occluder_offset = Vector2( 0, 0 )
+303/navigation_offset = Vector2( 0, 0 )
+303/shape_offset = Vector2( 0, 0 )
+303/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+303/shape_one_way = false
+303/shape_one_way_margin = 0.0
+303/shapes = [  ]
+303/z_index = 0
+304/name = "Blue Ruins"
+304/texture = ExtResource( 1 )
+304/tex_offset = Vector2( 0, 0 )
+304/modulate = Color( 1, 1, 1, 1 )
+304/region = Rect2( 192, 0, 336, 528 )
+304/tile_mode = 1
+304/autotile/bitmask_mode = 1
+304/autotile/bitmask_flags = [ Vector2( 0, 0 ), 432, Vector2( 0, 1 ), 438, Vector2( 0, 2 ), 438, Vector2( 0, 3 ), 438, Vector2( 0, 4 ), 438, Vector2( 0, 5 ), 438, Vector2( 0, 6 ), 438, Vector2( 0, 7 ), 54, Vector2( 1, 0 ), 216, Vector2( 1, 1 ), 219, Vector2( 1, 2 ), 219, Vector2( 1, 3 ), 219, Vector2( 1, 4 ), 219, Vector2( 1, 5 ), 219, Vector2( 1, 6 ), 219, Vector2( 1, 7 ), 27, Vector2( 3, 6 ), 432, Vector2( 3, 7 ), 54, Vector2( 4, 6 ), 504, Vector2( 4, 7 ), 63, Vector2( 5, 6 ), 504, Vector2( 5, 7 ), 63, Vector2( 5, 27 ), 432, Vector2( 5, 29 ), 48, Vector2( 6, 1 ), 504, Vector2( 6, 2 ), 511, Vector2( 6, 6 ), 504, Vector2( 6, 7 ), 63, Vector2( 6, 27 ), 504, Vector2( 6, 29 ), 511, Vector2( 7, 6 ), 504, Vector2( 7, 7 ), 63, Vector2( 7, 27 ), 504, Vector2( 7, 29 ), 511, Vector2( 8, 0 ), 432, Vector2( 8, 1 ), 510, Vector2( 8, 6 ), 504, Vector2( 8, 7 ), 63, Vector2( 8, 27 ), 504, Vector2( 8, 29 ), 511, Vector2( 9, 0 ), 504, Vector2( 9, 1 ), 511, Vector2( 9, 6 ), 504, Vector2( 9, 7 ), 63, Vector2( 9, 27 ), 504, Vector2( 9, 29 ), 511, Vector2( 10, 6 ), 216, Vector2( 10, 7 ), 27, Vector2( 10, 27 ), 504, Vector2( 10, 29 ), 511, Vector2( 11, 0 ), 504, Vector2( 11, 1 ), 511, Vector2( 11, 10 ), 56, Vector2( 11, 25 ), 56, Vector2( 11, 27 ), 504, Vector2( 11, 29 ), 24, Vector2( 12, 0 ), 504, Vector2( 12, 1 ), 511, Vector2( 12, 10 ), 56, Vector2( 12, 25 ), 56, Vector2( 12, 27 ), 504, Vector2( 13, 0 ), 504, Vector2( 13, 1 ), 511, Vector2( 13, 10 ), 8, Vector2( 13, 13 ), 146, Vector2( 13, 14 ), 146, Vector2( 13, 27 ), 216, Vector2( 13, 29 ), 48, Vector2( 14, 29 ), 511, Vector2( 15, 0 ), 504, Vector2( 15, 1 ), 511, Vector2( 15, 29 ), 511, Vector2( 16, 0 ), 216, Vector2( 16, 1 ), 507, Vector2( 16, 29 ), 511, Vector2( 17, 29 ), 511, Vector2( 18, 1 ), 504, Vector2( 18, 2 ), 511, Vector2( 18, 29 ), 24 ]
+304/autotile/icon_coordinate = Vector2( 0, 0 )
+304/autotile/tile_size = Vector2( 16, 16 )
+304/autotile/spacing = 0
+304/autotile/occluder_map = [  ]
+304/autotile/navpoly_map = [  ]
+304/autotile/priority_map = [  ]
+304/autotile/z_index_map = [  ]
+304/occluder_offset = Vector2( 0, 0 )
+304/navigation_offset = Vector2( 0, 0 )
+304/shape_offset = Vector2( 0, 0 )
+304/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+304/shape = SubResource( 1 )
+304/shape_one_way = false
+304/shape_one_way_margin = 1.0
+304/shapes = [ {
+"autotile_coord": Vector2( 0, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 2 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 2 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 3 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 3 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 4 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 4 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 5 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 5 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 3, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 15 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 4, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 16 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 17 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 18 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 19 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 10, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 20 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 21 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 22 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 23 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 10, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 24 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 6 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 26 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 27 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 28 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 4, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 29 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 3, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 30 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 7 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 31 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 32 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 2 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 33 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 34 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 35 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 11, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 36 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 11, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 37 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 12, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 38 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 12, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 39 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 40 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 41 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 15, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 42 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 16, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 43 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 18, 2 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 44 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 18, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 45 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 14 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 46 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 13 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 47 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 14, 19 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 48 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 18 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 49 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 19 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 50 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 14, 18 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 51 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 14, 20 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 52 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 14, 21 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 53 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 21 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 54 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 20 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 55 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 56 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 57 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 58 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 59 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 60 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 10, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 61 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 11, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 62 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 12, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 63 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 27 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 64 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 11, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 65 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 10, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 66 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 67 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 68 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 7, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 69 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 70 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 71 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 72 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 13, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 73 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 14, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 74 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 15, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 75 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 16, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 76 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 17, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 77 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 18, 29 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 78 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 79 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 80 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 8, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 81 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 9, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 82 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 15, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 83 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 16, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 84 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+304/z_index = 0
