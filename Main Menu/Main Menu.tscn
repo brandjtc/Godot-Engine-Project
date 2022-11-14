@@ -1,68 +1,213 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Main Menu/Menu.gd" type="Script" id=1]
 [ext_resource path="res://Audio/Music/Chris Christodoulou - The Rain Formerly Known as Purple   Risk of Rain 2 (2020).mp3" type="AudioStream" id=2]
-[ext_resource path="res://Assets/Fonts/Terminal-16.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Assets/Fonts/Terminal-48.tres" type="DynamicFont" id=3]
 [ext_resource path="res://Assets/logo.png" type="Texture" id=4]
 
+[sub_resource type="StyleBoxLine" id=4]
+color = Color( 0, 0.878431, 0.898039, 1 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "Fade_Intro"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Fade_Option"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Fade_Quit"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Fade_Start"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
 [node name="Menu" type="Control"]
-anchor_top = 1.0
-anchor_bottom = 1.0
-margin_top = -1053.0
-margin_right = 1920.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -960.0
+margin_top = -540.0
+margin_right = 960.0
+margin_bottom = 540.0
 size_flags_horizontal = 3
-size_flags_vertical = 15
+size_flags_vertical = 3
 script = ExtResource( 1 )
 
 [node name="Menu" type="VBoxContainer" parent="."]
-anchor_top = 1.0
-anchor_bottom = 1.0
-margin_top = -142.0
-margin_right = 73.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -840.0
+margin_top = -460.0
+margin_right = 840.0
+margin_bottom = 460.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 72
 
 [node name="TextureRect" type="TextureRect" parent="Menu"]
-margin_right = 73.0
-margin_bottom = 64.0
+margin_right = 1680.0
+margin_bottom = 424.0
+size_flags_vertical = 3
 texture = ExtResource( 4 )
+stretch_mode = 4
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Menu"]
-margin_top = 68.0
-margin_right = 73.0
-margin_bottom = 142.0
+[node name="Menu Options" type="VBoxContainer" parent="Menu"]
+margin_top = 496.0
+margin_right = 227.0
+margin_bottom = 920.0
 size_flags_horizontal = 0
-size_flags_vertical = 0
+size_flags_vertical = 3
 
-[node name="Start" type="Button" parent="Menu/VBoxContainer"]
-margin_right = 73.0
-margin_bottom = 22.0
+[node name="Options Container" type="HBoxContainer" parent="Menu/Menu Options"]
+margin_right = 227.0
+margin_bottom = 184.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu/Menu Options/Options Container"]
+margin_right = 24.0
+margin_bottom = 184.0
+custom_constants/separation = 19
+
+[node name="Start Arrow" type="Label" parent="Menu/Menu Options/Options Container/VBoxContainer"]
+margin_right = 24.0
+margin_bottom = 48.0
+custom_fonts/font = ExtResource( 3 )
+text = ">"
+
+[node name="Options Arrow" type="Label" parent="Menu/Menu Options/Options Container/VBoxContainer"]
+margin_top = 67.0
+margin_right = 24.0
+margin_bottom = 115.0
+custom_fonts/font = ExtResource( 3 )
+text = ">"
+
+[node name="Quit Arrow" type="Label" parent="Menu/Menu Options/Options Container/VBoxContainer"]
+margin_top = 134.0
+margin_right = 24.0
+margin_bottom = 182.0
+custom_fonts/font = ExtResource( 3 )
+text = ">"
+
+[node name="Buttons" type="VBoxContainer" parent="Menu/Menu Options/Options Container"]
+margin_left = 28.0
+margin_right = 223.0
+margin_bottom = 184.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 11
+
+[node name="Start" type="Button" parent="Menu/Menu Options/Options Container/Buttons"]
+margin_right = 141.0
+margin_bottom = 54.0
 focus_neighbour_top = NodePath("../Quit")
 focus_neighbour_bottom = NodePath("../Options")
+size_flags_horizontal = 0
+size_flags_vertical = 0
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_fonts/font = ExtResource( 3 )
+custom_styles/hover = SubResource( 4 )
 text = "Start"
+flat = true
+expand_icon = true
 
-[node name="Options" type="Button" parent="Menu/VBoxContainer"]
-margin_top = 26.0
-margin_right = 73.0
-margin_bottom = 48.0
+[node name="Options" type="Button" parent="Menu/Menu Options/Options Container/Buttons"]
+margin_top = 65.0
+margin_right = 195.0
+margin_bottom = 119.0
 focus_neighbour_top = NodePath("../Start")
 focus_neighbour_bottom = NodePath("../Quit")
+size_flags_horizontal = 0
+size_flags_vertical = 0
 custom_fonts/font = ExtResource( 3 )
 text = "Options"
+flat = true
+expand_icon = true
 
-[node name="Quit" type="Button" parent="Menu/VBoxContainer"]
-margin_top = 52.0
-margin_right = 73.0
-margin_bottom = 74.0
+[node name="Quit" type="Button" parent="Menu/Menu Options/Options Container/Buttons"]
+margin_top = 130.0
+margin_right = 114.0
+margin_bottom = 184.0
 focus_neighbour_top = NodePath("../Options")
 focus_neighbour_bottom = NodePath("../Start")
+size_flags_horizontal = 0
+size_flags_vertical = 0
 custom_fonts/font = ExtResource( 3 )
 text = "Quit"
+flat = true
+expand_icon = true
+
+[node name="TextureRect" type="TextureRect" parent="Menu/Menu Options/Options Container"]
+margin_left = 227.0
+margin_right = 227.0
+margin_bottom = 184.0
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
 autoplay = true
 
-[connection signal="pressed" from="Menu/VBoxContainer/Start" to="." method="_on_Start_pressed"]
-[connection signal="pressed" from="Menu/VBoxContainer/Options" to="." method="_on_Options_pressed"]
-[connection signal="pressed" from="Menu/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
+[node name="Fade" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0 )
+
+[node name="Fade_Animation" type="AnimationPlayer" parent="Fade"]
+anims/Fade_Intro = SubResource( 5 )
+anims/Fade_Option = SubResource( 6 )
+anims/Fade_Quit = SubResource( 7 )
+anims/Fade_Start = SubResource( 8 )
+
+[connection signal="mouse_entered" from="Menu/Menu Options/Options Container/Buttons/Start" to="." method="_on_Start_mouse_entered"]
+[connection signal="pressed" from="Menu/Menu Options/Options Container/Buttons/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Menu/Menu Options/Options Container/Buttons/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Menu/Menu Options/Options Container/Buttons/Quit" to="." method="_on_Quit_pressed"]
+[connection signal="animation_finished" from="Fade/Fade_Animation" to="." method="_on_Fade_Animation_animation_finished"]

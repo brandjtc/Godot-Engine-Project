@@ -1,0 +1,115 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Assets/Fonts/Terminal-48.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Assets/Fonts/Terminal-16.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Main Menu/Options Menu.gd" type="Script" id=3]
+
+[sub_resource type="Animation" id=4]
+resource_name = "Fade_Intro"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=1]
+resource_name = "Fade_Option"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Fade_Quit"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Fade_Start"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 763.0
+margin_top = 475.0
+margin_right = 1156.0
+margin_bottom = 604.0
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer/VBoxContainer"]
+margin_right = 393.0
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_top = 4.0
+margin_right = 393.0
+margin_bottom = 103.0
+custom_colors/font_color = Color( 0.556863, 0.0117647, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "No Options here.
+Get Pranked"
+
+[node name="Back" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 107.0
+margin_right = 393.0
+margin_bottom = 129.0
+custom_fonts/font = ExtResource( 2 )
+text = "Back to main menu"
+flat = true
+
+[node name="Fade" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0 )
+
+[node name="Fade_Animation" type="AnimationPlayer" parent="Fade"]
+anims/Fade_Intro = SubResource( 4 )
+anims/Fade_Option = SubResource( 1 )
+anims/Fade_Quit = SubResource( 2 )
+anims/Fade_Start = SubResource( 3 )
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Back" to="." method="_on_Back_pressed"]
+[connection signal="animation_finished" from="Fade/Fade_Animation" to="." method="_on_Fade_Animation_animation_finished"]
