@@ -21,7 +21,7 @@ func _on_Fade_Animation_animation_finished(anim_name):
 	if (anim_name=="Fade_Intro"):
 		$Fade.visible=false
 	if (anim_name=="Fade_Start"):
-		get_tree().change_scene("res://Test Node.tscn")
+		get_tree().change_scene("res://TileMap Test.tscn")
 	elif (anim_name=="Fade_Option"):
 		get_tree().change_scene("res://Main Menu/Options Menu.tscn")
 	else:
