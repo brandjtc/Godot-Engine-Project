@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Level Construction Tools/NoWasdPlayer/Text Movement.gd" type="Script" id=1]
 [ext_resource path="res://Level Construction Tools/NoWasdPlayer/CommandProcessors.gd" type="Script" id=2]
@@ -6,23 +6,8 @@
 [ext_resource path="res://Level Construction Tools/NoWasdPlayer/Input.gd" type="Script" id=4]
 [ext_resource path="res://Level Construction Tools/NoWasdPlayer/codebot sprite sheet.png" type="Texture" id=5]
 [ext_resource path="res://Audio/Sound FX/thruster_Edit_1_Export_1.mp3" type="AudioStream" id=6]
-
-[sub_resource type="RectangleShape2D" id=14]
-extents = Vector2( 10.484, 18.1311 )
-
-[sub_resource type="CapsuleShape2D" id=1]
-height = 0.0
-
-[sub_resource type="RectangleShape2D" id=11]
-extents = Vector2( 5, 10 )
-
-[sub_resource type="RectangleShape2D" id=10]
-extents = Vector2( 10, 21 )
-
-[sub_resource type="StyleBoxFlat" id=12]
-bg_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
-
-[sub_resource type="StyleBoxEmpty" id=13]
+[ext_resource path="res://Level Construction Tools/NoWasdPlayer/Restart Button.gd" type="Script" id=7]
+[ext_resource path="res://Assets/UI/restart button.png" type="Texture" id=8]
 
 [sub_resource type="Animation" id=7]
 resource_name = "Falling"
@@ -165,9 +150,42 @@ tracks/0/keys = {
 "values": [ 6, 7, 8, 7 ]
 }
 
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 10.484, 18.1311 )
+
+[sub_resource type="CapsuleShape2D" id=1]
+height = 0.0
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 5, 10 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 10, 21 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 120, 248 )
 script = ExtResource( 3 )
+
+[node name="Thruster" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Falling = SubResource( 7 )
+anims/Idle = SubResource( 2 )
+anims/Jump = SubResource( 3 )
+"anims/Long Fall" = SubResource( 8 )
+anims/Moving = SubResource( 4 )
+"anims/Pre Idle" = SubResource( 9 )
+anims/RESET = SubResource( 5 )
+"anims/Typing Idle" = SubResource( 6 )
 
 [node name="Teleport Collide Parent" type="Area2D" parent="."]
 position = Vector2( 0, -16 )
@@ -279,22 +297,20 @@ custom_styles/normal = SubResource( 13 )
 max_length = 13
 script = ExtResource( 4 )
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/Falling = SubResource( 7 )
-anims/Idle = SubResource( 2 )
-anims/Jump = SubResource( 3 )
-"anims/Long Fall" = SubResource( 8 )
-anims/Moving = SubResource( 4 )
-"anims/Pre Idle" = SubResource( 9 )
-anims/RESET = SubResource( 5 )
-"anims/Typing Idle" = SubResource( 6 )
+[node name="Restart Button" type="Button" parent="Camera2D"]
+margin_left = 359.0
+margin_top = -153.0
+margin_right = 377.052
+margin_bottom = -133.0
+flat = true
+script = ExtResource( 7 )
 
-[node name="Timer" type="Timer" parent="."]
-wait_time = 0.5
-
-[node name="Thruster" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 6 )
+[node name="Button_Texture" type="TextureRect" parent="Camera2D/Restart Button"]
+texture = ExtResource( 8 )
 
 [connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="." method="_on_Input_text_entered"]
 [connection signal="text_entered" from="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" to="Camera2D/Text Movement/Background/MarginContainer/VBoxContainer/InputContainer/HBoxContainer/Input" method="_on_Input_text_entered"]
-[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="mouse_entered" from="Camera2D/Restart Button" to="Camera2D/Restart Button" method="_on_Restart_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Camera2D/Restart Button" to="Camera2D/Restart Button" method="_on_Restart_Button_mouse_exited"]
+[connection signal="pressed" from="Camera2D/Restart Button" to="Camera2D/Restart Button" method="_on_Restart_Button_pressed"]
+[connection signal="toggled" from="Camera2D/Restart Button" to="Camera2D/Restart Button" method="_on_Restart_Button_toggled"]
