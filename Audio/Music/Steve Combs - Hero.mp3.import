@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Steve Combs - Hero.mp3-eebf7eb87e074fe5f84563909f5b0bf5.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/Steve Combs - Hero.mp3"
+dest_files=[ "res://.import/Steve Combs - Hero.mp3-eebf7eb87e074fe5f84563909f5b0bf5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

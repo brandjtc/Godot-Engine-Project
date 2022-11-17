@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/teleport_with_extra_reverb.mp3-1537db56bfdf67625dcc72dcc18b7712.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound FX/teleport_with_extra_reverb.mp3"
+dest_files=[ "res://.import/teleport_with_extra_reverb.mp3-1537db56bfdf67625dcc72dcc18b7712.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
