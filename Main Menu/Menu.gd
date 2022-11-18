@@ -26,3 +26,7 @@ func _on_Fade_Animation_animation_finished(anim_name):
 		get_tree().change_scene("res://Main Menu/Options Menu.tscn")
 	else:
 		get_tree().quit();
+
+
+func _on_Start_mouse_entered():
+	$"Menu/Menu Options/Options Container/Buttons/Start"
