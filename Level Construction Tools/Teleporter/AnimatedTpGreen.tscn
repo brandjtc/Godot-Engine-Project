@@ -72,21 +72,24 @@ height = 30.0
 position = Vector2( 333, 129 )
 frames = ExtResource( 1 )
 animation = "On"
-frame = 4
+frame = 7
 playing = true
 flip_h = true
 script = ExtResource( 2 )
 
-[node name="Fade" type="ColorRect" parent="."]
+[node name="HideParallax" type="CanvasLayer" parent="."]
+layer = 40
+
+[node name="Fade" type="ColorRect" parent="HideParallax"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -1126.0
-margin_top = -459.0
-margin_right = 730.0
-margin_bottom = 557.0
+margin_left = -793.0
+margin_top = -330.0
+margin_right = 1063.0
+margin_bottom = 686.0
 color = Color( 0, 0, 0, 0 )
 
-[node name="Fade_Animation" type="AnimationPlayer" parent="Fade"]
+[node name="Fade_Animation" type="AnimationPlayer" parent="HideParallax/Fade"]
 anims/Fade_Intro = SubResource( 5 )
 anims/Fade_Option = SubResource( 6 )
 anims/Fade_Quit = SubResource( 7 )
@@ -101,6 +104,6 @@ shape = SubResource( 115 )
 [node name="TeleportFx" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
 
-[connection signal="animation_finished" from="Fade/Fade_Animation" to="." method="_on_Fade_Animation_animation_finished"]
+[connection signal="animation_finished" from="HideParallax/Fade/Fade_Animation" to="." method="_on_Fade_Animation_animation_finished"]
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
 [connection signal="area_shape_entered" from="Area2D" to="." method="_on_Area2D_area_shape_entered"]

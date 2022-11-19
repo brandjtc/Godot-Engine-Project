@@ -3,13 +3,12 @@
 extends AnimatedSprite
 func _ready():
 	pass
-	
 
 
 func _on_Area2D_area_shape_entered(area_rid, area, area_shape_index, local_shape_index):
 	$TeleportFx.play()	
-	$Fade.visible=true;
-	$Fade/Fade_Animation.play("Fade_Option")
+	$HideParallax/Fade.visible=true;
+	$HideParallax/Fade/Fade_Animation.play("Fade_Option")
 
 
 func _on_Fade_Animation_animation_finished(anim_name):
