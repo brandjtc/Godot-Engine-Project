@@ -11,5 +11,5 @@ dest_files=[ "res://.import/thruster_Edit_1_Export_1.mp3-97aebafe24fe3745d046014
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

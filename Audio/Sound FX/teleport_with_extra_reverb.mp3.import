@@ -11,5 +11,5 @@ dest_files=[ "res://.import/teleport_with_extra_reverb.mp3-1537db56bfdf67625dcc7
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
