@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/large-crash-with-cat.mp3-91201110f4efd2653d06637cea9bfea1.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound FX/large-crash-with-cat.mp3"
+dest_files=[ "res://.import/large-crash-with-cat.mp3-91201110f4efd2653d06637cea9bfea1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

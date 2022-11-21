@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/HoliznaCC0 - Blue Skies.mp3.mp3-ea9637d2e28f41d9aa378dbd0d41ea64.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/HoliznaCC0 - Blue Skies.mp3.mp3"
+dest_files=[ "res://.import/HoliznaCC0 - Blue Skies.mp3.mp3-ea9637d2e28f41d9aa378dbd0d41ea64.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
