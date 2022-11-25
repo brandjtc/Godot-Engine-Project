@@ -107,7 +107,7 @@ func handle_scrollbar_changed():
 func process_command(input: String) -> String:
 	var WORDS = input.split("_", false, 0) 
 	if WORDS.size()== 0:
-		return "Error: No words were parsed"
+		return "Error: No words\nwere parsed"
 	var FIRST_WORD = WORDS[0].to_lower()
 	var SECOND_WORD = ""
 	if WORDS.size() > 1:
@@ -123,19 +123,20 @@ func process_command(input: String) -> String:
 			ONLY_ONCE = true
 			return "Jumping"
 		"help()":
-			return "Valid Commands: move_Right(), jump(), move_Left(), stop()"
+			return "Valid Commands: \nmove_Right(), jump(),\nmove_Left(), stop()"
 		_:
-			return "Error: Unrecognized command"
+			return "Error:\nUnrecognized\ncommand"
 
 func go(second_word: String) -> String:
-	print(second_word)
 	if second_word == "":
 		return "Move where?"
+	if second_word !="right()" && second_word !="left()" && second_word !="up()":
+		return "Error:\nUnrecognized\ncommand"
 	if second_word == "left()":
 		DIRECTION_X = 0
 	elif second_word == "right()":
 		DIRECTION_X = 1
-	if second_word == "_up":
+	if second_word == "_up()":
 		ONLY_ONCE = true
 		DIRECTION_Y = 0
 	second_word=second_word.replace("()","");
