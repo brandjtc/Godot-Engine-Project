@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/soft-piano-100-bpm.mp3-15232dbd6d4565b7ac19e4ec0c25155e.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/soft-piano-100-bpm.mp3"
+dest_files=[ "res://.import/soft-piano-100-bpm.mp3-15232dbd6d4565b7ac19e4ec0c25155e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

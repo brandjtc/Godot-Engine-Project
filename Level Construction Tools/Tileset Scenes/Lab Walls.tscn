@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Level Construction Tools/Tilesets/Lab Walls.tres" type="TileSet" id=2]
+
+[node name="Lab Walls" type="TileMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+format = 1
