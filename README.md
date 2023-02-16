@@ -4,51 +4,24 @@
 </a>
 </p>
 
-This plugin is now supported in [Godot Extended Library Discord](https://discord.gg/JNrcucg), check out the [Godot Extended Library Project](https://github.com/godot-extended-libraries)!
+# The Codebot Coalition
+- Brandon Catalano: *Project Lead & Lead Programmer*
+- Madison Goodwin: *Documentation and Storyboard*
+- Riley Gibson: *Researcher & Asset Acquisition* 
+- Elric Flores: *Assistant Programmer*
 
-<img src="addons/github-integration/github-logo.png" align="left" width="64" height="64">
+## Introduction
+This technical report centers around the creation of a 2D platformer internally titled PixelPlatformer. It focuses on the finalized and in-progress features of the PixelPlatformer game developed on the Godot Engine development environment in tandem with GDScript, Godot’s in-house programming language. Additionally, the game’s core focus on educating users on basic programming logic and its implementation into the 2D platformer’s level design is also detailed in the report. 
 
-# GitHub Integration
-A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
+## The problem/application
+We plan to make an application with the goal of teaching users how to code by providing a foundation in logic. This will be done through movement commands in a terminal. 
+The game will include tile mapping and the character’s animations made with a sprite sheet. The character the user will control is a small robot.
 
-Author: *"Nicolo (fenix) Santilio"*  
-Version: *1.4.3*  
-Godot Version: *3.2.4-rc3*  
-Wiki: *[supported](https://github.com/fenix-hub/godot-engine.github-integration/wiki)*  
+## Style & Story
+The overall style of the game will be pixelated and have a storyline beyond the specific levels. As of right now, we plan to make 3 levels. The storyline will loosely be based off of the robot’s  character escaping his old life(e.g. industrial background) and as the level progresses the background becomes more and more organic(e.g. cave and forest backgrounds).
 
-<img align="center" src="addons/github-integration/screenshots/banner.png">
+## Audio  
+This project will primarily use the .mp3 file format to store its audio. The game will feature a looping song to function as a background track, with a unique song featured in each level. Each of the differing areas will have a background track that corresponds with the environment. Additionally, most motions made by the player controlled character, such as jumping or moving left, will also have sound effects. When jumping, a thruster sound is made.
 
-## What is this?
-*GitHub Integration* is a addon for Godot Engine that I've created mainly for a personal purpose.  
-Pushing and Pulling repositories while I'm working on Godot (especially if I'm under a GameJam) could take some time and force me to save the project, open the brwoser/git bash/git gui, and do all the stuff.  
-With this little addon which works directly in the editor, managing all your repositories will be very easy.  
-
-## What can it do?
-*Github Integration* offers the main functionalities provided by GitHub (and git itself), in a more accessible way.  
-Currenlty, you can:
-- Manage all of your public and private **repositories**, *including* the ones you share with organizations and the ones in which you are a collaborator (with proper permissions): create, delete, push and clone repositories within your Godot project
-- Manage all of your public and private **gists**: delete, edit and create gists with a functional text editor
-- Manage collaboration invitations, inviting user to your repositories or accept/decline invitations you have received
-
-## How does it work?
-I'm currently working on a [Wiki](https://github.com/fenix-hub/godot-engine.github-integration/wiki) for this plugin. It is a process that will take some time to complete since I want to provide a well-organized wiki with some basic explanations about GitHub itself. Anyway, I'm working on a user-friendly plugin, so everything should be the very ease to use for GitHub experienced users, and a little intuitive for people who never used GitHub or are not so experienced.
-If you want to see some screenshots you can find them here `addons/github-integration/screenshots`
-
-## Supporters page
-<table>
-  <tr>
-    <th><img src='https://avatars0.githubusercontent.com/u/9788627?s=64&v=4' alt='@masterworm2' width="64"/><br/><a href="https://github.com/masterworm2">masterworm2</a></th>
-    <th><img src='https://avatars0.githubusercontent.com/u/48778172?s=64&v=4' alt='@auctru' width="64"/><br/><a href="https://github.com/autcru">autcru</a></th> 
-  </tr>
-</table>
-
-## :warning: Disclaimer  
-As a "work in progress" project, there is *no warranty* for any eventual issue and bug that may broke your project.  
-I don't assume any responsibility for possible corruptions of your project. It is always advisable to keep a copy of your project and check any changes you make in your Github repository.  
-
------------------
-> This text file was created via [TextEditor Integration](https://github.com/fenix-hub/godot-engine.text-editor) inside Godot Engine's Editor.
-
-
-
-
+## How its done?
+The application will be developed on the Godot Engine development environment in tandem with GDScript, Godot’s in-house programming language. We chose this environment for our project to explore its ease of use in terms of gaming development. None of the project contributors have worked with Godot Engine before, it will be a new experience for us.
